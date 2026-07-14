@@ -4,31 +4,94 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>设计灵感与AI工具｜EXHIBITION RADAR</title>
-  <meta name="description" content="展陈设计灵感、AI图片、AI视频、建模渲染、汇报提案与声音工具库。">
-  <link rel="stylesheet" href="/assets/site.css">
+  <meta name="description" content="按任务进入的展陈设计灵感、AI工具与可执行工作流。">
+  <link rel="stylesheet" href="/assets/site.css?v=20260714-resources-v2">
+  <style>
+    .tool-hero{padding:34px 0 18px}.tool-hero h1{font-size:clamp(34px,5vw,64px);line-height:1.02;margin:0 0 12px}.tool-hero p{font-size:18px;color:var(--muted);max-width:780px;margin:0}.thin-meta{margin-top:12px;color:var(--muted);font-size:13px}.task-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}.task-card{border:1px solid var(--line);background:#fff;border-radius:8px;overflow:hidden;min-height:230px;display:flex;flex-direction:column;transition:.18s ease}.task-card:hover,.inspire-card:hover,.combo-card:hover{box-shadow:var(--shadow);transform:translateY(-2px)}.task-visual{height:96px;position:relative;overflow:hidden;background:#1b241f}.task-visual img{width:100%;height:100%;object-fit:cover;filter:saturate(.68) contrast(.98);display:block}.task-visual:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(16,24,20,.7),rgba(16,24,20,.12))}.task-code{position:absolute;left:12px;top:10px;z-index:2;color:#fff;font-size:12px;font-weight:850}.task-body{padding:14px;display:flex;flex-direction:column;gap:8px;flex:1}.task-body h3{font-size:18px;line-height:1.2;margin:0}.task-body p{font-size:13px;color:var(--muted);margin:0}.tool-names{font-size:12px;color:var(--muted);line-height:1.45}.task-body button{margin-top:auto;align-self:flex-start}.inspire-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px}.inspire-card{position:relative;min-height:260px;border-radius:8px;overflow:hidden;color:#fff;background:#18211c;border:1px solid var(--line)}.inspire-card img{width:100%;height:100%;object-fit:cover;filter:saturate(.65) contrast(.96);display:block}.inspire-info{position:absolute;left:14px;right:14px;bottom:14px;z-index:2}.inspire-info h3{margin:0 0 6px;font-size:20px}.inspire-info p{margin:0 0 10px;font-size:13px;color:rgba(255,255,255,.78)}.link-pills{display:flex;gap:6px;flex-wrap:wrap}.link-pills a{font-size:12px;color:#17201c;background:#fff;border-radius:999px;padding:5px 8px}.combo-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}.combo-card{border:1px solid var(--line);background:#fff;border-radius:8px;padding:16px;min-height:200px;display:flex;flex-direction:column;gap:10px}.combo-card h3{font-size:18px;margin:0}.combo-flow{display:grid;gap:7px;color:var(--muted);font-size:13px}.combo-flow span{border:1px solid var(--line);border-radius:999px;padding:6px 9px;background:#fbfcf9;width:max-content;max-width:100%}.cat-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px;margin-bottom:14px}.cat-btn{border:1px solid var(--line);background:#fff;border-radius:8px;padding:12px;display:flex;align-items:center;gap:10px;text-align:left;cursor:pointer}.cat-btn.active{border-color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}.cat-icon{width:34px;height:34px;border-radius:7px;background:#edf1ea;display:grid;place-items:center;font-size:12px;font-weight:850;color:var(--green)}.cat-btn b{display:block;font-size:13px}.cat-btn span{display:block;color:var(--muted);font-size:12px;margin-top:2px}.tool-search-row{display:grid;grid-template-columns:1fr auto;gap:10px;margin:10px 0 14px}.tool-search-row input{height:44px;border:1px solid var(--line);border-radius:8px;padding:0 12px;background:#fff}.compact-tools{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}.compact-tool{border:1px solid var(--line);background:#fff;border-radius:8px;padding:12px;display:grid;grid-template-columns:42px minmax(0,1fr) auto;gap:10px;align-items:center}.logo-dot{width:42px;height:42px;border-radius:8px;background:#17201c;color:#fff;display:grid;place-items:center;font-size:13px;font-weight:850}.compact-tool h3{font-size:15px;margin:0 0 4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.compact-tool p{font-size:12px;color:var(--muted);margin:0;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.tool-actions{display:flex;gap:6px}.icon-link{width:32px;height:32px;border-radius:7px;border:1px solid var(--line);display:grid;place-items:center;background:#fbfcf9;font-size:12px;color:var(--ink)}.workflow-panel{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.workflow-card.compact{min-height:auto}.workflow-card.compact .small-list{display:grid;gap:4px}.section-anchor{scroll-margin-top:84px}@media(max-width:1100px){.task-grid,.combo-grid,.compact-tools{grid-template-columns:repeat(2,minmax(0,1fr))}.inspire-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.cat-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}@media(max-width:720px){.task-grid,.inspire-grid,.combo-grid,.cat-grid,.compact-tools,.workflow-panel,.tool-search-row{grid-template-columns:1fr}.inspire-card{min-height:230px}.compact-tool{grid-template-columns:38px minmax(0,1fr)}.tool-actions{grid-column:2}.task-visual{height:86px}}
+  </style>
 </head>
 <body>
   <header class="top"><div class="shell nav"><a class="brand" href="/"><span class="mark">ER</span><span>EXHIBITION RADAR</span></a><nav class="navlinks"><a href="/bidding/">政府招投标</a><a href="/intelligence/">全球新型展</a><a href="/cases/">行业龙头案例</a><a class="active" href="/resources/">设计灵感与AI工具</a></nav></div></header>
   <main>
-    <section class="shell hero">
-      <p class="eyebrow">DESIGN INSPIRATION & AI TOOLKIT</p>
-      <h1>展陈设计灵感、AI 工具与可执行工作流</h1>
-      <p>把“工具名称”整理成能服务展陈项目的资源库：从资料研究、概念图、AI 视频、空间建模、渲染、平面视觉，到 PPT、配音和素材修复。</p>
-      <div class="hero-actions"><a class="btn primary" href="/">返回首页</a><a class="btn gold" href="https://www.vidu.com/" target="_blank" rel="noopener">Vidu 官网</a><a class="btn" href="https://jimeng.jianying.com/" target="_blank" rel="noopener">即梦 AI</a><a class="btn" href="https://www.midjourney.com/" target="_blank" rel="noopener">Midjourney</a></div>
+    <section class="shell tool-hero">
+      <p class="eyebrow">DESIGN INSPIRATION & AI WORKBENCH</p>
+      <h1>先选择任务，再进入工具</h1>
+      <p>从视觉参考、空间灵感到 AI 图片、AI 视频、汇报提案和素材优化，按展陈设计任务组织。</p>
+      <div class="thin-meta" id="thinMeta">读取中...</div>
     </section>
-    <section class="shell"><div class="metrics" id="metrics"></div><div class="toolbar"><input id="q" class="search" placeholder="搜索：Vidu、AI视频、渲染、PPT、配音、图片放大…"><select id="category" class="select"><option value="all">全部工具类别</option></select><select id="view" class="select"><option value="tools">工具库</option><option value="workflows">工作流</option></select></div><div class="data-note">所有工具卡均提供官网入口；价格、版权、商用授权和模型能力变化很快，使用前以官网说明为准。</div></section>
-    <section class="shell section" id="toolsSection"><div class="section-head"><div><h2>工具库</h2><p id="toolCount">正在加载工具…</p></div></div><div id="toolGrid" class="grid-3"></div></section>
-    <section class="shell section" id="workflowSection"><div class="section-head"><div><h2>展陈 AI 工作流</h2><p>按真实任务组织工具组合、步骤和提示词。</p></div></div><div id="workflowGrid" class="grid-2"></div></section>
+
+    <section class="shell section section-anchor" id="tasks">
+      <div class="section-head"><div><h2>按任务进入</h2><p>先判断要完成什么，再看推荐工具和工作流。</p></div></div>
+      <div class="task-grid" id="taskGrid"></div>
+    </section>
+
+    <section class="shell section section-anchor" id="inspiration">
+      <div class="section-head"><div><h2>设计灵感</h2><p>灵感网站、空间案例和策展叙事单独成层，不混入工具清单。</p></div></div>
+      <div class="inspire-grid" id="inspireGrid"></div>
+    </section>
+
+    <section class="shell section section-anchor" id="combos">
+      <div class="section-head"><div><h2>常用工具组合</h2><p>把单个软件组合成可执行路径。</p></div></div>
+      <div class="combo-grid" id="comboGrid"></div>
+    </section>
+
+    <section class="shell section section-anchor" id="workflows">
+      <div class="section-head"><div><h2>AI工作流</h2><p>任务步骤、提示词和官方入口集中在这里。</p></div></div>
+      <div class="workflow-panel" id="workflowGrid"></div>
+    </section>
+
+    <section class="shell section section-anchor" id="toolLibrary">
+      <div class="section-head"><div><h2>分类工具库</h2><p id="toolCount">默认显示常用工具，点击分类后再展开对应工具。</p></div></div>
+      <div class="cat-grid" id="catGrid"></div>
+      <div class="tool-search-row"><input id="q" placeholder="搜索工具名称或用途：Vidu、Midjourney、PPT、配音…"><button class="btn" id="clearBtn" type="button">显示常用</button></div>
+      <div id="toolGrid" class="compact-tools"></div>
+    </section>
+
+    <section class="shell"><div class="data-note"><b>说明：</b>工具价格、商用授权、模型能力会变化；官网和指南链接保留在工具卡右侧小按钮中。图片来源记录见 <a href="/data/image-credits.json">data/image-credits.json</a>。</div></section>
   </main>
-  <footer class="footer"><div class="shell">EXHIBITION RADAR · 数据文件：/data/tools.json /data/workflows.json · GitHub Pages</div></footer>
+  <footer class="footer"><div class="shell">EXHIBITION RADAR · 设计灵感与AI工具 · resources-v2 · 2026-07-14</div></footer>
   <script>
-    const $=s=>document.querySelector(s); let tools=[], workflows=[];
-    function toolCard(t){return `<article class="tool-card"><span class="badge tool">${t.category}</span><h3>${t.name}</h3><p>${t.role}</p><div class="actions"><a class="btn primary" href="${t.officialUrl}" target="_blank" rel="noopener">进入官网</a><a class="btn" href="${t.guideUrl}" target="_blank" rel="noopener">使用指南</a></div></article>`}
-    function workflowCard(w){return `<article class="workflow-card"><span class="badge workflow">工作流</span><h3>${w.title}</h3><p>${w.scenario}</p><div class="meta">${w.tools.map(t=>`<span class="pill">${t}</span>`).join('')}</div><ol class="small-list">${w.steps.map(s=>`<li>${s}</li>`).join('')}</ol><p><b>提示词：</b>${w.prompt}</p><div class="actions">${w.officialLinks.map((u,i)=>`<a class="btn" href="${u}" target="_blank" rel="noopener">工具 ${i+1}</a>`).join('')}</div></article>`}
-    function metrics(){const cats=new Set(tools.map(x=>x.category)).size; $('#metrics').innerHTML=`<div class="metric"><b>${tools.length}</b><span>工具入口</span></div><div class="metric"><b>${cats}</b><span>工具类别</span></div><div class="metric"><b>${workflows.length}</b><span>任务工作流</span></div><div class="metric"><b>2026-07-14</b><span>最近核验</span></div>`}
-    function filters(){const cats=[...new Set(tools.map(x=>x.category))].sort(); $('#category').innerHTML='<option value="all">全部工具类别</option>'+cats.map(c=>`<option>${c}</option>`).join('')}
-    function sync(){const q=$('#q').value.trim().toLowerCase(), cat=$('#category').value, view=$('#view').value; const out=tools.filter(t=>(cat==='all'||t.category===cat)&&(!q||JSON.stringify(t).toLowerCase().includes(q))); $('#toolGrid').innerHTML=out.map(toolCard).join('')||'<div class="data-note">没有匹配工具。</div>'; $('#toolCount').textContent=`当前显示 ${out.length} / ${tools.length} 个工具`; $('#toolsSection').classList.toggle('hidden', view==='workflows'); $('#workflowSection').classList.toggle('hidden', view==='tools');}
-    Promise.all([fetch('/data/tools.json').then(r=>r.json()),fetch('/data/workflows.json').then(r=>r.json())]).then(([td,wd])=>{tools=td.items||[]; workflows=wd.items||[]; $('#workflowGrid').innerHTML=workflows.map(workflowCard).join(''); metrics(); filters(); sync(); ['q','category','view'].forEach(id=>$('#'+id).addEventListener(id==='q'?'input':'change',sync));}).catch(()=>{$('#toolCount').textContent='数据加载失败，请检查 /data/tools.json 和 /data/workflows.json';});
+    const $=s=>document.querySelector(s); let tools=[], workflows=[], activeCategory='common';
+    const img={research:'https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=700&q=74',visual:'https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=700&q=74',space:'https://images.unsplash.com/photo-1545987796-200677ee1011?auto=format&fit=crop&w=700&q=74',video:'https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=700&q=74',arch:'https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=700&q=74'};
+    const taskDefs=[
+      ['01','做策展研究','整理资料、来源和竞品线索。','NotebookLM / Perplexity / ChatGPT','资料研究与策划',img.research],
+      ['02','写策展大纲','生成主题、展区和重点展项。','ChatGPT / Claude / PowerPoint','资料研究与策划',img.research],
+      ['03','找视觉灵感','快速进入KV、导视、字体和版式参考。','站酷 / Behance / Pinterest','inspiration',img.visual],
+      ['04','生成展厅概念图','把主题转成空间气质和概念画面。','Midjourney / 即梦 / Firefly','AI图片生成',img.space],
+      ['05','做展览主视觉','完成海报、导视、字体和视觉系统。','Figma / Photoshop / Illustrator','平面与视觉',img.visual],
+      ['06','把效果图变成视频','将静态效果图制作成动态方案演示。','Vidu / 可灵 / 即梦 / 剪映','AI视频生成',img.video],
+      ['07','制作汇报PPT','形成可讲述的方案页和图示。','ChatGPT / PowerPoint / Gamma','汇报与提案',img.research],
+      ['08','优化图片与素材','修复、抠图、放大、清理旧素材。','Topaz / Remove.bg / Clipdrop','图片与素材处理',img.visual]
+    ];
+    const inspiration=[
+      ['平面视觉','展览KV、海报、字体、导视、版式、信息图。',[['站酷','https://www.zcool.com.cn/'],['Behance','https://www.behance.net/'],['Fonts In Use','https://fontsinuse.com/']],img.visual],
+      ['空间与展陈','博物馆、文化空间、临时展览、材料与灯光。',[['ArchDaily','https://www.archdaily.com/'],['Dezeen','https://www.dezeen.com/tag/exhibitions/'],['SEGD','https://segd.org/']],img.arch],
+      ['数字体验','互动装置、沉浸式空间、实时影像和数据可视化。',[['teamLab','https://www.teamlab.art/'],['e-flux','https://www.e-flux.com/announcements/'],['Designboom','https://www.designboom.com/']],img.video],
+      ['材料与装置','玻璃、金属、织物、灯光、机械装置和公共艺术。',[['FRAME','https://www.frameweb.com/'],['Designboom','https://www.designboom.com/'],['ArchDaily','https://www.archdaily.com/']],img.space],
+      ['叙事与策展','时间叙事、人物叙事、空间叙事、情感表达和场景复原。',[['e-flux','https://www.e-flux.com/'],['MuseumNext','https://www.museumnext.com/'],['Tate','https://www.tate.org.uk/']],img.research]
+    ];
+    const catDefs=[
+      ['资料研究与策划','RE',['资料研究与策划']],['AI图片生成','IMG',['AI图片生成']],['AI视频生成','VID',['AI视频生成']],['空间建模','3D',['空间建模']],['渲染与可视化','RND',['渲染与可视化']],['平面视觉','KV',['平面与视觉']],['视频剪辑','CUT',['剪辑与后期']],['图片处理','FIX',['图片与素材处理']],['汇报与提案','PPT',['汇报与提案']],['配音与声音','VO',['配音与声音']]
+    ];
+    const commonNames=['ChatGPT','NotebookLM','即梦AI','Midjourney','Vidu','可灵AI','D5 Render','Photoshop','剪映','PowerPoint','Figma','Runway'];
+    const combos=[
+      ['策展资料研究',['NotebookLM','ChatGPT / Claude','Notion'], 'workflow-curatorial-outline'],
+      ['展厅概念图',['ChatGPT','即梦 / Midjourney','Photoshop'], 'workflow-concept-image'],
+      ['效果图转视频',['Photoshop','Vidu / 可灵','剪映'], 'workflow-image-to-video'],
+      ['方案汇报',['ChatGPT','PowerPoint / Figma','Napkin AI'], 'workflow-proposal-deck']
+    ];
+    function initials(n){return (n||'').replace(/[.\s]/g,'').slice(0,2).toUpperCase()}
+    function taskCard(t){return `<article class="task-card"><div class="task-visual"><img src="${t[5]}" alt="${t[1]}"><div class="task-code">${t[0]}</div></div><div class="task-body"><h3>${t[1]}</h3><p>${t[2]}</p><div class="tool-names">${t[3]}</div><button class="btn" type="button" data-task="${t[4]}">查看工作流</button></div></article>`}
+    function inspireCard(x){return `<article class="inspire-card"><img src="${x[3]}" alt="${x[0]}"><div class="inspire-info"><h3>${x[0]}</h3><p>${x[1]}</p><div class="link-pills">${x[2].map(a=>`<a href="${a[1]}" target="_blank" rel="noopener">${a[0]}</a>`).join('')}</div></div></article>`}
+    function comboCard(x){return `<article class="combo-card"><span class="badge workflow">热门组合</span><h3>${x[0]}</h3><div class="combo-flow">${x[1].map(v=>`<span>${v}</span>`).join('')}</div><button class="btn" type="button" data-workflow="${x[2]}">进入工作流</button></article>`}
+    function workflowCard(w){return `<article class="workflow-card compact" id="${w.id}"><span class="badge workflow">工作流</span><h3>${w.title}</h3><p>${w.scenario}</p><div class="meta">${w.tools.map(t=>`<span class="pill">${t}</span>`).join('')}</div><ol class="small-list">${w.steps.slice(0,4).map(s=>`<li>${s}</li>`).join('')}</ol><div class="actions">${w.officialLinks.slice(0,4).map((u,i)=>`<a class="btn" href="${u}" target="_blank" rel="noopener">工具${i+1}</a>`).join('')}</div></article>`}
+    function catButton(c){const count=tools.filter(t=>c[2].includes(t.category)).length; return `<button class="cat-btn ${activeCategory===c[0]?'active':''}" type="button" data-cat="${c[0]}"><span class="cat-icon">${c[1]}</span><span><b>${c[0]}</b><span>${count}个工具</span></span></button>`}
+    function toolCard(t){return `<article class="compact-tool"><span class="logo-dot">${initials(t.name)}</span><div><h3>${t.name}</h3><p>${t.role}</p></div><div class="tool-actions"><a class="icon-link" href="${t.officialUrl}" target="_blank" rel="noopener" title="官网">官</a><a class="icon-link" href="${t.guideUrl}" target="_blank" rel="noopener" title="指南">指</a></div></article>`}
+    function selectedTools(){const q=$('#q').value.trim().toLowerCase(); if(q) return tools.filter(t=>JSON.stringify(t).toLowerCase().includes(q)); if(activeCategory==='common') return commonNames.map(n=>tools.find(t=>t.name===n)).filter(Boolean); const def=catDefs.find(c=>c[0]===activeCategory); return tools.filter(t=>def?.[2].includes(t.category));}
+    function renderCats(){let common=`<button class="cat-btn ${activeCategory==='common'?'active':''}" type="button" data-cat="common"><span class="cat-icon">TOP</span><span><b>常用工具</b><span>${commonNames.length}个推荐</span></span></button>`; $('#catGrid').innerHTML=common+catDefs.map(catButton).join(''); document.querySelectorAll('.cat-btn').forEach(b=>b.onclick=()=>{activeCategory=b.dataset.cat; $('#q').value=''; renderTools();});}
+    function renderTools(){renderCats(); const list=selectedTools(); $('#toolCount').textContent=activeCategory==='common' && !$('#q').value ? `默认显示 ${list.length} 个常用工具，点击分类后展开对应工具。` : `当前显示 ${list.length} 个工具。`; $('#toolGrid').innerHTML=list.map(toolCard).join('')||'<div class="data-note">没有匹配工具。</div>';}
+    function goWorkflow(id){document.getElementById(id)?.scrollIntoView({behavior:'smooth',block:'start'});}
+    Promise.all([fetch('/data/tools.json?v=20260714').then(r=>r.json()),fetch('/data/workflows.json?v=20260714').then(r=>r.json())]).then(([td,wd])=>{tools=td.items||[]; workflows=wd.items||[]; $('#thinMeta').textContent=`${tools.length}个工具 · ${catDefs.length}个类别 · ${workflows.length}条工作流 · 最近核验 ${td.lastVerifiedAt||'2026-07-14'}`; $('#taskGrid').innerHTML=taskDefs.map(taskCard).join(''); $('#inspireGrid').innerHTML=inspiration.map(inspireCard).join(''); $('#comboGrid').innerHTML=combos.map(comboCard).join(''); $('#workflowGrid').innerHTML=workflows.map(workflowCard).join(''); renderTools(); document.querySelectorAll('[data-task]').forEach(b=>b.onclick=()=>{if(b.dataset.task==='inspiration'){document.getElementById('inspiration').scrollIntoView({behavior:'smooth'});return} activeCategory=b.dataset.task; document.getElementById('toolLibrary').scrollIntoView({behavior:'smooth'}); renderTools();}); document.querySelectorAll('[data-workflow]').forEach(b=>b.onclick=()=>goWorkflow(b.dataset.workflow)); $('#q').addEventListener('input',renderTools); $('#clearBtn').onclick=()=>{activeCategory='common';$('#q').value='';renderTools();};}).catch(()=>{$('#thinMeta').textContent='数据加载失败，请检查 /data/tools.json 和 /data/workflows.json';});
   </script>
 </body>
 </html>
