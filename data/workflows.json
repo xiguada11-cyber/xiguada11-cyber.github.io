@@ -1,0 +1,55 @@
+{
+  "generatedAt": "2026-07-14T10:22:00+08:00",
+  "items": [
+    {
+      "id": "workflow-curatorial-outline",
+      "title": "编写策展大纲",
+      "scenario": "拿到业主资料、政策文件或项目背景后，快速形成主题、展区和展项逻辑。",
+      "tools": ["NotebookLM", "ChatGPT", "Perplexity", "PowerPoint"],
+      "steps": ["把业主资料、政策文件、历史资料放入 NotebookLM 做资料库", "用 Perplexity 补充公开来源并保留链接", "用 ChatGPT 生成主题定位、展区结构、重点展项和参观动线", "把大纲整理成 PowerPoint 汇报版本"],
+      "prompt": "你是展陈策划总监。请基于以下资料，为[项目名称]生成策展大纲：1. 总主题；2. 三到五个展区；3. 每个展区的核心叙事、重点展项、可视化表达；4. 需要继续向甲方确认的问题。所有不确定信息标注为待核验。",
+      "notes": ["不要让 AI 直接编造历史事实", "每个结论要能回到原始资料或公开来源", "适合投标前期和第一次方案会"],
+      "officialLinks": ["https://notebooklm.google/", "https://chatgpt.com/", "https://www.perplexity.ai/", "https://www.microsoft.com/microsoft-365/powerpoint"]
+    },
+    {
+      "id": "workflow-concept-image",
+      "title": "生成展厅概念图",
+      "scenario": "需要在早期快速表达空间气质、材料氛围、主视觉和重点展项方向。",
+      "tools": ["Midjourney", "即梦AI", "Adobe Firefly", "Photoshop"],
+      "steps": ["先用文字确定空间关键词：主题、材质、光线、色彩、展品密度", "用 Midjourney 或即梦AI 生成多组风格探索", "用 Firefly 或 Photoshop 做局部重绘、扩图和主视觉合成", "把可用画面标注为概念参考，不当作施工效果图"],
+      "prompt": "生成一个[主题]展厅概念图：空间尺度[大/中/小]，材质[材质]，光线[光线]，展陈语言[关键词]，包含[核心展项]，整体气质[庄重/科技/温暖/未来]，真实空间摄影感，避免文字水印和夸张装饰。",
+      "notes": ["概念图只解决方向，不替代深化设计", "注意版权和商用授权", "保留提示词和生成版本，方便复盘"],
+      "officialLinks": ["https://www.midjourney.com/", "https://jimeng.jianying.com/", "https://www.adobe.com/products/firefly.html", "https://www.adobe.com/products/photoshop.html"]
+    },
+    {
+      "id": "workflow-image-to-video",
+      "title": "把效果图变成视频",
+      "scenario": "把展厅效果图、概念图或分镜画面转成汇报短片、空间漫游或投标演示片。",
+      "tools": ["Vidu", "可灵AI", "Runway", "剪映"],
+      "steps": ["选 3 到 6 张稳定的空间画面，先统一比例和光色", "用 Vidu/可灵AI 做图生视频，分别测试推进、环绕、慢移镜头", "用 Runway 做补帧、局部动态或镜头衔接", "在剪映中加标题、旁白、字幕和转场，导出汇报版"],
+      "prompt": "将这张展厅效果图转换为 6 秒视频：镜头缓慢向前推进，保持空间结构稳定，灯光轻微变化，观众视角自然移动，不改变展厅布局，不添加无关人物，不出现文字变形。",
+      "notes": ["AI 视频容易改变结构，必须和原效果图对照", "投标版要标注为概念动态演示", "重要项目不要只依赖一次生成结果"],
+      "officialLinks": ["https://www.vidu.com/", "https://klingai.com/", "https://runwayml.com/", "https://www.capcut.cn/"]
+    },
+    {
+      "id": "workflow-proposal-deck",
+      "title": "制作汇报PPT",
+      "scenario": "把研究资料、案例、概念图和项目策略整理成可以给甲方讲的方案。",
+      "tools": ["ChatGPT", "Gamma", "Figma", "PowerPoint", "Napkin AI"],
+      "steps": ["用 ChatGPT 生成汇报目录和每页核心观点", "用 Napkin AI 把复杂逻辑转成图示", "用 Gamma 快速生成初版页面结构", "用 Figma 或 PowerPoint 做最终排版、封面、图表和案例页"],
+      "prompt": "请把以下方案内容整理成 15 页展陈项目汇报PPT结构：封面、项目理解、目标人群、策展主题、空间策略、展区规划、重点展项、技术路线、案例对标、实施计划、预算风险、下一步。每页给出标题、核心句、推荐图示和需要补充的素材。",
+      "notes": ["AI 可以搭骨架，最终版式仍要人工统一", "图表优先表达决策逻辑，不堆满文字", "案例页必须保留来源链接"],
+      "officialLinks": ["https://chatgpt.com/", "https://gamma.app/", "https://www.figma.com/", "https://www.microsoft.com/microsoft-365/powerpoint", "https://www.napkin.ai/"]
+    },
+    {
+      "id": "workflow-bidding-research",
+      "title": "招投标项目预判",
+      "scenario": "每天从政府采购和公共资源平台判断哪些项目值得跟进。",
+      "tools": ["中国政府采购网", "全国公共资源交易平台", "ChatGPT", "Excel/Sheets"],
+      "steps": ["用关键词检索：展陈、布展、陈列、数字展厅、博物馆、规划馆、沉浸式", "记录采购人、预算、开标时间、附件、资格要求", "用 ChatGPT 提炼项目机会、风险和需要的合作资源", "按预算、地区、截止时间和能力匹配度排序"],
+      "prompt": "请分析以下招标公告，输出：1. 项目是否适合展陈设计公司；2. 预算和截止时间；3. 需要哪些能力；4. 可能的竞争风险；5. 我们应该准备哪些资料；6. 不确定信息。",
+      "notes": ["只以公告原文和附件为准", "不要从标题推断预算和范围", "每天优先看截止时间近、预算明确、附件完整的项目"],
+      "officialLinks": ["https://www.ccgp.gov.cn/", "https://www.ggzy.gov.cn/", "https://chatgpt.com/"]
+    }
+  ]
+}
