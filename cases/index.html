@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>行业龙头案例｜EXHIBITION RADAR</title>
+  <meta name="description" content="按公司、项目类型和能力标签浏览展陈行业龙头企业案例。">
+  <link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+  <header class="top"><div class="shell nav"><a class="brand" href="/"><span class="mark">ER</span><span>EXHIBITION RADAR</span></a><nav class="navlinks"><a href="/bidding/">政府招投标</a><a href="/intelligence/">全球新型展</a><a class="active" href="/cases/">行业龙头案例</a><a href="/resources/">设计灵感与AI工具</a></nav></div></header>
+  <main>
+    <section class="shell hero">
+      <p class="eyebrow">LEADER CASE DATABASE</p>
+      <h1>按公司查看真实案例与能力标签</h1>
+      <p>金螳螂文化、风语筑、丝路视觉、凡拓数创等案例被整理为可筛选的项目库。未核验字段保持“暂无可靠公开信息”，避免把第三方二手资料误当官方事实。</p>
+      <div class="hero-actions"><a class="btn primary" href="/">返回首页</a><a class="btn red" href="https://www.jtlculture.com/case" target="_blank" rel="noopener">金螳螂案例库</a><a class="btn" href="https://www.fengyuzhu.com/" target="_blank" rel="noopener">风语筑官网</a></div>
+    </section>
+    <section class="shell"><div class="metrics" id="metrics"></div><div class="toolbar"><input id="q" class="search" placeholder="搜索公司、项目、地点、能力：数字孪生、沉浸式、博物馆…"><select id="company" class="select"><option value="all">全部公司</option></select><select id="type" class="select"><option value="all">全部类型</option></select></div><div class="data-note">数据说明：项目图片、完整介绍、版权和服务范围以企业官网为准。本页保存可检索摘要、官方来源链接和方案拆解提示。</div></section>
+    <section class="shell section"><div class="section-head"><div><h2>公司入口</h2><p>先看企业能力边界，再进入具体案例。</p></div></div><div id="companyGrid" class="grid-3"></div></section>
+    <section class="shell section"><div class="section-head"><div><h2>案例条目</h2><p id="countText">正在加载数据…</p></div></div><div id="caseGrid" class="grid-2"></div></section>
+  </main>
+  <footer class="footer"><div class="shell">EXHIBITION RADAR · 数据文件：/data/cases.json · GitHub Pages</div></footer>
+  <script>
+    const $=s=>document.querySelector(s); let db={companies:[],items:[]};
+    const join=a=>(a||[]).join('、');
+    function companyCard(c){return `<article class="source-card"><span class="badge case">${c.name}</span><h3>${c.name}</h3><p>${join(c.focus)}</p><div class="actions"><a class="btn primary" href="${c.officialUrl}" target="_blank" rel="noopener">进入官网</a><a class="btn" href="${c.caseUrl}" target="_blank" rel="noopener">案例入口</a></div></article>`}
+    function caseCard(x){return `<article class="case-card"><span class="badge case">${x.companyName} · ${x.projectType}</span><h3>${x.title}</h3><p>${x.summary}</p><div class="kv"><b>地点</b><span>${x.location}</span><b>业主</b><span>${x.client}</span><b>时间</b><span>${x.completionYear}</span><b>能力</b><span>${join(x.capabilities)}</span><b>服务</b><span>${join(x.serviceScope)}</span><b>核验</b><span>${x.verified?'已核验来源':'待进一步核验'}</span></div><ul class="small-list">${(x.lessons||[]).slice(0,3).map(v=>`<li>${v}</li>`).join('')}</ul><div class="actions"><a class="btn primary" href="${x.sourceUrl}" target="_blank" rel="noopener">查看官方来源</a></div></article>`}
+    function metrics(){const companies=new Set(db.items.map(x=>x.companyId)).size; const verified=db.items.filter(x=>x.verified).length; $('#metrics').innerHTML=`<div class="metric"><b>${db.items.length}</b><span>案例条目</span></div><div class="metric"><b>${companies}</b><span>覆盖公司</span></div><div class="metric"><b>${verified}</b><span>已核验来源</span></div><div class="metric"><b>${db.lastVerifiedAt}</b><span>最近核验</span></div>`}
+    function filters(){const company=$('#company'), type=$('#type'); company.innerHTML='<option value="all">全部公司</option>'+db.companies.map(c=>`<option value="${c.id}">${c.name}</option>`).join(''); const types=[...new Set(db.items.map(x=>x.projectType))].sort(); type.innerHTML='<option value="all">全部类型</option>'+types.map(t=>`<option>${t}</option>`).join('')}
+    function sync(){const q=$('#q').value.trim().toLowerCase(), c=$('#company').value, t=$('#type').value; const out=db.items.filter(x=>(c==='all'||x.companyId===c)&&(t==='all'||x.projectType===t)&&(!q||JSON.stringify(x).toLowerCase().includes(q))); $('#countText').textContent=`当前显示 ${out.length} / ${db.items.length} 条`; $('#caseGrid').innerHTML=out.map(caseCard).join('')||'<div class="data-note">没有匹配结果。</div>'}
+    fetch('/data/cases.json').then(r=>r.json()).then(data=>{db=data; $('#companyGrid').innerHTML=db.companies.map(companyCard).join(''); metrics(); filters(); sync(); ['q','company','type'].forEach(id=>$('#'+id).addEventListener(id==='q'?'input':'change',sync));}).catch(()=>{$('#countText').textContent='数据加载失败，请检查 /data/cases.json';});
+  </script>
+</body>
+</html>
