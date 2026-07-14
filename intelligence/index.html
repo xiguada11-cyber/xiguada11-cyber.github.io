@@ -3,37 +3,60 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>全球新型展｜EXHIBITION RADAR</title>
-  <meta name="description" content="全球新型展、国内新展、获奖展览与展陈行业趋势情报。">
-  <link rel="stylesheet" href="/assets/site.css">
+  <title>展陈行业情报｜EXHIBITION RADAR</title>
+  <meta name="description" content="文章、展览、案例、趋势、技术和机构动态的个人展陈行业情报中心。">
+  <link rel="stylesheet" href="/assets/site.css?v=20260714-intel-radar">
+  <style>
+    .intel-hero{padding:34px 0 18px}.intel-hero h1{font-size:clamp(36px,5.5vw,68px);line-height:1.02;margin:0 0 12px}.intel-hero p{font-size:18px;color:var(--muted);max-width:820px;margin:0}.subline{margin-top:12px;color:var(--muted);font-size:13px}.filterbar{position:sticky;top:66px;z-index:9;background:rgba(246,247,242,.94);backdrop-filter:blur(12px);border-block:1px solid var(--line);padding:12px 0}.chiprow{display:flex;gap:8px;flex-wrap:wrap}.chipbtn{border:1px solid var(--line);background:#fff;border-radius:999px;padding:8px 11px;font-size:13px;color:var(--muted);cursor:pointer}.chipbtn.active{background:var(--ink);border-color:var(--ink);color:#fff}.sortrow{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}.sortrow .chipbtn{border-radius:7px}.intel-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.intel-card{background:#fff;border:1px solid var(--line);border-radius:8px;overflow:hidden;display:flex;flex-direction:column;min-height:430px}.intel-image{height:160px;background:#17201c;position:relative}.intel-image img{width:100%;height:100%;object-fit:cover;filter:saturate(.7);display:block}.intel-body{padding:14px;display:flex;flex-direction:column;gap:9px;flex:1}.intel-body h3{font-size:18px;line-height:1.25;margin:0}.intel-body p{margin:0;color:var(--muted);font-size:13px}.why{border-left:3px solid var(--gold);padding-left:10px;color:var(--ink)!important;background:#fbfcf9;border-radius:0 6px 6px 0;padding-block:8px}.card-actions{display:flex;gap:7px;flex-wrap:wrap;margin-top:auto}.smallbtn{border:1px solid var(--line);background:#fff;border-radius:7px;padding:7px 9px;font-size:12px;color:var(--ink);cursor:pointer}.smallbtn.primary{background:var(--ink);border-color:var(--ink);color:#fff}.source-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}.source-link{border:1px solid var(--line);border-radius:8px;background:#fff;padding:12px;font-size:13px;color:var(--muted)}.source-link b{display:block;color:var(--ink);margin-bottom:4px}.empty{border:1px solid var(--line);background:#fff;border-radius:8px;padding:18px;color:var(--muted)}@media(max-width:1040px){.intel-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.source-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:720px){.filterbar{top:0;position:relative}.intel-grid,.source-grid{grid-template-columns:1fr}.intel-image{height:145px}}
+  </style>
 </head>
 <body>
-  <header class="top"><div class="shell nav"><a class="brand" href="/"><span class="mark">ER</span><span>EXHIBITION RADAR</span></a><nav class="navlinks"><a href="/bidding/">政府招投标</a><a class="active" href="/intelligence/">全球新型展</a><a href="/cases/">行业龙头案例</a><a href="/resources/">设计灵感与AI工具</a></nav></div></header>
+  <header class="top"><div class="shell nav"><a class="brand" href="/"><span class="mark">ER</span><span>EXHIBITION RADAR</span></a><nav class="navlinks"><a href="/intelligence/" class="active">行业情报</a><a href="/bidding/">招投标雷达</a><a href="/cases/">案例研究</a><a href="/resources/">灵感与AI工具</a><a href="/my/">我的</a></nav></div></header>
   <main>
-    <section class="shell hero">
-      <p class="eyebrow">GLOBAL EXHIBITION INTELLIGENCE</p>
-      <h1>全球新型展、国内新展与获奖展览情报</h1>
-      <p>这里不是新闻转载页，而是展陈方案前期可用的情报库：每条保留来源、发布时间、核验状态、对项目机会的意义和可参考的部门。</p>
-      <div class="hero-actions"><a class="btn primary" href="/">返回首页</a><a class="btn blue" href="https://www.e-flux.com/announcements/" target="_blank" rel="noopener">打开 e-flux</a><a class="btn" href="https://segd.org/awards/global-design-awards/" target="_blank" rel="noopener">查看 SEGD 奖项</a></div>
+    <section class="shell intel-hero">
+      <p class="eyebrow">PERSONAL INDUSTRY RADAR</p>
+      <h1>展陈行业情报</h1>
+      <p>文章、展览、案例、趋势、技术和机构动态的持续更新入口。先判断值不值得看，再进入原文。</p>
+      <div class="subline" id="metaLine">已加载本地兜底情报，正在同步最新数据…</div>
     </section>
-    <section class="shell">
-      <div class="metrics" id="metrics"></div>
-      <div class="toolbar"><input id="q" class="search" placeholder="搜索展览、国家、城市、机构、趋势…"><select id="category" class="select"><option value="all">全部类别</option></select><select id="status" class="select"><option value="all">全部状态</option><option value="verified_source">已核验来源</option><option value="needs_verification">待核验条目</option></select></div>
-      <div class="data-note">数据说明：本页只做索引、摘要和研究提示，不复制原文或图片；展期、票务、版权、图片和完整介绍以来源页面为准。</div>
+
+    <section class="filterbar"><div class="shell"><div id="chips" class="chiprow"></div><div class="sortrow"><button class="chipbtn active" data-sort="best">最值得看</button><button class="chipbtn" data-sort="latest">最新</button><button class="chipbtn" data-sort="exhibition">展览</button><button class="chipbtn" data-sort="article">文章</button><button class="chipbtn" data-sort="project">项目机会</button></div></div></section>
+
+    <section class="shell section">
+      <div class="section-head"><div><h2>今日情报</h2><p id="countText">正在显示兜底内容。</p></div><input id="q" class="search" placeholder="搜索标题、来源、标签…" style="max-width:340px"></div>
+      <div id="list" class="intel-grid"></div>
     </section>
-    <section class="shell section"><div class="section-head"><div><h2>情报列表</h2><p id="countText">正在加载数据…</p></div></div><div id="list" class="list"></div></section>
+
+    <section class="shell section">
+      <div class="section-head"><div><h2>常用来源</h2><p>来源入口放在下方，避免干扰阅读流。</p></div></div>
+      <div class="source-grid">
+        <a class="source-link" href="https://www.e-flux.com/announcements/" target="_blank" rel="noopener"><b>e-flux</b>国际展览公告</a>
+        <a class="source-link" href="https://www.dezeen.com/tag/exhibitions/" target="_blank" rel="noopener"><b>Dezeen</b>设计与展览报道</a>
+        <a class="source-link" href="https://www.archdaily.com/search/projects/categories/museums-and-libraries" target="_blank" rel="noopener"><b>ArchDaily</b>博物馆与文化建筑</a>
+        <a class="source-link" href="https://segd.org/awards/global-design-awards/" target="_blank" rel="noopener"><b>SEGD Awards</b>体验设计奖项</a>
+      </div>
+    </section>
   </main>
-  <footer class="footer"><div class="shell">EXHIBITION RADAR · 数据文件：/data/intelligence.json · GitHub Pages</div></footer>
+  <footer class="footer"><div class="shell">EXHIBITION RADAR · 数据文件：/data/intelligence.json · 个人本地状态：收藏 / 稍后阅读 / 已读 / 隐藏</div></footer>
+  <script src="/assets/personal.js?v=20260714"></script>
   <script>
-    const statusMap={verified_source:'已核验来源',needs_verification:'待核验',draft:'草稿',verified:'已核验'};
-    const $=s=>document.querySelector(s); let items=[];
-    function fmt(v){return v||'暂无可靠公开信息'}
-    function latestDate(arr){return arr.map(x=>x.publishedAt).filter(x=>/^\d{4}/.test(x)).sort().pop()||'持续更新'}
-    function renderMetrics(data){const sourceCount=new Set(items.map(x=>x.sourceName)).size; $('#metrics').innerHTML=`<div class="metric"><b>${items.length}</b><span>情报条目</span></div><div class="metric"><b>${sourceCount}</b><span>来源机构</span></div><div class="metric"><b>${latestDate(items).slice(0,10)}</b><span>最新发布时间</span></div><div class="metric"><b>${data.lastVerifiedAt}</b><span>最近核验时间</span></div>`}
-    function renderFilters(){const cats=[...new Set(items.map(x=>x.category))].sort(); $('#category').innerHTML='<option value="all">全部类别</option>'+cats.map(c=>`<option>${c}</option>`).join('')}
-    function card(x){return `<article class="item"><div><span class="badge">${x.category}</span><h3>${x.title}</h3><p>${x.summary}</p><div class="meta"><span class="pill">${fmt(x.country)} · ${fmt(x.city)}</span><span class="pill">${fmt(x.venue)}</span><span class="pill">来源：${fmt(x.sourceName)}</span><span class="pill">发布：${fmt(String(x.publishedAt).slice(0,10))}</span><span class="pill status ${x.status}">${statusMap[x.status]||x.status}</span></div><p><b>对大颢的意义：</b>${fmt(x.meaningForDahao)}</p><p><b>机会：</b>${fmt(x.opportunity)} · <b>趋势：</b>${fmt(x.trend)}</p></div><div class="actions"><a class="btn primary" href="${x.sourceUrl}" target="_blank" rel="noopener">查看来源</a></div></article>`}
-    function sync(){const q=$('#q').value.trim().toLowerCase(), cat=$('#category').value, st=$('#status').value; const out=items.filter(x=>(cat==='all'||x.category===cat)&&(st==='all'||x.status===st)&&(!q||JSON.stringify(x).toLowerCase().includes(q))); $('#countText').textContent=`当前显示 ${out.length} / ${items.length} 条`; $('#list').innerHTML=out.map(card).join('')||'<div class="data-note">没有匹配结果。</div>'}
-    fetch('/data/intelligence.json').then(r=>r.json()).then(data=>{items=data.items||[];renderMetrics(data);renderFilters();sync();['q','category','status'].forEach(id=>$('#'+id).addEventListener(id==='q'?'input':'change',sync))}).catch(()=>{$('#countText').textContent='数据加载失败，请检查 /data/intelligence.json';});
+    const fallback={lastVerifiedAt:'2026-07-14',items:[
+      {id:'fb-dezeen-bewunder',contentType:'article',category:'行业文章',title:'Exhibitions are becoming multimedia and interactive driven',summary:'展览正在变得更依赖多媒体和互动体验。',whyItMatters:'适合判断沉浸式、多媒体和互动技术在项目中的真实价值。',sourceName:'Dezeen',sourceUrl:'https://www.dezeen.com/2026/02/04/exhibitions-multimedia-interactive-bewunder/',publishedAt:'2026-02-04T08:00:03.000Z',coverImage:'https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=900&q=74',tags:['互动展览','多媒体'],relevanceScore:92,freshnessScore:72,status:'needs_verification'},
+      {id:'fb-teamlab',contentType:'exhibition',category:'沉浸式与数字艺术',title:'teamLab Biovortex Kyoto',summary:'teamLab 京都沉浸式数字艺术项目入口。',whyItMatters:'适合拆解沉浸式展览的人流、互动反馈和空间节奏。',sourceName:'teamLab',sourceUrl:'https://www.teamlab.art/e/biovortex-kyoto/',publishedAt:'2026-07-10T07:40:00+08:00',coverImage:'https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=900&q=74',tags:['teamLab','数字艺术'],relevanceScore:96,freshnessScore:80,status:'needs_verification'},
+      {id:'fb-runway',contentType:'tool-update',category:'AI与创作工具',title:'Runway Gen-4.5 视频模型更新入口',summary:'关注视频生成质量、提示词遵循和视觉一致性。',whyItMatters:'效果图转视频和概念片制作越来越依赖视频模型。',sourceName:'Runway',sourceUrl:'https://runwayml.com/research/introducing-runway-gen-4.5',publishedAt:'2026-07-10T07:01:16.614Z',coverImage:'https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=74',tags:['AI视频','工具更新'],relevanceScore:88,freshnessScore:92,status:'needs_verification'}
+    ]};
+    const $=s=>document.querySelector(s); let data=fallback, items=fallback.items, active='全部', sort='best';
+    const cats=['全部','行业文章','最新展览','博物馆动态','空间与设计案例','沉浸式与数字艺术','行业公司动态','奖项与竞赛','技术与材料','AI与创作工具'];
+    const typeMap={article:'行业文章',exhibition:'最新展览',project:'空间案例',news:'公司动态',award:'奖项',technology:'技术材料','tool-update':'工具更新'};
+    function dateText(v){return v&&/^\d{4}/.test(v)?String(v).slice(0,10):'持续更新'}
+    function score(x){return (x.freshnessScore||0)*.4+(x.relevanceScore||0)*.3+((x.relevanceScore||0)>85?20:12)+((x.status==='verified_source')?10:7)}
+    function renderChips(){ $('#chips').innerHTML=cats.map(c=>`<button class="chipbtn ${c===active?'active':''}" data-cat="${c}">${c}</button>`).join(''); document.querySelectorAll('[data-cat]').forEach(b=>b.onclick=()=>{active=b.dataset.cat; render();}); }
+    function actionButtons(x){return `<button class="smallbtn" data-action="favorites" data-id="${x.id}">${ERPersonal.label('favorites',x.id,'已收藏','收藏')}</button><button class="smallbtn" data-action="later" data-id="${x.id}">${ERPersonal.label('later',x.id,'已加入','稍后读')}</button><button class="smallbtn" data-action="read" data-id="${x.id}">${ERPersonal.label('read',x.id,'已读','标已读')}</button><button class="smallbtn" data-action="hidden" data-id="${x.id}">隐藏</button>`}
+    function card(x){return `<article class="intel-card"><div class="intel-image"><img src="${x.coverImage||'https://images.unsplash.com/photo-1545987796-200677ee1011?auto=format&fit=crop&w=900&q=74'}" alt=""></div><div class="intel-body"><span class="badge">${typeMap[x.contentType]||x.category}</span><h3>${x.title}</h3><p>${x.sourceName||'来源'} · ${dateText(x.publishedAt)} · ${x.readTime||'来源入口'}</p><p>${x.summary||''}</p><p class="why"><b>为什么值得看：</b>${x.whyItMatters||'适合作为展陈方案前期参考。'}</p><div class="meta">${(x.tags||[]).slice(0,3).map(t=>`<span class="pill">${t}</span>`).join('')}<span class="pill">${x.status==='verified_source'?'来源已核验':'待人工核验'}</span></div><div class="card-actions"><a class="smallbtn primary" href="${x.sourceUrl}" target="_blank" rel="noopener">查看原文 ↗</a>${actionButtons(x)}</div></div></article>`}
+    function render(){renderChips(); const q=($('#q').value||'').trim().toLowerCase(); let out=items.filter(x=>!ERPersonal.has('hidden',x.id)); if(active!=='全部') out=out.filter(x=>x.category===active); if(sort==='exhibition') out=out.filter(x=>x.contentType==='exhibition'); if(sort==='article') out=out.filter(x=>x.contentType==='article'); if(sort==='project') out=out.filter(x=>['project','news'].includes(x.contentType)); if(q) out=out.filter(x=>JSON.stringify(x).toLowerCase().includes(q)); out.sort((a,b)=>sort==='latest'?String(b.publishedAt||'').localeCompare(String(a.publishedAt||'')):score(b)-score(a)); $('#countText').textContent=`当前显示 ${out.length} / ${items.length} 条 · 最近核验 ${data.lastVerifiedAt||'2026-07-14'}`; $('#list').innerHTML=out.map(card).join('')||'<div class="empty">没有匹配结果。</div>'; bindActions(); }
+    function bindActions(){document.querySelectorAll('[data-action]').forEach(b=>b.onclick=()=>{const item=items.find(x=>x.id===b.dataset.id); ERPersonal.toggle(b.dataset.action,item); render();});}
+    document.querySelectorAll('[data-sort]').forEach(b=>b.onclick=()=>{document.querySelectorAll('[data-sort]').forEach(x=>x.classList.remove('active')); b.classList.add('active'); sort=b.dataset.sort; render();}); $('#q').addEventListener('input',render); render();
+    fetch(new URL('../data/intelligence.json?v=20260714-radar', document.baseURI)).then(r=>r.json()).then(json=>{data=json; items=json.items||fallback.items; $('#metaLine').textContent=`${items.length}条情报 · ${new Set(items.map(x=>x.sourceName)).size}个来源 · 最近核验 ${json.lastVerifiedAt}`; render();}).catch(()=>{$('#metaLine').textContent='已显示本地兜底情报；数据文件暂时未能同步。';});
   </script>
 </body>
 </html>
