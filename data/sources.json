@@ -1,0 +1,17 @@
+{
+  "generatedAt": "2026-07-14T10:40:00+08:00",
+  "policy": "Use official pages, RSS/API feeds, or manually verified public sources only. Do not bypass robots, login, paywall, or anti-crawling restrictions.",
+  "sources": [
+    {"name":"中国政府采购网","channel":"bidding","url":"https://www.ccgp.gov.cn/","updateMethod":"official_page_manual_review","frequency":"daily","notes":"公告金额、采购人、附件和截止时间以原文为准。"},
+    {"name":"全国公共资源交易平台","channel":"bidding","url":"https://www.ggzy.gov.cn/","updateMethod":"official_page_manual_review","frequency":"daily","notes":"优先用站内公开检索，不绕过访问限制。"},
+    {"name":"中国招标投标公共服务平台","channel":"bidding","url":"https://www.cebpubservice.com/","updateMethod":"official_page_manual_review","frequency":"daily","notes":"重点核验招标公告和中标候选人公示。"},
+    {"name":"e-flux Announcements","channel":"intelligence","url":"https://www.e-flux.com/announcements/","updateMethod":"official_feed_or_page","frequency":"daily","notes":"适合接入公开 feed 或人工筛选。"},
+    {"name":"La Biennale di Venezia","channel":"intelligence","url":"https://www.labiennale.org/en/art/2026","updateMethod":"official_page_manual_review","frequency":"weekly","notes":"关注国际双年展官方新闻和展览页面。"},
+    {"name":"teamLab","channel":"intelligence","url":"https://www.teamlab.art/","updateMethod":"official_page_manual_review","frequency":"weekly","notes":"关注展览项目、场馆和新开幕信息。"},
+    {"name":"SEGD Awards","channel":"intelligence","url":"https://segd.org/awards/global-design-awards/","updateMethod":"official_page_manual_review","frequency":"monthly","notes":"适合获奖案例长期库。"},
+    {"name":"金螳螂文化","channel":"cases","url":"https://www.jtlculture.com/case","updateMethod":"official_page_manual_review","frequency":"monthly","notes":"以企业案例页为准。"},
+    {"name":"风语筑","channel":"cases","url":"https://www.fengyuzhu.com/","updateMethod":"official_page_manual_review","frequency":"monthly","notes":"以企业官网案例和新闻为准。"},
+    {"name":"丝路视觉","channel":"cases","url":"https://www.silkroadcg.com/work_cn.html","updateMethod":"official_page_manual_review","frequency":"monthly","notes":"以企业作品页为准。"},
+    {"name":"凡拓数创","channel":"cases","url":"https://www.efrontop.cn/","updateMethod":"official_page_manual_review","frequency":"monthly","notes":"以企业官网业务和案例页为准。"}
+  ]
+}
