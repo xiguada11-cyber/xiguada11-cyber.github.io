@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>关注设置｜EXHIBITION RADAR</title>
+  <link rel="stylesheet" href="/assets/site.css?v=20260714-settings">
+  <style>.settings-hero{padding:34px 0 18px}.settings-hero h1{font-size:clamp(36px,5vw,64px);margin:0 0 10px}.weight-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.weight{border:1px solid var(--line);background:#fff;border-radius:8px;padding:14px}.weight label{display:flex;justify-content:space-between;gap:12px;font-weight:760}.weight input{width:100%;margin-top:12px}.value{color:var(--muted)}@media(max-width:800px){.weight-grid{grid-template-columns:1fr}}</style>
+</head>
+<body>
+<header class="top"><div class="shell nav"><a class="brand" href="/"><span class="mark">ER</span><span>EXHIBITION RADAR</span></a><nav class="navlinks"><a href="/intelligence/">行业情报</a><a href="/bidding/">招投标雷达</a><a href="/cases/">案例研究</a><a href="/resources/">灵感与AI工具</a><a href="/my/">我的</a><a class="active" href="/settings/">设置</a></nav></div></header>
+<main><section class="shell settings-hero"><p class="eyebrow">LOCAL PREFERENCE</p><h1>关注权重</h1><p style="color:var(--muted);max-width:760px">第一阶段只保存在本地浏览器。后续首页排序可以继续接入这些权重，不需要账号和后台。</p></section><section class="shell section"><div id="grid" class="weight-grid"></div><div class="actions" style="margin-top:14px"><button class="btn primary" id="saveBtn">保存设置</button><button class="btn" id="resetBtn">恢复默认</button></div></section></main>
+<footer class="footer"><div class="shell">EXHIBITION RADAR · 本地关注设置</div></footer>
+<script src="/assets/personal.js?v=20260714"></script>
+<script>
+const topics=['博物馆','展陈设计','策展文章','数字艺术','沉浸式体验','文旅','城市更新','AI工具','招投标','工业遗产']; const grid=document.getElementById('grid');
+function render(){grid.innerHTML=topics.map(t=>`<div class="weight"><label><span>${t}</span><span class="value" id="v-${t}">${ERPersonal.getWeight(t,5)}</span></label><input type="range" min="0" max="10" value="${ERPersonal.getWeight(t,5)}" data-topic="${t}"></div>`).join(''); document.querySelectorAll('input[type=range]').forEach(i=>i.oninput=()=>document.getElementById('v-'+i.dataset.topic).textContent=i.value);}
+document.getElementById('saveBtn').onclick=()=>{document.querySelectorAll('input[type=range]').forEach(i=>ERPersonal.setWeight(i.dataset.topic,i.value)); alert('已保存到本地浏览器'); render();};
+document.getElementById('resetBtn').onclick=()=>{const s=ERPersonal.load(); s.weights={}; ERPersonal.save(s); render();}; render();
+</script>
+</body></html>
