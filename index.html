@@ -3,82 +3,66 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>EXHIBITION RADAR｜展陈行业资源工作台</title>
-  <meta name="description" content="看项目、找案例、追趋势、做方案的展陈行业资源工作台。">
-  <link rel="stylesheet" href="/assets/site.css?v=20260714-visual-home">
+  <title>EXHIBITION RADAR｜个人展陈行业情报雷达</title>
+  <meta name="description" content="每天快速查看展陈行业文章、展览、案例、技术动态和项目机会。">
+  <link rel="stylesheet" href="/assets/site.css?v=20260714-personal-home">
   <style>
-    .visual-hero{padding:28px 0 24px}.hero-stage{display:grid;grid-template-columns:minmax(340px,.42fr) minmax(0,.58fr);gap:24px;align-items:stretch}.hero-copy{display:flex;flex-direction:column;justify-content:space-between;min-height:560px;padding:10px 0}.hero-copy h1{font-size:clamp(42px,6vw,78px);line-height:.98;margin:0;letter-spacing:0}.hero-copy p{max-width:520px;margin:16px 0 0;color:var(--muted);font-size:18px}.status-line{margin-top:18px;color:var(--muted);font-size:13px}.status-line b{color:var(--ink)}.hero-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:26px}.hero-mosaic{display:grid;grid-template-columns:1.2fr .8fr;grid-template-rows:1fr 1fr;gap:10px;min-height:560px}.mosaic-card{position:relative;overflow:hidden;border-radius:8px;background:#202821;border:1px solid rgba(255,255,255,.14);min-height:170px;animation:rise .55s ease both}.mosaic-card.large{grid-row:span 2}.mosaic-card img{width:100%;height:100%;object-fit:cover;display:block;filter:saturate(.72) contrast(.98);transition:transform .45s ease}.mosaic-card:hover img{transform:scale(1.045)}.mosaic-card:after,.channel-card:after,.pick-card:after,.inspire-visual:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,16,14,0) 38%,rgba(10,16,14,.72))}.mosaic-card figcaption{position:absolute;left:14px;right:14px;bottom:13px;z-index:2;color:#fff;font-size:13px}.mosaic-card figcaption b{display:block;font-size:16px}.channel-section{padding:18px 0 30px}.channel-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.channel-card{position:relative;min-height:310px;border-radius:8px;overflow:hidden;background:#17201c;border:1px solid var(--line);color:#fff}.channel-card img{width:100%;height:100%;object-fit:cover;display:block;filter:saturate(.68) contrast(.98);transition:transform .45s ease}.channel-card:hover img{transform:scale(1.04)}.channel-content{position:absolute;inset:auto 18px 18px 18px;z-index:2}.channel-content .kicker{font-size:12px;font-weight:850;color:#e5c994;margin-bottom:8px}.channel-content h2{font-size:30px;line-height:1.08;margin:0 0 8px}.channel-content p{margin:0 0 12px;color:rgba(255,255,255,.84);max-width:560px}.preview{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}.preview span{font-size:12px;border:1px solid rgba(255,255,255,.24);background:rgba(255,255,255,.12);border-radius:999px;padding:5px 8px}.light-btn{display:inline-flex;align-items:center;justify-content:center;min-height:36px;border-radius:7px;padding:0 11px;background:#fff;color:#17201c;font-size:13px;font-weight:800}.picks-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:12px}.pick-card{position:relative;min-height:230px;border-radius:8px;overflow:hidden;background:#17201c;color:#fff;border:1px solid var(--line)}.pick-card.wide{grid-column:span 2}.pick-card img{width:100%;height:100%;object-fit:cover;display:block;filter:saturate(.72)}.pick-info{position:absolute;left:13px;right:13px;bottom:13px;z-index:2}.pick-info span{font-size:12px;color:#e5c994;font-weight:800}.pick-info h3{font-size:17px;line-height:1.2;margin:5px 0 3px}.pick-info p{font-size:12px;color:rgba(255,255,255,.78);margin:0}.assist-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;align-items:center}.assist-row input{height:44px;border:1px solid var(--line);border-radius:8px;background:#fff;padding:0 12px}.result-strip{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:12px}.mini-result{border:1px solid var(--line);background:#fff;border-radius:8px;padding:12px}.mini-result h3{font-size:15px;margin:0 0 6px}.mini-result p{font-size:12px;color:var(--muted);margin:0 0 10px}@keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}@media(max-width:1040px){.hero-stage{grid-template-columns:1fr}.hero-copy{min-height:auto}.hero-mosaic{min-height:460px}.picks-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.pick-card.wide{grid-column:span 1}}@media(max-width:720px){.visual-hero{padding-top:18px}.hero-mosaic{grid-template-columns:1fr;grid-template-rows:auto;min-height:auto}.mosaic-card.large{grid-row:auto}.mosaic-card{height:210px}.channel-grid,.result-strip{grid-template-columns:1fr}.channel-card{min-height:280px}.picks-grid{grid-template-columns:1fr 1fr}.hero-copy h1{font-size:42px}.assist-row{grid-template-columns:1fr}}
+    .daily-hero{padding:28px 0 18px}.hero-stage{display:grid;grid-template-columns:minmax(340px,.43fr) minmax(0,.57fr);gap:24px;align-items:stretch}.hero-copy{display:flex;flex-direction:column;justify-content:center;min-height:500px}.hero-copy h1{font-size:clamp(42px,6vw,76px);line-height:1;margin:0;letter-spacing:0}.hero-copy p{max-width:540px;margin:16px 0 0;color:var(--muted);font-size:18px}.status-line{margin-top:14px;color:var(--muted);font-size:13px}.status-line b{color:var(--ink)}.hero-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:24px}.mosaic{display:grid;grid-template-columns:1.2fr .8fr;grid-template-rows:1fr 1fr;gap:10px;min-height:500px}.tile{position:relative;overflow:hidden;border-radius:8px;background:#17201c;border:1px solid var(--line)}.tile.big{grid-row:span 2}.tile img{width:100%;height:100%;object-fit:cover;filter:saturate(.72) contrast(.98);transition:transform .45s ease}.tile:hover img{transform:scale(1.04)}.tile:after,.today-img:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,16,14,0) 38%,rgba(10,16,14,.72))}.tile span{position:absolute;left:14px;right:14px;bottom:12px;z-index:2;color:white;font-size:13px}.today-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.today-card{border:1px solid var(--line);background:#fff;border-radius:8px;overflow:hidden;display:flex;flex-direction:column;min-height:390px}.today-img{height:140px;position:relative;background:#17201c}.today-img img{width:100%;height:100%;object-fit:cover;filter:saturate(.72);display:block}.today-body{padding:14px;display:flex;flex-direction:column;gap:8px;flex:1}.today-body h3{font-size:18px;line-height:1.25;margin:0}.today-body p{font-size:13px;color:var(--muted);margin:0}.why{border-left:3px solid var(--gold);padding:8px 0 8px 10px;background:#fbfcf9;color:var(--ink)!important}.mini-actions{display:flex;gap:7px;flex-wrap:wrap;margin-top:auto}.smallbtn{border:1px solid var(--line);background:#fff;border-radius:7px;padding:7px 9px;font-size:12px;color:var(--ink);cursor:pointer}.smallbtn.primary{background:var(--ink);border-color:var(--ink);color:white}.entry-grid2{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.entry2{border:1px solid var(--line);background:#fff;border-radius:8px;padding:15px;min-height:160px;display:flex;flex-direction:column;gap:8px}.entry2 h3{margin:0;font-size:18px}.entry2 p{margin:0;color:var(--muted);font-size:13px}.entry2 .btn{margin-top:auto;align-self:flex-start}.workflow-strip{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.workflow-mini{border:1px solid var(--line);background:#fff;border-radius:8px;padding:14px}.workflow-mini h3{font-size:16px;margin:0 0 7px}.workflow-mini p{font-size:13px;color:var(--muted);margin:0 0 10px}@media(max-width:1040px){.hero-stage{grid-template-columns:1fr}.hero-copy{min-height:auto}.mosaic{min-height:420px}.today-grid,.entry-grid2,.workflow-strip{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:720px){.mosaic{grid-template-columns:1fr;min-height:auto}.tile,.tile.big{height:210px;grid-row:auto}.today-grid,.entry-grid2,.workflow-strip{grid-template-columns:1fr}.hero-copy h1{font-size:40px}}
   </style>
 </head>
 <body>
-  <header class="top"><div class="shell nav"><a class="brand" href="/"><span class="mark">ER</span><span>EXHIBITION RADAR</span></a><nav class="navlinks"><a href="/bidding/">政府招投标</a><a href="/intelligence/">全球新型展</a><a href="/cases/">行业龙头案例</a><a href="/resources/">设计灵感与AI工具</a></nav></div></header>
+  <header class="top"><div class="shell nav"><a class="brand" href="/"><span class="mark">ER</span><span>EXHIBITION RADAR</span></a><nav class="navlinks"><a href="/intelligence/">行业情报</a><a href="/bidding/">招投标雷达</a><a href="/cases/">案例研究</a><a href="/resources/">灵感与AI工具</a><a href="/my/">我的</a><a href="/settings/">设置</a></nav></div></header>
   <main>
-    <section class="shell visual-hero">
+    <section class="shell daily-hero">
       <div class="hero-stage">
         <div class="hero-copy">
-          <div>
-            <p class="eyebrow">EXHIBITION RADAR</p>
-            <h1>看见行业，快速进入工作</h1>
-            <p>聚合展陈项目机会、全球新展、标杆案例与设计工具。</p>
-            <div class="status-line" id="statusLine">今日更新 <b>读取中</b> · 本周收录 <b>读取中</b> · 最近核验 <b>2026-07-14</b></div>
-            <div class="hero-actions"><a class="btn" href="/bidding/">查招投标</a><a class="btn primary" href="/intelligence/">看全球新展</a><a class="btn gold" href="/resources/">找设计工具</a></div>
-          </div>
+          <p class="eyebrow">PERSONAL EXHIBITION RADAR</p>
+          <h1>今天，展陈行业发生了什么？</h1>
+          <p>聚合最新文章、展览、案例、技术与项目机会。先筛选，再进入原文。</p>
+          <div class="status-line" id="statusLine">今日更新 <b>读取中</b> · 本周收录 <b>读取中</b> · 最近核验 <b>2026-07-14</b></div>
+          <div class="hero-actions"><a class="btn primary" href="#today">查看今日更新</a><a class="btn green" href="/bidding/">浏览最新招标</a><a class="btn" href="/cases/">找案例</a><a class="btn gold" href="/resources/">用AI工具</a></div>
         </div>
-        <div class="hero-mosaic" aria-label="展览与设计视觉拼贴">
-          <figure class="mosaic-card large"><img src="https://images.unsplash.com/photo-1545987796-200677ee1011?auto=format&fit=crop&w=1100&q=76" alt="博物馆展览空间"><figcaption><b>博物馆与展陈空间</b>项目机会、展线与叙事</figcaption></figure>
-          <figure class="mosaic-card"><img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=760&q=74" alt="数字艺术与交互屏幕"><figcaption><b>数字艺术与交互</b>沉浸式体验趋势</figcaption></figure>
-          <figure class="mosaic-card"><img src="https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=760&q=74" alt="设计工具与视觉工作台"><figcaption><b>AI 与设计工作流</b>从灵感到提案</figcaption></figure>
+        <div class="mosaic">
+          <figure class="tile big"><img src="https://images.unsplash.com/photo-1545987796-200677ee1011?auto=format&fit=crop&w=1100&q=76" alt="博物馆展览空间"><span>博物馆 · 展陈空间 · 项目机会</span></figure>
+          <figure class="tile"><img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=760&q=74" alt="数字艺术"><span>数字艺术与沉浸式体验</span></figure>
+          <figure class="tile"><img src="https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=760&q=74" alt="设计工作台"><span>灵感、AI工具与方案工作流</span></figure>
         </div>
       </div>
     </section>
 
-    <section class="shell channel-section">
-      <div class="section-head"><div><h2>四大频道入口</h2><p>用场景判断入口，而不是读一堆说明。</p></div></div>
-      <div class="channel-grid">
-        <a class="channel-card" href="/bidding/"><img src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=1200&q=74" alt="城市文化空间与建筑"><div class="channel-content"><div class="kicker">01 · BIDDING</div><h2>政府招投标</h2><p>发现博物馆、展陈、文旅与数字空间项目机会。</p><div class="preview"><span id="bidPreview">今日新增读取中</span><span>公告平台</span><span>关键词雷达</span></div><span class="light-btn">进入频道</span></div></a>
-        <a class="channel-card" href="/intelligence/"><img src="https://images.unsplash.com/photo-1531058020387-3be344556be6?auto=format&fit=crop&w=1200&q=74" alt="国际展览与展厅空间"><div class="channel-content"><div class="kicker">02 · INTELLIGENCE</div><h2>全球新型展</h2><p>观察国际新展、沉浸式体验与数字艺术趋势。</p><div class="preview"><span id="intelPreview">本周新增读取中</span><span>数字艺术</span><span>获奖展览</span></div><span class="light-btn">进入频道</span></div></a>
-        <a class="channel-card" href="/cases/"><img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=74" alt="展陈空间案例与建筑室内"><div class="channel-content"><div class="kicker">03 · LEADER CASES</div><h2>行业龙头案例</h2><p>查看头部公司的真实项目、能力和方法。</p><div class="preview"><span id="casePreview">已收录读取中</span><span>金螳螂</span><span>风语筑</span></div><span class="light-btn">进入频道</span></div></a>
-        <a class="channel-card" href="/resources/"><img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=74" alt="设计工作台与视觉资料"><div class="channel-content"><div class="kicker">04 · RESOURCES</div><h2>设计灵感与AI工具</h2><p>从视觉参考、空间灵感到可执行 AI 工作流。</p><div class="preview"><span id="toolPreview">10类工具 · 5条工作流</span><span>AI视频</span><span>概念图</span></div><span class="light-btn">进入频道</span></div></a>
+    <section class="shell section" id="today">
+      <div class="section-head"><div><h2>今日值得看</h2><p>不按时间机械排序，优先显示和展陈方案、项目机会、技术趋势相关的内容。</p></div></div>
+      <div id="todayGrid" class="today-grid"></div>
+    </section>
+
+    <section class="shell section">
+      <div class="section-head"><div><h2>快速进入</h2><p>四个模块对应每天最常见的四件事。</p></div></div>
+      <div class="entry-grid2">
+        <article class="entry2"><span class="badge">行业情报</span><h3>今天行业发生了什么</h3><p>文章、展览、案例、技术、公司动态和工具更新。</p><a class="btn primary" href="/intelligence/">看今日情报</a></article>
+        <article class="entry2"><span class="badge bid">招投标</span><h3>最近有什么项目机会</h3><p>展陈、布展、博物馆、纪念馆、数字展厅项目。</p><a class="btn green" href="/bidding/">查最新招标</a></article>
+        <article class="entry2"><span class="badge case">案例研究</span><h3>做方案时参考什么</h3><p>头部公司案例、项目类型和能力标签。</p><a class="btn red" href="/cases/">找案例</a></article>
+        <article class="entry2"><span class="badge tool">灵感工具</span><h3>现在用什么完成工作</h3><p>任务入口、设计灵感、AI工作流和工具官网。</p><a class="btn gold" href="/resources/">用AI工具</a></article>
       </div>
     </section>
 
     <section class="shell section">
-      <div class="section-head"><div><h2>本周视觉精选</h2><p>2个全球新展、2个行业案例、1个设计灵感、1个AI工作流。</p></div></div>
-      <div class="picks-grid">
-        <a class="pick-card wide" href="/intelligence/"><img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=900&q=74" alt="数字艺术展"><div class="pick-info"><span>全球新展</span><h3>DATALAND：Machine Dreams</h3><p>DATALAND</p></div></a>
-        <a class="pick-card" href="/intelligence/"><img src="https://images.unsplash.com/photo-1531058020387-3be344556be6?auto=format&fit=crop&w=700&q=74" alt="沉浸式展览空间"><div class="pick-info"><span>沉浸式</span><h3>teamLab Biovortex Kyoto</h3><p>teamLab</p></div></a>
-        <a class="pick-card" href="/cases/"><img src="https://images.unsplash.com/photo-1545987796-200677ee1011?auto=format&fit=crop&w=700&q=74" alt="博物馆案例"><div class="pick-info"><span>行业案例</span><h3>首都博物馆</h3><p>金螳螂文化</p></div></a>
-        <a class="pick-card" href="/cases/"><img src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=700&q=74" alt="城市展示空间"><div class="pick-info"><span>行业案例</span><h3>奉贤城市博物馆</h3><p>风语筑</p></div></a>
-        <a class="pick-card" href="/resources/"><img src="https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=700&q=74" alt="视觉设计灵感"><div class="pick-info"><span>设计灵感</span><h3>平面视觉与导视参考</h3><p>Behance / 站酷</p></div></a>
-        <a class="pick-card" href="/resources/"><img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=700&q=74" alt="AI视频工作流"><div class="pick-info"><span>AI工作流</span><h3>效果图变成视频</h3><p>Vidu / 可灵 / 剪映</p></div></a>
-      </div>
+      <div class="section-head"><div><h2>常用工作流</h2><p>需要做方案时直接进。</p></div></div>
+      <div class="workflow-strip"><article class="workflow-mini"><h3>策展资料研究</h3><p>NotebookLM → ChatGPT / Claude → Notion</p><a class="btn" href="/resources/#workflows">进入</a></article><article class="workflow-mini"><h3>展厅概念图</h3><p>ChatGPT → 即梦 / Midjourney → Photoshop</p><a class="btn" href="/resources/#workflows">进入</a></article><article class="workflow-mini"><h3>效果图转视频</h3><p>Photoshop → Vidu / 可灵 → 剪映</p><a class="btn" href="/resources/#workflows">进入</a></article><article class="workflow-mini"><h3>方案汇报</h3><p>ChatGPT → PowerPoint / Figma → Napkin AI</p><a class="btn" href="/resources/#workflows">进入</a></article></div>
     </section>
-
-    <section class="shell section">
-      <div class="section-head"><div><h2>快速查找</h2><p>搜索是辅助入口，知道工具或项目名称时使用。</p></div></div>
-      <div class="assist-row"><input id="q" placeholder="搜索：Vidu、Midjourney、金螳螂、数字展厅…"><select id="channel" class="select"><option value="all">全部频道</option><option value="bidding">政府招投标</option><option value="intelligence">全球新型展</option><option value="cases">行业龙头案例</option><option value="resources">设计灵感与AI工具</option></select></div>
-      <div id="searchResults" class="result-strip"></div>
-    </section>
-
-    <section class="shell"><div class="data-note"><b>图片说明：</b>当前视觉图为公开远程图片占位，用于建立展览、空间、数字艺术和设计工具的行业识别；来源记录见 <a href="/data/image-credits.json">data/image-credits.json</a>。正式传播可替换为自有项目图或授权图片。</div></section>
   </main>
-  <footer class="footer"><div class="shell">EXHIBITION RADAR · 展陈行业资源工作台 · home-visual-v3 · 2026-07-14</div></footer>
+  <footer class="footer"><div class="shell">EXHIBITION RADAR · 个人展陈行业阅读器与机会雷达 · 2026-07-14</div></footer>
+  <script src="/assets/personal.js?v=20260714"></script>
   <script>
-    const $=s=>document.querySelector(s); let all=[];
-    function dateOf(x){return x.publishedAt||x.collectedAt||x.lastVerifiedAt||''}
-    function latestDate(arr){return arr.map(dateOf).filter(x=>/^\d{4}/.test(x)).sort().pop()||'持续更新'}
-    function resultCard(x){return `<article class="mini-result"><h3>${x.title}</h3><p>${x.channelName} · ${x.sourceName||x.companyName||x.category||'站内数据'}</p><a class="btn" href="${x.url}" ${x.external?'target="_blank" rel="noopener"':''}>进入</a></article>`}
-    function sync(){const q=$('#q').value.trim().toLowerCase(), ch=$('#channel').value; if(!q){$('#searchResults').innerHTML='';return} const out=all.filter(x=>(ch==='all'||x.channel===ch)&&JSON.stringify(x).toLowerCase().includes(q)).slice(0,6); $('#searchResults').innerHTML=out.map(resultCard).join('')||'<div class="data-note">没有匹配结果。</div>'}
-    Promise.all([fetch('/data/bidding.json?v=20260714').then(r=>r.json()),fetch('/data/intelligence.json?v=20260714').then(r=>r.json()),fetch('/data/cases.json?v=20260714').then(r=>r.json()),fetch('/data/tools.json?v=20260714').then(r=>r.json()),fetch('/data/workflows.json?v=20260714').then(r=>r.json())]).then(([bid,intel,cases,tools,flows])=>{
-      all=[...(bid.items||[]).map(x=>({...x,channel:'bidding',channelName:'政府招投标',url:'/bidding/'})),...(intel.items||[]).map(x=>({...x,channel:'intelligence',channelName:'全球新型展',url:x.sourceUrl,external:true})),...(cases.items||[]).map(x=>({...x,channel:'cases',channelName:'行业龙头案例',url:'/cases/'})),...(tools.items||[]).map(x=>({...x,title:x.name,summary:x.role,channel:'resources',channelName:'AI工具',url:x.officialUrl,external:true})),...(flows.items||[]).map(x=>({...x,summary:x.scenario,channel:'resources',channelName:'工作流',url:'/resources/'}))];
-      const today='2026-07-14', todayCount=all.filter(x=>String(x.collectedAt||'').startsWith(today)||String(x.lastVerifiedAt||'').startsWith(today)).length;
-      $('#statusLine').innerHTML=`今日更新 <b>${todayCount}</b> 条 · 本周收录 <b>${all.length}</b> 条 · 最近核验 <b>2026-07-14</b>`;
-      $('#bidPreview').textContent=`今日新增 ${bid.items?.length||0} 条`;
-      $('#intelPreview').textContent=`本周新增 ${intel.items?.length||0} 个案例`;
-      $('#casePreview').textContent=`已收录 ${cases.items?.length||0} 个项目`;
-      $('#toolPreview').textContent=`${new Set((tools.items||[]).map(x=>x.category)).size}类工具 · ${flows.items?.length||0}条工作流`;
-      ['q','channel'].forEach(id=>$('#'+id).addEventListener(id==='q'?'input':'change',sync));
-    }).catch(()=>{$('#statusLine').innerHTML='今日更新 <b>待刷新</b> · 本周收录 <b>待刷新</b> · 最近核验 <b>2026-07-14</b>'});
+    const $=s=>document.querySelector(s);
+    const fallbackIntel=[{id:'home-dezeen',contentType:'article',category:'行业文章',title:'Exhibitions are becoming multimedia and interactive driven',summary:'展览正在变得更依赖多媒体和互动体验。',whyItMatters:'适合判断互动、多媒体和沉浸式技术是否值得进入方案。',sourceName:'Dezeen',sourceUrl:'https://www.dezeen.com/2026/02/04/exhibitions-multimedia-interactive-bewunder/',publishedAt:'2026-02-04T08:00:03.000Z',coverImage:'https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=900&q=74',relevanceScore:92,freshnessScore:72},{id:'home-teamlab',contentType:'exhibition',category:'沉浸式与数字艺术',title:'teamLab Biovortex Kyoto',summary:'京都沉浸式数字艺术项目官方入口。',whyItMatters:'适合拆解人流、互动反馈和空间节奏。',sourceName:'teamLab',sourceUrl:'https://www.teamlab.art/e/biovortex-kyoto/',publishedAt:'2026-07-10T07:40:00+08:00',coverImage:'https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=900&q=74',relevanceScore:96,freshnessScore:80}];
+    const fallbackBid=[{id:'home-bid-houchang',contentType:'bidding',category:'招投标',title:'猴场会议纪念馆展陈提升项目公开招标公告',summary:'真实公告线索，需进入原文核验预算和资质。',whyItMatters:'纪念馆展陈提升与内容策划、空间叙事、多媒体展项高度相关。',sourceName:'中国政府采购网',sourceUrl:'http://www.ccgp.gov.cn/cggg/dfgg/gkzb/202607/t20260710_26909768.htm',publishedAt:'2026-07-10T07:00:43.783Z',coverImage:'https://images.unsplash.com/photo-1545987796-200677ee1011?auto=format&fit=crop&w=900&q=74',relevanceScore:94,freshnessScore:88}];
+    function score(x){return (x.freshnessScore||0)*.4+(x.relevanceScore||0)*.3+(x.contentType==='bidding'?20:14)}
+    function dateText(v){return v&&/^\d{4}/.test(v)?String(v).slice(0,10):'持续更新'}
+    function actions(x){return `<button class="smallbtn" data-action="favorites" data-id="${x.id}">${ERPersonal.label('favorites',x.id,'已收藏','收藏')}</button><button class="smallbtn" data-action="later" data-id="${x.id}">${ERPersonal.label('later',x.id,'已加入','稍后读')}</button><button class="smallbtn" data-action="read" data-id="${x.id}">${ERPersonal.label('read',x.id,'已读','标已读')}</button>`}
+    function card(x){return `<article class="today-card"><div class="today-img"><img src="${x.coverImage||'https://images.unsplash.com/photo-1545987796-200677ee1011?auto=format&fit=crop&w=900&q=74'}" alt=""></div><div class="today-body"><span class="badge ${x.contentType==='bidding'?'bid':''}">${x.category||x.contentType}</span><h3>${x.title}</h3><p>${x.sourceName||'来源'} · ${dateText(x.publishedAt)}</p><p>${x.summary||''}</p><p class="why"><b>值得看：</b>${x.whyItMatters||'适合作为方案前期参考。'}</p><div class="mini-actions"><a class="smallbtn primary" href="${x.sourceUrl}" target="_blank" rel="noopener">查看原文 ↗</a>${actions(x)}</div></div></article>`}
+    function render(list){const out=list.filter(x=>!ERPersonal.has('hidden',x.id)).sort((a,b)=>score(b)-score(a)).slice(0,6); $('#todayGrid').innerHTML=out.map(card).join(''); document.querySelectorAll('[data-action]').forEach(b=>b.onclick=()=>{const item=list.find(x=>x.id===b.dataset.id); ERPersonal.toggle(b.dataset.action,item); render(list);});}
+    render([...fallbackIntel,...fallbackBid]);
+    Promise.all([fetch(new URL('data/intelligence.json?v=20260714-radar',document.baseURI)).then(r=>r.json()),fetch(new URL('data/bidding.json?v=20260714-real',document.baseURI)).then(r=>r.json())]).then(([intel,bid])=>{const intelItems=(intel.items||[]).map(x=>({...x})); const bidItems=(bid.items||[]).map(x=>({...x,contentType:'bidding',category:'招投标',whyItMatters:x.attentionReason,coverImage:'https://images.unsplash.com/photo-1545987796-200677ee1011?auto=format&fit=crop&w=900&q=74',relevanceScore:x.attentionLevel==='重点关注'?94:76,freshnessScore:88})); const all=[...intelItems,...bidItems]; $('#statusLine').innerHTML=`今日更新 <b>${all.length}</b> 条 · 本周收录 <b>${all.length}</b> 条 · 最近核验 <b>2026-07-14</b>`; render(all);}).catch(()=>{$('#statusLine').innerHTML='今日更新 <b>兜底内容</b> · 数据同步 <b>稍后重试</b> · 最近核验 <b>2026-07-14</b>';});
   </script>
 </body>
 </html>
