@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>设计灵感与AI工具｜EXHIBITION RADAR</title>
+  <meta name="description" content="展陈设计灵感、AI图片、AI视频、建模渲染、汇报提案与声音工具库。">
+  <link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+  <header class="top"><div class="shell nav"><a class="brand" href="/"><span class="mark">ER</span><span>EXHIBITION RADAR</span></a><nav class="navlinks"><a href="/bidding/">政府招投标</a><a href="/intelligence/">全球新型展</a><a href="/cases/">行业龙头案例</a><a class="active" href="/resources/">设计灵感与AI工具</a></nav></div></header>
+  <main>
+    <section class="shell hero">
+      <p class="eyebrow">DESIGN INSPIRATION & AI TOOLKIT</p>
+      <h1>展陈设计灵感、AI 工具与可执行工作流</h1>
+      <p>把“工具名称”整理成能服务展陈项目的资源库：从资料研究、概念图、AI 视频、空间建模、渲染、平面视觉，到 PPT、配音和素材修复。</p>
+      <div class="hero-actions"><a class="btn primary" href="/">返回首页</a><a class="btn gold" href="https://www.vidu.com/" target="_blank" rel="noopener">Vidu 官网</a><a class="btn" href="https://jimeng.jianying.com/" target="_blank" rel="noopener">即梦 AI</a><a class="btn" href="https://www.midjourney.com/" target="_blank" rel="noopener">Midjourney</a></div>
+    </section>
+    <section class="shell"><div class="metrics" id="metrics"></div><div class="toolbar"><input id="q" class="search" placeholder="搜索：Vidu、AI视频、渲染、PPT、配音、图片放大…"><select id="category" class="select"><option value="all">全部工具类别</option></select><select id="view" class="select"><option value="tools">工具库</option><option value="workflows">工作流</option></select></div><div class="data-note">所有工具卡均提供官网入口；价格、版权、商用授权和模型能力变化很快，使用前以官网说明为准。</div></section>
+    <section class="shell section" id="toolsSection"><div class="section-head"><div><h2>工具库</h2><p id="toolCount">正在加载工具…</p></div></div><div id="toolGrid" class="grid-3"></div></section>
+    <section class="shell section" id="workflowSection"><div class="section-head"><div><h2>展陈 AI 工作流</h2><p>按真实任务组织工具组合、步骤和提示词。</p></div></div><div id="workflowGrid" class="grid-2"></div></section>
+  </main>
+  <footer class="footer"><div class="shell">EXHIBITION RADAR · 数据文件：/data/tools.json /data/workflows.json · GitHub Pages</div></footer>
+  <script>
+    const $=s=>document.querySelector(s); let tools=[], workflows=[];
+    function toolCard(t){return `<article class="tool-card"><span class="badge tool">${t.category}</span><h3>${t.name}</h3><p>${t.role}</p><div class="actions"><a class="btn primary" href="${t.officialUrl}" target="_blank" rel="noopener">进入官网</a><a class="btn" href="${t.guideUrl}" target="_blank" rel="noopener">使用指南</a></div></article>`}
+    function workflowCard(w){return `<article class="workflow-card"><span class="badge workflow">工作流</span><h3>${w.title}</h3><p>${w.scenario}</p><div class="meta">${w.tools.map(t=>`<span class="pill">${t}</span>`).join('')}</div><ol class="small-list">${w.steps.map(s=>`<li>${s}</li>`).join('')}</ol><p><b>提示词：</b>${w.prompt}</p><div class="actions">${w.officialLinks.map((u,i)=>`<a class="btn" href="${u}" target="_blank" rel="noopener">工具 ${i+1}</a>`).join('')}</div></article>`}
+    function metrics(){const cats=new Set(tools.map(x=>x.category)).size; $('#metrics').innerHTML=`<div class="metric"><b>${tools.length}</b><span>工具入口</span></div><div class="metric"><b>${cats}</b><span>工具类别</span></div><div class="metric"><b>${workflows.length}</b><span>任务工作流</span></div><div class="metric"><b>2026-07-14</b><span>最近核验</span></div>`}
+    function filters(){const cats=[...new Set(tools.map(x=>x.category))].sort(); $('#category').innerHTML='<option value="all">全部工具类别</option>'+cats.map(c=>`<option>${c}</option>`).join('')}
+    function sync(){const q=$('#q').value.trim().toLowerCase(), cat=$('#category').value, view=$('#view').value; const out=tools.filter(t=>(cat==='all'||t.category===cat)&&(!q||JSON.stringify(t).toLowerCase().includes(q))); $('#toolGrid').innerHTML=out.map(toolCard).join('')||'<div class="data-note">没有匹配工具。</div>'; $('#toolCount').textContent=`当前显示 ${out.length} / ${tools.length} 个工具`; $('#toolsSection').classList.toggle('hidden', view==='workflows'); $('#workflowSection').classList.toggle('hidden', view==='tools');}
+    Promise.all([fetch('/data/tools.json').then(r=>r.json()),fetch('/data/workflows.json').then(r=>r.json())]).then(([td,wd])=>{tools=td.items||[]; workflows=wd.items||[]; $('#workflowGrid').innerHTML=workflows.map(workflowCard).join(''); metrics(); filters(); sync(); ['q','category','view'].forEach(id=>$('#'+id).addEventListener(id==='q'?'input':'change',sync));}).catch(()=>{$('#toolCount').textContent='数据加载失败，请检查 /data/tools.json 和 /data/workflows.json';});
+  </script>
+</body>
+</html>
