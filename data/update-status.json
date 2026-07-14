@@ -1,0 +1,13 @@
+{
+  "generatedAt": "2026-07-14T10:35:00+08:00",
+  "sourcePolicy": "Only use official pages, RSS/API feeds, or manually verified public sources. Do not bypass access restrictions.",
+  "channels": {
+    "bidding": {"items": 6, "lastVerifiedAt": "2026-07-14", "latestPublishedAt": "2026-07-10T09:35:00+08:00"},
+    "intelligence": {"items": 11, "lastVerifiedAt": "2026-07-14", "latestPublishedAt": "2026-07-10T08:00:00+08:00"},
+    "cases": {"items": 15, "lastVerifiedAt": "2026-07-14", "latestPublishedAt": "持续更新"},
+    "tools": {"items": 62, "lastVerifiedAt": "2026-07-14", "latestPublishedAt": "持续更新"},
+    "workflows": {"items": 5, "lastVerifiedAt": "2026-07-14", "latestPublishedAt": "持续更新"}
+  },
+  "totals": {"items": 99, "sources": 32, "latestPublishedAt": "2026-07-10T09:35:00+08:00"},
+  "nextStep": "Connect source-specific RSS/API adapters where allowed; keep manual review for sources without machine-readable feeds."
+}
