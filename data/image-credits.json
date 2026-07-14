@@ -1,0 +1,12 @@
+{
+  "generatedAt": "2026-07-14T11:10:00+08:00",
+  "policy": "Temporary visual references use public remote image URLs for layout validation. Replace with owned, licensed, or project-authorized images before commercial promotion where needed.",
+  "items": [
+    {"id":"museum-gallery","usage":"homepage hero and bidding entrance","source":"Unsplash CDN visual reference","url":"https://images.unsplash.com/photo-1545987796-200677ee1011","licenseNote":"Use according to Unsplash terms; keep as temporary public visual reference."},
+    {"id":"exhibition-space","usage":"homepage hero and global exhibition entrance","source":"Unsplash CDN visual reference","url":"https://images.unsplash.com/photo-1531058020387-3be344556be6","licenseNote":"Use according to Unsplash terms; keep as temporary public visual reference."},
+    {"id":"architecture-space","usage":"case and spatial inspiration cards","source":"Unsplash CDN visual reference","url":"https://images.unsplash.com/photo-1518005020951-eccb494ad742","licenseNote":"Use according to Unsplash terms; keep as temporary public visual reference."},
+    {"id":"design-workbench","usage":"resource and AI workflow cards","source":"Unsplash CDN visual reference","url":"https://images.unsplash.com/photo-1558655146-d09347e92766","licenseNote":"Use according to Unsplash terms; keep as temporary public visual reference."},
+    {"id":"digital-display","usage":"AI video and digital experience cards","source":"Unsplash CDN visual reference","url":"https://images.unsplash.com/photo-1550745165-9bc0b252726f","licenseNote":"Use according to Unsplash terms; keep as temporary public visual reference."},
+    {"id":"visual-board","usage":"visual inspiration and presentation cards","source":"Unsplash CDN visual reference","url":"https://images.unsplash.com/photo-1497366754035-f200968a6e72","licenseNote":"Use according to Unsplash terms; keep as temporary public visual reference."}
+  ]
+}
