@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>全球新型展｜EXHIBITION RADAR</title>
+  <meta name="description" content="全球新型展、国内新展、获奖展览与展陈行业趋势情报。">
+  <link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+  <header class="top"><div class="shell nav"><a class="brand" href="/"><span class="mark">ER</span><span>EXHIBITION RADAR</span></a><nav class="navlinks"><a href="/bidding/">政府招投标</a><a class="active" href="/intelligence/">全球新型展</a><a href="/cases/">行业龙头案例</a><a href="/resources/">设计灵感与AI工具</a></nav></div></header>
+  <main>
+    <section class="shell hero">
+      <p class="eyebrow">GLOBAL EXHIBITION INTELLIGENCE</p>
+      <h1>全球新型展、国内新展与获奖展览情报</h1>
+      <p>这里不是新闻转载页，而是展陈方案前期可用的情报库：每条保留来源、发布时间、核验状态、对项目机会的意义和可参考的部门。</p>
+      <div class="hero-actions"><a class="btn primary" href="/">返回首页</a><a class="btn blue" href="https://www.e-flux.com/announcements/" target="_blank" rel="noopener">打开 e-flux</a><a class="btn" href="https://segd.org/awards/global-design-awards/" target="_blank" rel="noopener">查看 SEGD 奖项</a></div>
+    </section>
+    <section class="shell">
+      <div class="metrics" id="metrics"></div>
+      <div class="toolbar"><input id="q" class="search" placeholder="搜索展览、国家、城市、机构、趋势…"><select id="category" class="select"><option value="all">全部类别</option></select><select id="status" class="select"><option value="all">全部状态</option><option value="verified_source">已核验来源</option><option value="needs_verification">待核验条目</option></select></div>
+      <div class="data-note">数据说明：本页只做索引、摘要和研究提示，不复制原文或图片；展期、票务、版权、图片和完整介绍以来源页面为准。</div>
+    </section>
+    <section class="shell section"><div class="section-head"><div><h2>情报列表</h2><p id="countText">正在加载数据…</p></div></div><div id="list" class="list"></div></section>
+  </main>
+  <footer class="footer"><div class="shell">EXHIBITION RADAR · 数据文件：/data/intelligence.json · GitHub Pages</div></footer>
+  <script>
+    const statusMap={verified_source:'已核验来源',needs_verification:'待核验',draft:'草稿',verified:'已核验'};
+    const $=s=>document.querySelector(s); let items=[];
+    function fmt(v){return v||'暂无可靠公开信息'}
+    function latestDate(arr){return arr.map(x=>x.publishedAt).filter(x=>/^\d{4}/.test(x)).sort().pop()||'持续更新'}
+    function renderMetrics(data){const sourceCount=new Set(items.map(x=>x.sourceName)).size; $('#metrics').innerHTML=`<div class="metric"><b>${items.length}</b><span>情报条目</span></div><div class="metric"><b>${sourceCount}</b><span>来源机构</span></div><div class="metric"><b>${latestDate(items).slice(0,10)}</b><span>最新发布时间</span></div><div class="metric"><b>${data.lastVerifiedAt}</b><span>最近核验时间</span></div>`}
+    function renderFilters(){const cats=[...new Set(items.map(x=>x.category))].sort(); $('#category').innerHTML='<option value="all">全部类别</option>'+cats.map(c=>`<option>${c}</option>`).join('')}
+    function card(x){return `<article class="item"><div><span class="badge">${x.category}</span><h3>${x.title}</h3><p>${x.summary}</p><div class="meta"><span class="pill">${fmt(x.country)} · ${fmt(x.city)}</span><span class="pill">${fmt(x.venue)}</span><span class="pill">来源：${fmt(x.sourceName)}</span><span class="pill">发布：${fmt(String(x.publishedAt).slice(0,10))}</span><span class="pill status ${x.status}">${statusMap[x.status]||x.status}</span></div><p><b>对大颢的意义：</b>${fmt(x.meaningForDahao)}</p><p><b>机会：</b>${fmt(x.opportunity)} · <b>趋势：</b>${fmt(x.trend)}</p></div><div class="actions"><a class="btn primary" href="${x.sourceUrl}" target="_blank" rel="noopener">查看来源</a></div></article>`}
+    function sync(){const q=$('#q').value.trim().toLowerCase(), cat=$('#category').value, st=$('#status').value; const out=items.filter(x=>(cat==='all'||x.category===cat)&&(st==='all'||x.status===st)&&(!q||JSON.stringify(x).toLowerCase().includes(q))); $('#countText').textContent=`当前显示 ${out.length} / ${items.length} 条`; $('#list').innerHTML=out.map(card).join('')||'<div class="data-note">没有匹配结果。</div>'}
+    fetch('/data/intelligence.json').then(r=>r.json()).then(data=>{items=data.items||[];renderMetrics(data);renderFilters();sync();['q','category','status'].forEach(id=>$('#'+id).addEventListener(id==='q'?'input':'change',sync))}).catch(()=>{$('#countText').textContent='数据加载失败，请检查 /data/intelligence.json';});
+  </script>
+</body>
+</html>
