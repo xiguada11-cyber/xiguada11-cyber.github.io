@@ -2,7 +2,9 @@ name: Refresh Exhibition Data Status
 
 on:
   schedule:
-    - cron: '15 */6 * * *'
+    # Beijing 08:00 / 12:00 / 16:00 / 18:00 / 20:00
+    # UTC     00:00 / 04:00 / 08:00 / 10:00 / 12:00
+    - cron: '0 0,4,8,10,12 * * *'
   workflow_dispatch:
 
 permissions:
@@ -18,7 +20,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - name: Validate and refresh data status
+      - name: Validate JSON and refresh data status
         run: node scripts/refresh-data.mjs
       - name: Commit refreshed status
         uses: stefanzweifel/git-auto-commit-action@v5
