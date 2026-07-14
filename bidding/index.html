@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>政府招投标｜EXHIBITION RADAR</title>
+  <meta name="description" content="展陈、布展、数字展厅、博物馆、规划馆等政府招投标项目监测入口。">
+  <link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+  <header class="top"><div class="shell nav"><a class="brand" href="/"><span class="mark">ER</span><span>EXHIBITION RADAR</span></a><nav class="navlinks"><a class="active" href="/bidding/">政府招投标</a><a href="/intelligence/">全球新型展</a><a href="/cases/">行业龙头案例</a><a href="/resources/">设计灵感与AI工具</a></nav></div></header>
+  <main>
+    <section class="shell hero">
+      <p class="eyebrow">BIDDING RADAR</p>
+      <h1>全国展陈相关招投标监测入口</h1>
+      <p>面向展陈、布展、数字展厅、博物馆、纪念馆、规划馆、企业馆和沉浸式文旅项目。项目线索必须回到公告原文和附件核验。</p>
+      <div class="hero-actions"><a class="btn primary" href="/">返回首页</a><a class="btn green" href="https://www.ccgp.gov.cn/" target="_blank" rel="noopener">中国政府采购网</a><a class="btn" href="https://www.ggzy.gov.cn/" target="_blank" rel="noopener">公共资源平台</a><a class="btn" href="https://www.cebpubservice.com/" target="_blank" rel="noopener">招标投标平台</a></div>
+    </section>
+    <section class="shell"><div class="metrics" id="metrics"></div><div class="toolbar"><input id="q" class="search" placeholder="搜索：博物馆、数字沙盘、校史馆、文旅夜游…"><select id="category" class="select"><option value="all">全部类型</option></select><select id="status" class="select"><option value="all">全部状态</option><option value="needs_verification">待核验</option></select></div><div id="keywords" class="chips"></div></section>
+    <section class="shell section"><div class="section-head"><div><h2>官方平台</h2><p>先从权威入口检索，再进入公告原文和附件。</p></div></div><div id="sources" class="grid-3"></div></section>
+    <section class="shell section"><div class="section-head"><div><h2>项目线索</h2><p id="countText">正在加载数据…</p></div></div><div id="list" class="list"></div></section>
+    <section class="shell"><div class="data-note"><b>核验规则：</b>预算金额、采购人、开标时间、服务范围、资质要求、附件和联合体规则，必须以官方公告原文为准。本页不替代招标文件。</div></section>
+  </main>
+  <footer class="footer"><div class="shell">EXHIBITION RADAR · 数据文件：/data/bidding.json · GitHub Pages</div></footer>
+  <script>
+    const $=s=>document.querySelector(s); let db={items:[],sources:[],keywords:[]};
+    function sourceCard(s){return `<article class="source-card"><span class="badge bid">${s.type}</span><h3>${s.name}</h3><p>${s.use}</p><div class="actions"><a class="btn primary" href="${s.officialUrl}" target="_blank" rel="noopener">进入官网</a></div></article>`}
+    function itemCard(x){return `<article class="item"><div><span class="badge bid">${x.category}</span><h3>${x.title}</h3><p>${x.summary}</p><div class="meta"><span class="pill">${x.sourceName}</span><span class="pill">发布：${String(x.publishedAt).slice(0,10)}</span><span class="pill">预算：${x.budget}</span><span class="pill">截止：${x.deadline}</span><span class="pill status needs_verification">待核验</span></div><p><b>机会：</b>${x.opportunity}</p><p><b>风险：</b>${x.risk}</p></div><div class="actions"><a class="btn primary" href="${x.sourceUrl}" target="_blank" rel="noopener">查看平台</a></div></article>`}
+    function metrics(){const cats=new Set(db.items.map(x=>x.category)).size; $('#metrics').innerHTML=`<div class="metric"><b>${db.items.length}</b><span>项目线索</span></div><div class="metric"><b>${cats}</b><span>项目类型</span></div><div class="metric"><b>${db.sources.length}</b><span>官方平台</span></div><div class="metric"><b>${db.lastVerifiedAt}</b><span>最近核验</span></div>`}
+    function filters(){const cats=[...new Set(db.items.map(x=>x.category))].sort(); $('#category').innerHTML='<option value="all">全部类型</option>'+cats.map(c=>`<option>${c}</option>`).join(''); $('#keywords').innerHTML=db.keywords.map(k=>`<button class="chip" type="button">${k}</button>`).join(''); document.querySelectorAll('.chip').forEach(b=>b.onclick=()=>{$('#q').value=b.textContent;sync();});}
+    function sync(){const q=$('#q').value.trim().toLowerCase(), cat=$('#category').value, st=$('#status').value; const out=db.items.filter(x=>(cat==='all'||x.category===cat)&&(st==='all'||x.status===st)&&(!q||JSON.stringify(x).toLowerCase().includes(q))); $('#countText').textContent=`当前显示 ${out.length} / ${db.items.length} 条`; $('#list').innerHTML=out.map(itemCard).join('')||'<div class="data-note">没有匹配线索。</div>'}
+    fetch('/data/bidding.json').then(r=>r.json()).then(data=>{db=data; $('#sources').innerHTML=db.sources.map(sourceCard).join(''); metrics(); filters(); sync(); ['q','category','status'].forEach(id=>$('#'+id).addEventListener(id==='q'?'input':'change',sync));}).catch(()=>{$('#countText').textContent='数据加载失败，请检查 /data/bidding.json';});
+  </script>
+</body>
+</html>
