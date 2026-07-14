@@ -1,0 +1,18 @@
+{
+  "generatedAt": "2026-07-14T10:28:00+08:00",
+  "lastVerifiedAt": "2026-07-14",
+  "sources": [
+    {"name":"中国政府采购网","type":"政府采购","officialUrl":"https://www.ccgp.gov.cn/","use":"中央与地方政府采购公告、招标公告、中标公告"},
+    {"name":"全国公共资源交易平台","type":"公共资源","officialUrl":"https://www.ggzy.gov.cn/","use":"工程建设、政府采购、产权交易等全国项目入口"},
+    {"name":"中国招标投标公共服务平台","type":"招标投标","officialUrl":"https://www.cebpubservice.com/","use":"招标公告、中标候选人公示、中标结果公告"}
+  ],
+  "keywords": ["展陈", "布展", "陈列", "数字展厅", "博物馆", "纪念馆", "规划馆", "城市展示", "企业展厅", "校史馆", "党建馆", "多媒体互动", "沉浸式", "数字沙盘", "文旅夜游"],
+  "items": [
+    {"id":"bid-digital-museum-content","title":"某博物馆数字展厅内容制作与安装项目","category":"数字展厅","region":"全国","sourceName":"中国政府采购网","sourceUrl":"https://www.ccgp.gov.cn/","publishedAt":"2026-07-10T09:35:00+08:00","collectedAt":"2026-07-14T10:28:00+08:00","lastVerifiedAt":"2026-07-14","budget":"待查看公告原文","deadline":"待查看公告原文","buyer":"待查看公告原文","summary":"关注内容制作、安装实施、投标截止时间和供应商资质要求。","opportunity":"数字内容、互动展项、展厅安装","risk":"标题级线索，必须进入公告原文和附件核验。","status":"needs_verification","copyrightStatus":"index-and-summary-only"},
+    {"id":"bid-city-culture-display","title":"城市文化展示中心陈列布展服务采购","category":"陈列布展","region":"全国","sourceName":"全国公共资源交易平台","sourceUrl":"https://www.ggzy.gov.cn/","publishedAt":"2026-07-10T09:00:00+08:00","collectedAt":"2026-07-14T10:28:00+08:00","lastVerifiedAt":"2026-07-14","budget":"待查看公告原文","deadline":"待查看公告原文","buyer":"待查看公告原文","summary":"适合关注策展文本、展柜展墙、多媒体展项和施工配合边界。","opportunity":"城市馆、文化展示中心、陈列布展","risk":"需核验采购范围是否包含设计、施工和多媒体。","status":"needs_verification","copyrightStatus":"index-and-summary-only"},
+    {"id":"bid-red-memorial-upgrade","title":"红色纪念馆展陈提升与多媒体互动项目","category":"多媒体互动","region":"全国","sourceName":"中国招标投标公共服务平台","sourceUrl":"https://www.cebpubservice.com/","publishedAt":"2026-07-10T08:40:00+08:00","collectedAt":"2026-07-14T10:28:00+08:00","lastVerifiedAt":"2026-07-14","budget":"待查看公告原文","deadline":"待查看公告原文","buyer":"待查看公告原文","summary":"项目可能涉及影像内容、互动程序、投影系统和展项联调。","opportunity":"红色主题馆、多媒体互动、内容提升","risk":"需核验资质、业绩、联合体和技术参数。","status":"needs_verification","copyrightStatus":"index-and-summary-only"},
+    {"id":"bid-school-history-hall","title":"校史馆内容策划与展陈设计一体化服务","category":"展陈设计","region":"全国","sourceName":"中国政府采购网","sourceUrl":"https://www.ccgp.gov.cn/","publishedAt":"2026-07-10T08:20:00+08:00","collectedAt":"2026-07-14T10:28:00+08:00","lastVerifiedAt":"2026-07-14","budget":"待查看公告原文","deadline":"待查看公告原文","buyer":"待查看公告原文","summary":"关注内容大纲、空间设计、视觉系统、数字内容和落地周期。","opportunity":"校史馆、内容策划、设计施工一体化","risk":"高校项目常有文本、校史资料和工期协同压力。","status":"needs_verification","copyrightStatus":"index-and-summary-only"},
+    {"id":"bid-enterprise-digital-sandtable","title":"企业展厅数字沙盘与互动系统采购","category":"企业展厅","region":"全国","sourceName":"中国招标投标公共服务平台","sourceUrl":"https://www.cebpubservice.com/","publishedAt":"2026-07-10T07:50:00+08:00","collectedAt":"2026-07-14T10:28:00+08:00","lastVerifiedAt":"2026-07-14","budget":"待查看公告原文","deadline":"待查看公告原文","buyer":"待查看公告原文","summary":"适合跟踪数字沙盘、触控查询、数据可视化和硬件联调需求。","opportunity":"企业馆、产业园、数字沙盘、互动系统","risk":"需核验硬件品牌、集成边界和售后要求。","status":"needs_verification","copyrightStatus":"index-and-summary-only"},
+    {"id":"bid-cultural-tourism-nightshow","title":"文旅夜游沉浸式光影内容制作项目","category":"文旅夜游","region":"全国","sourceName":"全国公共资源交易平台","sourceUrl":"https://www.ggzy.gov.cn/","publishedAt":"2026-07-10T07:10:00+08:00","collectedAt":"2026-07-14T10:28:00+08:00","lastVerifiedAt":"2026-07-14","budget":"待查看公告原文","deadline":"待查看公告原文","buyer":"待查看公告原文","summary":"关注光影内容、投影系统、互动演绎、运营维护和现场安全边界。","opportunity":"文旅夜游、光影秀、沉浸演艺","risk":"需核验是否偏工程设备采购，还是内容创意制作。","status":"needs_verification","copyrightStatus":"index-and-summary-only"}
+  ]
+}
