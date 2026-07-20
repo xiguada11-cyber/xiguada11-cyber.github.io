@@ -3,66 +3,111 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>EXHIBITION RADAR｜个人展陈行业情报雷达</title>
-  <meta name="description" content="每天快速查看展陈行业文章、展览、案例、技术动态和项目机会。">
-  <link rel="stylesheet" href="/assets/site.css?v=20260714-personal-home">
+  <title>今天要推进什么？｜个人展陈项目助手</title>
+  <meta name="description" content="个人展陈项目助手：找参考、做方案、开工具，再看看本周真正值得关注的行业内容。">
+  <link rel="stylesheet" href="/assets/site.css?v=20260720-personal-workbench">
   <style>
-    .daily-hero{padding:28px 0 18px}.hero-stage{display:grid;grid-template-columns:minmax(340px,.43fr) minmax(0,.57fr);gap:24px;align-items:stretch}.hero-copy{display:flex;flex-direction:column;justify-content:center;min-height:500px}.hero-copy h1{font-size:clamp(42px,6vw,76px);line-height:1;margin:0;letter-spacing:0}.hero-copy p{max-width:540px;margin:16px 0 0;color:var(--muted);font-size:18px}.status-line{margin-top:14px;color:var(--muted);font-size:13px}.status-line b{color:var(--ink)}.hero-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:24px}.mosaic{display:grid;grid-template-columns:1.2fr .8fr;grid-template-rows:1fr 1fr;gap:10px;min-height:500px}.tile{position:relative;overflow:hidden;border-radius:8px;background:#17201c;border:1px solid var(--line)}.tile.big{grid-row:span 2}.tile img{width:100%;height:100%;object-fit:cover;filter:saturate(.72) contrast(.98);transition:transform .45s ease}.tile:hover img{transform:scale(1.04)}.tile:after,.today-img:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,16,14,0) 38%,rgba(10,16,14,.72))}.tile span{position:absolute;left:14px;right:14px;bottom:12px;z-index:2;color:white;font-size:13px}.today-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.today-card{border:1px solid var(--line);background:#fff;border-radius:8px;overflow:hidden;display:flex;flex-direction:column;min-height:390px}.today-img{height:140px;position:relative;background:#17201c}.today-img img{width:100%;height:100%;object-fit:cover;filter:saturate(.72);display:block}.today-body{padding:14px;display:flex;flex-direction:column;gap:8px;flex:1}.today-body h3{font-size:18px;line-height:1.25;margin:0}.today-body p{font-size:13px;color:var(--muted);margin:0}.why{border-left:3px solid var(--gold);padding:8px 0 8px 10px;background:#fbfcf9;color:var(--ink)!important}.mini-actions{display:flex;gap:7px;flex-wrap:wrap;margin-top:auto}.smallbtn{border:1px solid var(--line);background:#fff;border-radius:7px;padding:7px 9px;font-size:12px;color:var(--ink);cursor:pointer}.smallbtn.primary{background:var(--ink);border-color:var(--ink);color:white}.entry-grid2{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.entry2{border:1px solid var(--line);background:#fff;border-radius:8px;padding:15px;min-height:160px;display:flex;flex-direction:column;gap:8px}.entry2 h3{margin:0;font-size:18px}.entry2 p{margin:0;color:var(--muted);font-size:13px}.entry2 .btn{margin-top:auto;align-self:flex-start}.workflow-strip{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.workflow-mini{border:1px solid var(--line);background:#fff;border-radius:8px;padding:14px}.workflow-mini h3{font-size:16px;margin:0 0 7px}.workflow-mini p{font-size:13px;color:var(--muted);margin:0 0 10px}@media(max-width:1040px){.hero-stage{grid-template-columns:1fr}.hero-copy{min-height:auto}.mosaic{min-height:420px}.today-grid,.entry-grid2,.workflow-strip{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:720px){.mosaic{grid-template-columns:1fr;min-height:auto}.tile,.tile.big{height:210px;grid-row:auto}.today-grid,.entry-grid2,.workflow-strip{grid-template-columns:1fr}.hero-copy h1{font-size:40px}}
+    :root{--paper:#f6f3ec;--ink:#18211d;--muted:#6f776f;--line:#ded8ca;--gold:#b99042;--green:#4d6b58;--red:#8c4a3d}
+    body{background:var(--paper);color:var(--ink)}
+    .top{background:rgba(246,243,236,.94);backdrop-filter:blur(14px)}
+    .navlinks a.active{color:var(--ink);font-weight:700}
+    .home-hero{padding:34px 0 18px}
+    .hero-panel{display:grid;grid-template-columns:minmax(280px,.9fr) minmax(320px,1.1fr);gap:24px;align-items:end}
+    .hero-copy h1{font-size:clamp(42px,7vw,86px);line-height:.98;margin:0;letter-spacing:0;max-width:720px}
+    .hero-copy p{font-size:18px;line-height:1.7;color:var(--muted);max-width:640px;margin:18px 0 0}
+    .entry-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:22px}
+    .entry{position:relative;min-height:260px;border-radius:8px;overflow:hidden;border:1px solid rgba(24,33,29,.18);background:#111;display:flex;align-items:flex-end;text-decoration:none;color:#fff}
+    .entry img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:saturate(.72) contrast(.98);transition:transform .45s ease}
+    .entry:hover img{transform:scale(1.04)}
+    .entry:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.05) 18%,rgba(0,0,0,.72) 100%)}
+    .entry-body{position:relative;z-index:2;padding:18px;display:flex;flex-direction:column;gap:8px}
+    .entry-num{font-size:12px;letter-spacing:0;color:rgba(255,255,255,.72)}
+    .entry h2{font-size:24px;line-height:1.15;margin:0;color:#fff}
+    .entry p{font-size:13px;line-height:1.55;margin:0;color:rgba(255,255,255,.78)}
+    .section{padding:24px 0}.section-head{display:flex;align-items:end;justify-content:space-between;gap:16px;margin-bottom:12px}.section-head h2{font-size:24px;margin:0}.section-head p{font-size:13px;color:var(--muted);margin:6px 0 0}.plain-link{font-size:13px;color:var(--ink);text-decoration:none;border-bottom:1px solid var(--ink)}
+    .reading-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}.read-card{border:1px solid var(--line);background:#fff;border-radius:8px;padding:12px;display:flex;flex-direction:column;gap:8px;min-height:190px}.read-card h3{font-size:16px;line-height:1.28;margin:0}.read-card p{font-size:12px;color:var(--muted);line-height:1.5;margin:0}.read-card .reason{color:var(--ink);border-left:3px solid var(--gold);padding-left:8px}.card-actions{display:flex;gap:7px;flex-wrap:wrap;margin-top:auto}.mini-btn{border:1px solid var(--line);background:#fff;border-radius:7px;padding:7px 9px;font-size:12px;color:var(--ink);text-decoration:none;cursor:pointer}.mini-btn.primary{background:var(--ink);border-color:var(--ink);color:#fff}
+    .recent-wrap{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:12px}.recent-box{border:1px solid var(--line);background:#fff;border-radius:8px;padding:14px;min-height:132px}.recent-list{display:grid;gap:8px}.recent-item{display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid #eee8dc;padding:8px 0}.recent-item:last-child{border-bottom:0}.recent-item a{color:var(--ink);font-weight:700;text-decoration:none}.recent-item span{font-size:12px;color:var(--muted)}.empty{color:var(--muted);font-size:13px;line-height:1.7;margin:0}.quiet-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+    @media(max-width:1080px){.hero-panel{grid-template-columns:1fr}.reading-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.recent-wrap{grid-template-columns:1fr}}
+    @media(max-width:760px){.home-hero{padding-top:22px}.entry-grid,.reading-grid{grid-template-columns:1fr}.entry{min-height:210px}.hero-copy h1{font-size:40px}.hero-copy p{font-size:16px}.section-head{display:block}.navlinks{gap:10px}.navlinks a{font-size:12px}}
   </style>
 </head>
 <body>
-  <header class="top"><div class="shell nav"><a class="brand" href="/"><span class="mark">ER</span><span>EXHIBITION RADAR</span></a><nav class="navlinks"><a href="/intelligence/">行业情报</a><a href="/bidding/">招投标雷达</a><a href="/cases/">案例研究</a><a href="/resources/">灵感与AI工具</a><a href="/my/">我的</a><a href="/settings/">设置</a></nav></div></header>
+  <header class="top">
+    <div class="shell nav">
+      <a class="brand" href="/"><span class="mark">ER</span><span>个人展陈项目助手</span></a>
+      <nav class="navlinks">
+        <a class="active" href="/">首页</a>
+        <a href="/references/">项目参考</a>
+        <a href="/workflows/">方案工作流</a>
+        <a href="/tools/">常用工具</a>
+        <a href="/reading/">值得看</a>
+      </nav>
+    </div>
+  </header>
+
   <main>
-    <section class="shell daily-hero">
-      <div class="hero-stage">
+    <section class="shell home-hero">
+      <div class="hero-panel">
         <div class="hero-copy">
-          <p class="eyebrow">PERSONAL EXHIBITION RADAR</p>
-          <h1>今天，展陈行业发生了什么？</h1>
-          <p>聚合最新文章、展览、案例、技术与项目机会。先筛选，再进入原文。</p>
-          <div class="status-line" id="statusLine">今日更新 <b>读取中</b> · 本周收录 <b>读取中</b> · 最近核验 <b>2026-07-14</b></div>
-          <div class="hero-actions"><a class="btn primary" href="#today">查看今日更新</a><a class="btn green" href="/bidding/">浏览最新招标</a><a class="btn" href="/cases/">找案例</a><a class="btn gold" href="/resources/">用AI工具</a></div>
+          <p class="eyebrow">PERSONAL EXHIBITION WORKBENCH</p>
+          <h1>今天要推进什么？</h1>
+          <p>找参考、做方案、开工具，再看看行业里真正值得关注的变化。</p>
         </div>
-        <div class="mosaic">
-          <figure class="tile big"><img src="https://images.unsplash.com/photo-1545987796-200677ee1011?auto=format&fit=crop&w=1100&q=76" alt="博物馆展览空间"><span>博物馆 · 展陈空间 · 项目机会</span></figure>
-          <figure class="tile"><img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=760&q=74" alt="数字艺术"><span>数字艺术与沉浸式体验</span></figure>
-          <figure class="tile"><img src="https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=760&q=74" alt="设计工作台"><span>灵感、AI工具与方案工作流</span></figure>
+        <div class="recent-box" id="recentBox">
+          <h2 style="font-size:20px;margin:0 0 8px">最近使用</h2>
+          <div id="recentList" class="recent-list"></div>
+          <div class="quiet-actions"><a class="mini-btn" href="/my/">查看我的收藏</a></div>
         </div>
       </div>
-    </section>
-
-    <section class="shell section" id="today">
-      <div class="section-head"><div><h2>今日值得看</h2><p>不按时间机械排序，优先显示和展陈方案、项目机会、技术趋势相关的内容。</p></div></div>
-      <div id="todayGrid" class="today-grid"></div>
-    </section>
-
-    <section class="shell section">
-      <div class="section-head"><div><h2>快速进入</h2><p>四个模块对应每天最常见的四件事。</p></div></div>
-      <div class="entry-grid2">
-        <article class="entry2"><span class="badge">行业情报</span><h3>今天行业发生了什么</h3><p>文章、展览、案例、技术、公司动态和工具更新。</p><a class="btn primary" href="/intelligence/">看今日情报</a></article>
-        <article class="entry2"><span class="badge bid">招投标</span><h3>最近有什么项目机会</h3><p>展陈、布展、博物馆、纪念馆、数字展厅项目。</p><a class="btn green" href="/bidding/">查最新招标</a></article>
-        <article class="entry2"><span class="badge case">案例研究</span><h3>做方案时参考什么</h3><p>头部公司案例、项目类型和能力标签。</p><a class="btn red" href="/cases/">找案例</a></article>
-        <article class="entry2"><span class="badge tool">灵感工具</span><h3>现在用什么完成工作</h3><p>任务入口、设计灵感、AI工作流和工具官网。</p><a class="btn gold" href="/resources/">用AI工具</a></article>
+      <div class="entry-grid" aria-label="三个核心工作入口">
+        <a class="entry" href="/references/" data-entry="项目参考">
+          <img src="https://images.unsplash.com/photo-1545987796-200677ee1011?auto=format&fit=crop&w=1200&q=76" alt="博物馆展览空间">
+          <div class="entry-body"><span class="entry-num">01</span><h2>找项目参考</h2><p>按项目类型看可借鉴案例，不进入公司资产库。</p></div>
+        </a>
+        <a class="entry" href="/workflows/" data-entry="方案工作流">
+          <img src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=1200&q=76" alt="设计工作台">
+          <div class="entry-body"><span class="entry-num">02</span><h2>开始做方案</h2><p>策展逻辑、文案、汇报稿、概念图和视频流程。</p></div>
+        </a>
+        <a class="entry" href="/tools/" data-entry="常用工具">
+          <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1200&q=76" alt="数字创作界面">
+          <div class="entry-body"><span class="entry-num">03</span><h2>打开常用工具</h2><p>只保留高频工具，少点一次，快进入工作。</p></div>
+        </a>
       </div>
     </section>
 
     <section class="shell section">
-      <div class="section-head"><div><h2>常用工作流</h2><p>需要做方案时直接进。</p></div></div>
-      <div class="workflow-strip"><article class="workflow-mini"><h3>策展资料研究</h3><p>NotebookLM → ChatGPT / Claude → Notion</p><a class="btn" href="/resources/#workflows">进入</a></article><article class="workflow-mini"><h3>展厅概念图</h3><p>ChatGPT → 即梦 / Midjourney → Photoshop</p><a class="btn" href="/resources/#workflows">进入</a></article><article class="workflow-mini"><h3>效果图转视频</h3><p>Photoshop → Vidu / 可灵 → 剪映</p><a class="btn" href="/resources/#workflows">进入</a></article><article class="workflow-mini"><h3>方案汇报</h3><p>ChatGPT → PowerPoint / Figma → Napkin AI</p><a class="btn" href="/resources/#workflows">进入</a></article></div>
+      <div class="section-head">
+        <div><h2>本周值得看</h2><p>最多 5 条，只保留能帮你做项目、判断方向或获得灵感的内容。</p></div>
+        <a class="plain-link" href="/reading/">查看全部精选 →</a>
+      </div>
+      <div id="weeklyGrid" class="reading-grid"></div>
     </section>
   </main>
-  <footer class="footer"><div class="shell">EXHIBITION RADAR · 个人展陈行业阅读器与机会雷达 · 2026-07-14</div></footer>
-  <script src="/assets/personal.js?v=20260714"></script>
+
+  <footer class="footer"><div class="shell">个人展陈项目助手 · 本地状态保存在当前浏览器 · <a href="/my/">我的收藏</a></div></footer>
+  <script src="/assets/personal.js?v=20260720"></script>
   <script>
-    const $=s=>document.querySelector(s);
-    const fallbackIntel=[{id:'home-dezeen',contentType:'article',category:'行业文章',title:'Exhibitions are becoming multimedia and interactive driven',summary:'展览正在变得更依赖多媒体和互动体验。',whyItMatters:'适合判断互动、多媒体和沉浸式技术是否值得进入方案。',sourceName:'Dezeen',sourceUrl:'https://www.dezeen.com/2026/02/04/exhibitions-multimedia-interactive-bewunder/',publishedAt:'2026-02-04T08:00:03.000Z',coverImage:'https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=900&q=74',relevanceScore:92,freshnessScore:72},{id:'home-teamlab',contentType:'exhibition',category:'沉浸式与数字艺术',title:'teamLab Biovortex Kyoto',summary:'京都沉浸式数字艺术项目官方入口。',whyItMatters:'适合拆解人流、互动反馈和空间节奏。',sourceName:'teamLab',sourceUrl:'https://www.teamlab.art/e/biovortex-kyoto/',publishedAt:'2026-07-10T07:40:00+08:00',coverImage:'https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=900&q=74',relevanceScore:96,freshnessScore:80}];
-    const fallbackBid=[{id:'home-bid-houchang',contentType:'bidding',category:'招投标',title:'猴场会议纪念馆展陈提升项目公开招标公告',summary:'真实公告线索，需进入原文核验预算和资质。',whyItMatters:'纪念馆展陈提升与内容策划、空间叙事、多媒体展项高度相关。',sourceName:'中国政府采购网',sourceUrl:'http://www.ccgp.gov.cn/cggg/dfgg/gkzb/202607/t20260710_26909768.htm',publishedAt:'2026-07-10T07:00:43.783Z',coverImage:'https://images.unsplash.com/photo-1545987796-200677ee1011?auto=format&fit=crop&w=900&q=74',relevanceScore:94,freshnessScore:88}];
-    function score(x){return (x.freshnessScore||0)*.4+(x.relevanceScore||0)*.3+(x.contentType==='bidding'?20:14)}
-    function dateText(v){return v&&/^\d{4}/.test(v)?String(v).slice(0,10):'持续更新'}
-    function actions(x){return `<button class="smallbtn" data-action="favorites" data-id="${x.id}">${ERPersonal.label('favorites',x.id,'已收藏','收藏')}</button><button class="smallbtn" data-action="later" data-id="${x.id}">${ERPersonal.label('later',x.id,'已加入','稍后读')}</button><button class="smallbtn" data-action="read" data-id="${x.id}">${ERPersonal.label('read',x.id,'已读','标已读')}</button>`}
-    function card(x){return `<article class="today-card"><div class="today-img"><img src="${x.coverImage||'https://images.unsplash.com/photo-1545987796-200677ee1011?auto=format&fit=crop&w=900&q=74'}" alt=""></div><div class="today-body"><span class="badge ${x.contentType==='bidding'?'bid':''}">${x.category||x.contentType}</span><h3>${x.title}</h3><p>${x.sourceName||'来源'} · ${dateText(x.publishedAt)}</p><p>${x.summary||''}</p><p class="why"><b>值得看：</b>${x.whyItMatters||'适合作为方案前期参考。'}</p><div class="mini-actions"><a class="smallbtn primary" href="${x.sourceUrl}" target="_blank" rel="noopener">查看原文 ↗</a>${actions(x)}</div></div></article>`}
-    function render(list){const out=list.filter(x=>!ERPersonal.has('hidden',x.id)).sort((a,b)=>score(b)-score(a)).slice(0,6); $('#todayGrid').innerHTML=out.map(card).join(''); document.querySelectorAll('[data-action]').forEach(b=>b.onclick=()=>{const item=list.find(x=>x.id===b.dataset.id); ERPersonal.toggle(b.dataset.action,item); render(list);});}
-    render([...fallbackIntel,...fallbackBid]);
-    Promise.all([fetch(new URL('data/intelligence.json?v=20260714-radar',document.baseURI)).then(r=>r.json()),fetch(new URL('data/bidding.json?v=20260714-real',document.baseURI)).then(r=>r.json())]).then(([intel,bid])=>{const intelItems=(intel.items||[]).map(x=>({...x})); const bidItems=(bid.items||[]).map(x=>({...x,contentType:'bidding',category:'招投标',whyItMatters:x.attentionReason,coverImage:'https://images.unsplash.com/photo-1545987796-200677ee1011?auto=format&fit=crop&w=900&q=74',relevanceScore:x.attentionLevel==='重点关注'?94:76,freshnessScore:88})); const all=[...intelItems,...bidItems]; $('#statusLine').innerHTML=`今日更新 <b>${all.length}</b> 条 · 本周收录 <b>${all.length}</b> 条 · 最近核验 <b>2026-07-14</b>`; render(all);}).catch(()=>{$('#statusLine').innerHTML='今日更新 <b>兜底内容</b> · 数据同步 <b>稍后重试</b> · 最近核验 <b>2026-07-14</b>';});
+    const fallbackReading = [
+      {id:'fallback-teamlab',contentType:'全球新展',title:'teamLab Biovortex Kyoto',sourceName:'teamLab',sourceUrl:'https://www.teamlab.art/e/biovortex-kyoto/',summary:'京都常设数字艺术项目，适合看沉浸式动线。',whyItMatters:'适合拆解沉浸式展览的停留点与参与机制。'},
+      {id:'fallback-dezeen',contentType:'行业文章',title:'Exhibitions are becoming multimedia and interactive driven',sourceName:'Dezeen',sourceUrl:'https://www.dezeen.com/2026/02/04/exhibitions-multimedia-interactive-bewunder/',summary:'展览转向多媒体与互动驱动。',whyItMatters:'适合判断技术是否真的服务叙事。'}
+    ];
+    const $ = (selector) => document.querySelector(selector);
+    function dateText(value){return value && /^\d{4}/.test(value) ? String(value).slice(0,10) : '持续更新'}
+    function renderRecent(){
+      const recent = [...ERPersonal.all('recent'), ...ERPersonal.all('favorites'), ...ERPersonal.all('later')]
+        .filter((item, index, arr) => arr.findIndex((x) => x.id === item.id) === index)
+        .slice(0, 4);
+      $('#recentList').innerHTML = recent.length ? recent.map((item) => `<div class="recent-item"><a href="${item.url}" target="_blank" rel="noopener">${item.title}</a><span>${item.type || '记录'} · ${String(item.savedAt || '').slice(0,10)}</span></div>`).join('') : '<p class="empty">还没有记录。打开一个工具、收藏一条精选或进入一个工作流后，这里会自动出现。</p>';
+    }
+    function renderReading(items){
+      const visible = items.filter((item) => !ERPersonal.has('hidden', item.id)).slice(0, 5);
+      $('#weeklyGrid').innerHTML = visible.map((item) => `<article class="read-card"><span class="badge">${item.contentType}</span><h3>${item.title}</h3><p>${item.sourceName} · ${dateText(item.publishedAt)}</p><p>${item.summary || ''}</p><p class="reason">${item.whyItMatters || ''}</p><div class="card-actions"><a class="mini-btn primary" href="${item.sourceUrl}" target="_blank" rel="noopener" data-open="${item.id}">原文 ↗</a><button class="mini-btn" data-action="favorites" data-id="${item.id}">${ERPersonal.label('favorites', item.id, '已收藏', '收藏')}</button><button class="mini-btn" data-action="later" data-id="${item.id}">${ERPersonal.label('later', item.id, '已加入', '稍后读')}</button></div></article>`).join('');
+      document.querySelectorAll('[data-action]').forEach((button) => button.onclick = () => { const item = items.find((entry) => entry.id === button.dataset.id); ERPersonal.toggle(button.dataset.action, item); renderRecent(); renderReading(items); });
+      document.querySelectorAll('[data-open]').forEach((link) => link.onclick = () => { const item = items.find((entry) => entry.id === link.dataset.open); ERPersonal.remember(item); renderRecent(); });
+    }
+    document.querySelectorAll('[data-entry]').forEach((entry) => entry.addEventListener('click', () => ERPersonal.remember({id:'entry-' + entry.dataset.entry, title:entry.dataset.entry, url:entry.href, contentType:'工作入口'})));
+    renderRecent();
+    fetch('/data/reading-selected.json?v=20260720').then((res) => res.json()).then((data) => renderReading(data.items || fallbackReading)).catch(() => renderReading(fallbackReading));
   </script>
 </body>
 </html>
