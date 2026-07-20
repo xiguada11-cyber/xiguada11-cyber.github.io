@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>常用工具｜个人展陈项目助手</title>
+  <meta name="description" content="展陈策划、方案、视觉、AI图片视频和灵感参考的高频工具入口。">
+  <link rel="stylesheet" href="/assets/site.css?v=20260720-tools">
+  <style>
+    :root{--paper:#f6f3ec;--ink:#18211d;--muted:#6f776f;--line:#ded8ca;--gold:#b99042;--green:#4d6b58}
+    body{background:var(--paper);color:var(--ink)}.top{background:rgba(246,243,236,.94);backdrop-filter:blur(14px)}.navlinks a.active{color:var(--ink);font-weight:700}
+    .page-hero{padding:34px 0 14px}.page-hero h1{font-size:clamp(38px,6vw,72px);line-height:1;margin:0}.page-hero p{font-size:17px;line-height:1.7;color:var(--muted);max-width:760px;margin:14px 0 0}
+    .tool-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;padding:18px 0}.tool-card{border:1px solid var(--line);background:#fff;border-radius:8px;padding:14px;display:flex;flex-direction:column;gap:9px;min-height:190px}.tool-card h2{font-size:20px;margin:0}.tool-card p{font-size:13px;line-height:1.65;color:var(--muted);margin:0}.tool-card .method{color:var(--ink);border-left:3px solid var(--gold);padding-left:9px}.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:auto}.mini-btn{border:1px solid var(--line);background:#fff;border-radius:7px;padding:8px 10px;font-size:12px;color:var(--ink);text-decoration:none;cursor:pointer}.mini-btn.primary{background:var(--ink);border-color:var(--ink);color:#fff}.more{padding:4px 0 44px}.more details{border:1px solid var(--line);background:#fff;border-radius:8px;padding:14px}.more summary{cursor:pointer;font-weight:700}.more-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-top:12px}.more-item{border:1px solid #eee8dc;border-radius:7px;padding:10px;font-size:13px}.more-item a{color:var(--ink);font-weight:700;text-decoration:none}.more-item span{display:block;color:var(--muted);font-size:12px;margin-top:4px}
+    @media(max-width:980px){.tool-grid,.more-list{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:650px){.tool-grid,.more-list{grid-template-columns:1fr}.page-hero h1{font-size:40px}.navlinks{gap:10px}.navlinks a{font-size:12px}}
+  </style>
+</head>
+<body>
+<header class="top"><div class="shell nav"><a class="brand" href="/"><span class="mark">ER</span><span>个人展陈项目助手</span></a><nav class="navlinks"><a href="/">首页</a><a href="/references/">项目参考</a><a href="/workflows/">方案工作流</a><a class="active" href="/tools/">常用工具</a><a href="/reading/">值得看</a></nav></div></header>
+<main>
+  <section class="shell page-hero"><p class="eyebrow">COMMON TOOLS</p><h1>打开常用工具</h1><p>这里只放真正高频的入口。需要资料、文案、图片、视频、剪辑、汇报或灵感时，直接打开对应工具。</p></section>
+  <section class="shell"><div id="toolGrid" class="tool-grid"></div></section>
+  <section class="shell more"><details><summary>更多工具</summary><div id="moreList" class="more-list"></div></details></section>
+</main>
+<footer class="footer"><div class="shell">常用工具 · 外部工具价格和功能以官网为准。</div></footer>
+<script src="/assets/personal.js?v=20260720"></script>
+<script>
+const mainTools = [
+  {name:'ChatGPT',category:'策划与文案',role:'策展逻辑、展陈大纲、标题文案、设计理念和汇报结构。',method:'先让它做结构，再让它逐页细化，所有事实回到原始资料核验。',officialUrl:'https://chatgpt.com/'},
+  {name:'Codex',category:'网站与脚本',role:'维护这个个人网站、整理JSON数据、写采集脚本和页面功能。',method:'把目标、文件、发布地址说清楚，让它直接改代码并发布。',officialUrl:'https://chatgpt.com/'},
+  {name:'Claude',category:'长文档处理',role:'长资料阅读、策划文本润色、方案逻辑梳理。',method:'适合一次处理较长资料，先让它提炼冲突、缺口和可用素材。',officialUrl:'https://claude.ai/'},
+  {name:'NotebookLM',category:'资料库',role:'把法规、历史材料、访谈纪要和业主资料变成可追问资料库。',method:'先上传资料，再让它按主题、人物、时间线和待核验问题整理。',officialUrl:'https://notebooklm.google/'},
+  {name:'即梦AI',category:'AI图片/视频',role:'中文语境下生成展厅概念图、主视觉和短视频素材。',method:'用“空间主题+材质+光线+展项+氛围”写提示词，不直接当施工图。',officialUrl:'https://jimeng.jianying.com/'},
+  {name:'Vidu',category:'AI视频',role:'效果图转视频、空间推进镜头和方案动态演示。',method:'选结构稳定的效果图，先测试慢推进和环绕镜头。',officialUrl:'https://www.vidu.com/'},
+  {name:'可灵AI',category:'AI视频',role:'图生视频、文生视频、展项动态画面测试。',method:'控制镜头词，重点检查是否改变空间结构和展项位置。',officialUrl:'https://klingai.com/'},
+  {name:'剪映',category:'剪辑后期',role:'方案短片、字幕、旁白、镜头拼接和汇报输出。',method:'AI视频生成后统一在剪映加标题、旁白和节奏。',officialUrl:'https://www.capcut.cn/'},
+  {name:'Photoshop',category:'视觉处理',role:'主视觉合成、效果图后期、展板图片处理和局部修图。',method:'AI概念图先做结构校正，再统一色调、材质和品牌视觉。',officialUrl:'https://www.adobe.com/products/photoshop.html'},
+  {name:'PowerPoint',category:'汇报',role:'投标汇报、方案演示、甲方沟通版本。',method:'每页只保留一个判断，案例页保留来源链接。',officialUrl:'https://www.microsoft.com/microsoft-365/powerpoint'},
+  {name:'站酷',category:'平面视觉灵感',role:'中文视觉、海报、品牌和展览相关平面参考。',method:'用于找视觉语气和版式方向，不直接照搬画面。',officialUrl:'https://www.zcool.com.cn/'},
+  {name:'Behance',category:'视觉灵感',role:'国际视觉系统、展览视觉、品牌和空间表达参考。',method:'按关键词搜“exhibition identity / museum / wayfinding”。',officialUrl:'https://www.behance.net/'},
+  {name:'ArchDaily',category:'空间案例',role:'建筑、文化空间、博物馆和更新项目参考。',method:'适合看平面、材料、摄影和项目说明之间的关系。',officialUrl:'https://www.archdaily.com/'},
+  {name:'谷德设计网',category:'中文空间案例',role:'国内建筑、城市更新、文化空间和展陈相关项目参考。',method:'适合找中文项目背景、地点和设计说明。',officialUrl:'https://www.gooood.cn/'},
+  {name:'Pinterest',category:'快速灵感板',role:'情绪板、材料、色彩、装置和展览视觉碎片收集。',method:'只做灵感板，不作为事实来源或案例依据。',officialUrl:'https://www.pinterest.com/'}
+];
+const visibleNames = new Set(mainTools.map((tool) => tool.name));
+function card(tool){return `<article class="tool-card"><span class="badge">${tool.category}</span><h2>${tool.name}</h2><p>${tool.role}</p><p class="method"><b>常用方法：</b>${tool.method}</p><div class="actions"><a class="mini-btn primary" href="${tool.officialUrl}" target="_blank" rel="noopener" data-open="${tool.name}">立即打开官网 ↗</a><button class="mini-btn" data-action="favorites" data-id="tool-${tool.name}">${ERPersonal.label('favorites','tool-'+tool.name,'已收藏','收藏')}</button></div></article>`}
+function renderMain(){document.getElementById('toolGrid').innerHTML = mainTools.map(card).join(''); document.querySelectorAll('[data-open]').forEach((link)=>link.onclick=()=>{const tool=mainTools.find((entry)=>entry.name===link.dataset.open); ERPersonal.remember({id:'tool-'+tool.name,title:tool.name,url:tool.officialUrl,contentType:'工具'});}); document.querySelectorAll('[data-action]').forEach((button)=>button.onclick=()=>{const name=button.dataset.id.replace('tool-',''); const tool=mainTools.find((entry)=>entry.name===name); ERPersonal.toggle('favorites',{id:'tool-'+tool.name,title:tool.name,url:tool.officialUrl,contentType:'工具'}); renderMain();});}
+function renderMore(items){const extra=(items||[]).filter((tool)=>!visibleNames.has(tool.name)); document.getElementById('moreList').innerHTML = extra.length ? extra.map((tool)=>`<div class="more-item"><a href="${tool.officialUrl}" target="_blank" rel="noopener">${tool.name}</a><span>${tool.category || ''} · ${tool.role || ''}</span></div>`).join('') : '<div class="more-item">暂无更多工具。</div>';}
+renderMain(); fetch('/data/tools.json?v=20260720').then((res)=>res.json()).then((data)=>renderMore(data.items)).catch(()=>renderMore([]));
+</script>
+</body>
+</html>
