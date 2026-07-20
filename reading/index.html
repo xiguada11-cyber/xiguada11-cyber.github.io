@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>值得看｜个人展陈项目助手</title>
+  <meta name="description" content="只保留对展陈项目、策划、设计和创作真正有价值的精选内容。">
+  <link rel="stylesheet" href="/assets/site.css?v=20260720-reading">
+  <style>
+    :root{--paper:#f6f3ec;--ink:#18211d;--muted:#6f776f;--line:#ded8ca;--gold:#b99042;--green:#4d6b58;--red:#8c4a3d}
+    body{background:var(--paper);color:var(--ink)}.top{background:rgba(246,243,236,.94);backdrop-filter:blur(14px)}.navlinks a.active{color:var(--ink);font-weight:700}
+    .page-hero{padding:34px 0 14px}.page-hero h1{font-size:clamp(38px,6vw,72px);line-height:1;margin:0}.page-hero p{font-size:17px;line-height:1.7;color:var(--muted);max-width:760px;margin:14px 0 0}.policy{font-size:12px;color:var(--muted);border-left:3px solid var(--gold);padding:8px 0 8px 10px;margin-top:14px;max-width:760px;background:#fbfaf6}
+    .section-head{display:flex;align-items:end;justify-content:space-between;gap:16px;margin:16px 0 12px}.section-head h2{font-size:24px;margin:0}.section-head p{font-size:13px;color:var(--muted);margin:6px 0 0}.large-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}.large-card{border:1px solid var(--line);background:#fff;border-radius:8px;overflow:hidden;display:flex;flex-direction:column;min-height:510px}.cover{height:145px;background:#18211d}.cover img{width:100%;height:100%;object-fit:cover;filter:saturate(.75)}.body{padding:13px;display:flex;flex-direction:column;gap:8px;flex:1}.body h3{font-size:18px;line-height:1.28;margin:0}.meta{font-size:12px;color:var(--muted)}.qa{display:grid;gap:7px}.qa p{font-size:12px;line-height:1.58;margin:0;color:var(--muted)}.qa b{color:var(--ink)}.tags{display:flex;gap:6px;flex-wrap:wrap}.tag{font-size:11px;border:1px solid var(--line);border-radius:999px;padding:5px 7px;color:var(--muted)}.actions{display:flex;gap:7px;flex-wrap:wrap;margin-top:auto}.mini-btn{border:1px solid var(--line);background:#fff;border-radius:7px;padding:7px 9px;font-size:12px;color:var(--ink);text-decoration:none;cursor:pointer}.mini-btn.primary{background:var(--ink);border-color:var(--ink);color:#fff}.mini-btn.danger{border-color:#e2c8c0;color:#8c4a3d}.compact{display:grid;gap:8px;padding:0 0 44px}.compact-row{display:grid;grid-template-columns:120px minmax(0,1fr) 210px;gap:12px;align-items:center;border:1px solid var(--line);background:#fff;border-radius:8px;padding:11px}.compact-row h3{font-size:16px;margin:0}.compact-row p{font-size:12px;color:var(--muted);margin:4px 0 0;line-height:1.5}.score{font-size:12px;color:var(--muted);text-align:right}.empty{border:1px solid var(--line);background:#fff;border-radius:8px;padding:18px;color:var(--muted)}
+    @media(max-width:1180px){.large-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.compact-row{grid-template-columns:1fr}.score{text-align:left}}@media(max-width:680px){.large-grid{grid-template-columns:1fr}.page-hero h1{font-size:40px}.large-card{min-height:auto}.navlinks{gap:10px}.navlinks a{font-size:12px}}
+  </style>
+</head>
+<body>
+<header class="top"><div class="shell nav"><a class="brand" href="/"><span class="mark">ER</span><span>个人展陈项目助手</span></a><nav class="navlinks"><a href="/">首页</a><a href="/references/">项目参考</a><a href="/workflows/">方案工作流</a><a href="/tools/">常用工具</a><a class="active" href="/reading/">值得看</a></nav></div></header>
+<main>
+  <section class="shell page-hero">
+    <p class="eyebrow">WORTH READING</p>
+    <h1>值得看</h1>
+    <p>只保留对展陈项目、策划、设计和创作真正有价值的内容。</p>
+    <div class="policy">评分规则：项目参考价值 35% + 展陈相关性 30% + 来源质量 20% + 新鲜度 15%。不是因为新就展示，必须能说明可借鉴之处。</div>
+  </section>
+  <section class="shell">
+    <div class="section-head"><div><h2>本周精选</h2><p>上方最多 5 条，适合先看；已隐藏的内容不会继续显示。</p></div></div>
+    <div id="largeGrid" class="large-grid"></div>
+  </section>
+  <section class="shell">
+    <div class="section-head"><div><h2>紧凑列表</h2><p>剩余精选内容，保留来源和用途。</p></div></div>
+    <div id="compactList" class="compact"></div>
+  </section>
+</main>
+<footer class="footer"><div class="shell">值得看 · 精选内容来自官方机构、设计机构、专业媒体或高匹配公告。</div></footer>
+<script src="/assets/personal.js?v=20260720"></script>
+<script>
+const fallback = [{id:'fallback-dezeen',contentType:'行业文章',title:'Exhibitions are becoming multimedia and interactive driven',sourceName:'Dezeen',sourceUrl:'https://www.dezeen.com/2026/02/04/exhibitions-multimedia-interactive-bewunder/',publishedAt:'2026-02-04',summary:'文章讨论展览从静态陈列转向多媒体与互动驱动的趋势。',whyItMatters:'适合判断技术是否真的服务叙事。',useFor:['多媒体展项','沉浸方案','技术取舍'],score:90,coverImage:'https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=1100&q=76'}];
+let items = [];
+function dateText(value){return value && /^\d{4}/.test(value) ? String(value).slice(0,10) : '持续更新'}
+function rank(item){return (item.score || 0) - (ERPersonal.has('read', item.id) ? 6 : 0)}
+function actions(item){return `<div class="actions"><a class="mini-btn primary" href="${item.sourceUrl}" target="_blank" rel="noopener" data-open="${item.id}">查看原文 ↗</a><button class="mini-btn" data-action="favorites" data-id="${item.id}">${ERPersonal.label('favorites', item.id, '已收藏', '收藏')}</button><button class="mini-btn" data-action="later" data-id="${item.id}">${ERPersonal.label('later', item.id, '已加入', '稍后读')}</button><button class="mini-btn" data-action="read" data-id="${item.id}">${ERPersonal.label('read', item.id, '已读', '标已读')}</button><button class="mini-btn danger" data-action="hidden" data-id="${item.id}">隐藏</button></div>`}
+function largeCard(item){return `<article class="large-card"><div class="cover"><img src="${item.coverImage || 'https://images.unsplash.com/photo-1545987796-200677ee1011?auto=format&fit=crop&w=1100&q=76'}" alt=""></div><div class="body"><span class="badge">${item.contentType}</span><h3>${item.title}</h3><div class="meta">${item.sourceName} · ${dateText(item.publishedAt)}</div><div class="qa"><p><b>发生了什么：</b>${item.summary}</p><p><b>为什么值得看：</b>${item.whyItMatters}</p><p><b>可以用到哪里：</b></p></div><div class="tags">${(item.useFor||[]).slice(0,3).map((tag)=>`<span class="tag">${tag}</span>`).join('')}</div>${actions(item)}</div></article>`}
+function compactRow(item){return `<article class="compact-row"><span class="badge">${item.contentType}</span><div><h3>${item.title}</h3><p>${item.sourceName} · ${dateText(item.publishedAt)} · ${item.whyItMatters}</p><p>${(item.useFor||[]).slice(0,3).join(' / ')}</p></div><div class="score">综合分 ${item.score || '-'}<br><a class="mini-btn" href="${item.sourceUrl}" target="_blank" rel="noopener" data-open="${item.id}">原文 ↗</a></div></article>`}
+function bindActions(){document.querySelectorAll('[data-action]').forEach((button)=>button.onclick=()=>{const item=items.find((entry)=>entry.id===button.dataset.id); ERPersonal.toggle(button.dataset.action,item); render();}); document.querySelectorAll('[data-open]').forEach((link)=>link.onclick=()=>{const item=items.find((entry)=>entry.id===link.dataset.open); if(item) ERPersonal.remember(item);});}
+function render(){const visible=items.filter((item)=>!ERPersonal.has('hidden', item.id)).sort((a,b)=>rank(b)-rank(a)); const top=visible.slice(0,5); const rest=visible.slice(5,10); document.getElementById('largeGrid').innerHTML = top.length ? top.map(largeCard).join('') : '<div class="empty">当前没有可显示的精选内容。被隐藏的内容可以在 /my/ 里恢复。</div>'; document.getElementById('compactList').innerHTML = rest.length ? rest.map(compactRow).join('') : '<div class="empty">本周精选已全部显示在上方。</div>'; bindActions();}
+fetch('/data/reading-selected.json?v=20260720').then((res)=>res.json()).then((data)=>{items=data.items||fallback; render();}).catch(()=>{items=fallback; render();});
+</script>
+</body>
+</html>
