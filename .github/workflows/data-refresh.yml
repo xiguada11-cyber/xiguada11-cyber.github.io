@@ -1,4 +1,4 @@
-name: Refresh Exhibition Data Status
+name: Refresh Exhibition Reading Data
 
 on:
   schedule:
@@ -20,10 +20,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - name: Validate JSON and refresh data status
+      - name: Refresh curated reading data and status
         run: node scripts/refresh-data.mjs
-      - name: Commit refreshed status
+      - name: Commit refreshed data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: Update data refresh status
-          file_pattern: data/update-status.json
+          commit_message: Update curated reading data
+          file_pattern: data/reading-candidates.json data/reading-selected.json data/update-status.json
