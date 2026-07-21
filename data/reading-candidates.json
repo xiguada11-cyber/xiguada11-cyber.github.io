@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T09:33:45.666Z",
+  "generatedAt": "2026-07-21T15:57:24.113Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -216,6 +216,56 @@
       "selectionStatus": "watch"
     },
     {
+      "id": "feed-8bb02e738205",
+      "title": "experiments in love and revolution occupy malta pavilion at venice art biennale 2026",
+      "sourceName": "Designboom",
+      "sourceUrl": "https://www.designboom.com/art/malta-pavilion-at-venice-art-biennale-2026/",
+      "contentType": "行业文章",
+      "publishedAt": "2026-07-21",
+      "summary": "the exhibition ‘no need to sparkle; experiments in love and revolution’ expl...",
+      "whyItMatters": "适合判断内容是否能转化为展陈策略、视觉参考或项目提案素材。",
+      "useFor": [
+        "展陈策划"
+      ],
+      "relevanceScore": 73,
+      "referenceValueScore": 84,
+      "sourceQualityScore": 86,
+      "freshnessScore": 95,
+      "score": 82.8,
+      "matches": [
+        "exhibition",
+        "pavilion",
+        "biennale"
+      ],
+      "selectionStatus": "watch",
+      "harvestedAt": "2026-07-21T15:57:23.831Z"
+    },
+    {
+      "id": "feed-1a677d9775f2",
+      "title": "Museum celebrating work of RNLI among projects from Lancaster University",
+      "sourceName": "Dezeen",
+      "sourceUrl": "https://www.dezeen.com/2026/07/21/museum-celebrating-work-of-rnli-lancaster-university-schoolshows/",
+      "contentType": "行业文章",
+      "publishedAt": "2026-07-21",
+      "summary": "Dezeen School Shows: a museum dedicated to celebrating the history of Folkes...",
+      "whyItMatters": "适合拆解展线、展品说明和空间节奏之间的关系。",
+      "useFor": [
+        "博物馆",
+        "展陈策划"
+      ],
+      "relevanceScore": 64,
+      "referenceValueScore": 76,
+      "sourceQualityScore": 90,
+      "freshnessScore": 95,
+      "score": 78,
+      "matches": [
+        "exhibition",
+        "museum"
+      ],
+      "selectionStatus": "rejected",
+      "harvestedAt": "2026-07-21T15:57:23.249Z"
+    },
+    {
       "id": "feed-06a9d0e4b3e3",
       "title": "Selldorf Architects Unveils Design for Clark Art Institute Extension in Massachusetts",
       "sourceName": "ArchDaily",
@@ -239,6 +289,30 @@
       ],
       "selectionStatus": "rejected",
       "harvestedAt": "2026-07-20T10:34:33.998Z"
+    },
+    {
+      "id": "feed-1dd6363730ac",
+      "title": "MVRDV Wins Competition to Design Shift Embassy in Rotterdam",
+      "sourceName": "ArchDaily",
+      "sourceUrl": "https://www.archdaily.com/1181341/mvrdv-wins-competition-to-design-shift-embassy-in-rotterdam",
+      "contentType": "空间案例",
+      "publishedAt": "2026-07-21",
+      "summary": "MVRDV has won the international design competition organized by the social e...",
+      "whyItMatters": "适合判断内容是否能转化为展陈策略、视觉参考或项目提案素材。",
+      "useFor": [
+        "展陈策划"
+      ],
+      "relevanceScore": 64,
+      "referenceValueScore": 76,
+      "sourceQualityScore": 88,
+      "freshnessScore": 95,
+      "score": 77.7,
+      "matches": [
+        "exhibition",
+        "cultural"
+      ],
+      "selectionStatus": "rejected",
+      "harvestedAt": "2026-07-21T15:57:23.640Z"
     },
     {
       "id": "candidate-generic-ai-news",
