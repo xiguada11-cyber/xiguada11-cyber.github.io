@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T15:57:24.113Z",
+  "generatedAt": "2026-07-22T09:19:06.503Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -313,6 +313,54 @@
       ],
       "selectionStatus": "rejected",
       "harvestedAt": "2026-07-21T15:57:23.640Z"
+    },
+    {
+      "id": "feed-30ccad3c5c88",
+      "title": "REDGE Contemporary Art Center / Atelier Meadow",
+      "sourceName": "ArchDaily",
+      "sourceUrl": "https://www.archdaily.com/1148855/redge-contemporary-art-center-atelier-meadow",
+      "contentType": "空间案例",
+      "publishedAt": "2026-07-22",
+      "summary": "As contemporary buildings become obsolete faster than cities can regenerate ...",
+      "whyItMatters": "适合判断内容是否能转化为展陈策略、视觉参考或项目提案素材。",
+      "useFor": [
+        "展陈策划"
+      ],
+      "relevanceScore": 64,
+      "referenceValueScore": 76,
+      "sourceQualityScore": 88,
+      "freshnessScore": 95,
+      "score": 77.7,
+      "matches": [
+        "exhibition",
+        "cultural"
+      ],
+      "selectionStatus": "rejected",
+      "harvestedAt": "2026-07-22T09:19:06.059Z"
+    },
+    {
+      "id": "feed-9d2942b59e9b",
+      "title": "Martha Beatriz House / Atempo Arquitectura",
+      "sourceName": "ArchDaily",
+      "sourceUrl": "https://www.archdaily.com/1181404/martha-beatriz-house-atempo-arquitectura",
+      "contentType": "空间案例",
+      "publishedAt": "2026-07-21",
+      "summary": "Martha Beatriz House is a renovation and expansion project of a residence lo...",
+      "whyItMatters": "适合参考旧空间、地方记忆与新功能之间的转换方式。",
+      "useFor": [
+        "城市更新"
+      ],
+      "relevanceScore": 64,
+      "referenceValueScore": 76,
+      "sourceQualityScore": 88,
+      "freshnessScore": 95,
+      "score": 77.7,
+      "matches": [
+        "heritage",
+        "renovation"
+      ],
+      "selectionStatus": "rejected",
+      "harvestedAt": "2026-07-22T09:19:06.059Z"
     },
     {
       "id": "candidate-generic-ai-news",
