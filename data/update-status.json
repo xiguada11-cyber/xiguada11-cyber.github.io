@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-07-23T09:15:22.036Z",
+  "generatedAt": "2026-07-23T16:09:32.459Z",
   "sourcePolicy": "Use official pages, professional media, RSS/API feeds where available, and manually verified public sources. Do not publish raw harvested content before scoring.",
   "readingPolicy": {
     "positioning": "个人展陈项目助手 + 高价值行业内容精选",
     "selectionRule": "35% reference value + 30% exhibition relevance + 20% source quality + 15% freshness",
     "threshold": 82,
     "selectedItems": 8,
-    "candidateItems": 18,
+    "candidateItems": 19,
     "averageSelectedScore": 89.5,
     "latestSelectedPublishedAt": "2026-07-20",
-    "harvestedItemsThisRun": 1
+    "harvestedItemsThisRun": 2
   },
   "channels": {
     "readingSelected": {
       "items": 8,
-      "lastVerifiedAt": "2026-07-23T09:15:22.034Z",
+      "lastVerifiedAt": "2026-07-23T16:09:32.458Z",
       "latestPublishedAt": "2026-07-20"
     },
     "readingCandidates": {
-      "items": 18,
-      "lastVerifiedAt": "2026-07-23T09:15:22.034Z",
+      "items": 19,
+      "lastVerifiedAt": "2026-07-23T16:09:32.458Z",
       "latestPublishedAt": "2026-07-23"
     },
     "bidding": {
@@ -49,7 +49,7 @@
     }
   },
   "totals": {
-    "items": 127,
+    "items": 128,
     "sources": 35,
     "latestPublishedAt": "2026-07-23"
   },

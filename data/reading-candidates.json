@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T09:15:22.034Z",
+  "generatedAt": "2026-07-23T16:09:32.458Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -385,6 +385,30 @@
       ],
       "selectionStatus": "rejected",
       "harvestedAt": "2026-07-22T09:19:06.059Z"
+    },
+    {
+      "id": "feed-9e4a4edc767f",
+      "title": "Rike Park Music Theater in Tbilisi and CRA's Residential Tower in Seoul: This Week's Review",
+      "sourceName": "ArchDaily",
+      "sourceUrl": "https://www.archdaily.com/1181538/rike-park-music-theater-in-tbilisi-and-cras-residential-tower-in-seoul-this-weeks-review",
+      "contentType": "空间案例",
+      "publishedAt": "2026-07-23",
+      "summary": "This week in architecture , discussions around the lifespan of buildings, th...",
+      "whyItMatters": "适合拆解展线、展品说明和空间节奏之间的关系。",
+      "useFor": [
+        "博物馆"
+      ],
+      "relevanceScore": 64,
+      "referenceValueScore": 76,
+      "sourceQualityScore": 88,
+      "freshnessScore": 95,
+      "score": 77.7,
+      "matches": [
+        "museum",
+        "cultural"
+      ],
+      "selectionStatus": "rejected",
+      "harvestedAt": "2026-07-23T16:09:32.019Z"
     },
     {
       "id": "candidate-generic-ai-news",
