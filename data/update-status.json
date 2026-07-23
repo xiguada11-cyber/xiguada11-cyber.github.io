@@ -1,26 +1,26 @@
 {
-  "generatedAt": "2026-07-22T15:53:47.817Z",
+  "generatedAt": "2026-07-23T09:15:22.036Z",
   "sourcePolicy": "Use official pages, professional media, RSS/API feeds where available, and manually verified public sources. Do not publish raw harvested content before scoring.",
   "readingPolicy": {
     "positioning": "个人展陈项目助手 + 高价值行业内容精选",
     "selectionRule": "35% reference value + 30% exhibition relevance + 20% source quality + 15% freshness",
     "threshold": 82,
     "selectedItems": 8,
-    "candidateItems": 17,
+    "candidateItems": 18,
     "averageSelectedScore": 89.5,
     "latestSelectedPublishedAt": "2026-07-20",
-    "harvestedItemsThisRun": 2
+    "harvestedItemsThisRun": 1
   },
   "channels": {
     "readingSelected": {
       "items": 8,
-      "lastVerifiedAt": "2026-07-22T15:53:47.816Z",
+      "lastVerifiedAt": "2026-07-23T09:15:22.034Z",
       "latestPublishedAt": "2026-07-20"
     },
     "readingCandidates": {
-      "items": 17,
-      "lastVerifiedAt": "2026-07-22T15:53:47.816Z",
-      "latestPublishedAt": "2026-07-22"
+      "items": 18,
+      "lastVerifiedAt": "2026-07-23T09:15:22.034Z",
+      "latestPublishedAt": "2026-07-23"
     },
     "bidding": {
       "items": 4,
@@ -49,9 +49,9 @@
     }
   },
   "totals": {
-    "items": 126,
+    "items": 127,
     "sources": 35,
-    "latestPublishedAt": "2026-07-22"
+    "latestPublishedAt": "2026-07-23"
   },
   "nextStep": "Add source-specific adapters for government procurement and sources without stable feeds; keep manual review for selected content."
 }

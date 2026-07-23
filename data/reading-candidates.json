@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T15:53:47.816Z",
+  "generatedAt": "2026-07-23T09:15:22.034Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -264,6 +264,30 @@
       ],
       "selectionStatus": "rejected",
       "harvestedAt": "2026-07-21T15:57:23.249Z"
+    },
+    {
+      "id": "feed-eaae1da56e22",
+      "title": "\"New York&#039;s largest kaleidoscope\" among immersive artworks at Edge NYC viewpoint",
+      "sourceName": "Dezeen",
+      "sourceUrl": "https://www.dezeen.com/2026/07/23/edge-nyc-viewpoint-new-york-kaleidoscope-attraction/",
+      "contentType": "行业文章",
+      "publishedAt": "2026-07-23",
+      "summary": "Design studios Softlab and Moment Factory have created seven immersive insta...",
+      "whyItMatters": "适合观察互动、停留点和镜头化空间如何服务叙事。",
+      "useFor": [
+        "沉浸式体验"
+      ],
+      "relevanceScore": 64,
+      "referenceValueScore": 76,
+      "sourceQualityScore": 90,
+      "freshnessScore": 95,
+      "score": 78,
+      "matches": [
+        "installation",
+        "immersive"
+      ],
+      "selectionStatus": "rejected",
+      "harvestedAt": "2026-07-23T09:15:21.847Z"
     },
     {
       "id": "feed-06a9d0e4b3e3",
