@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T07:34:49.813Z",
+  "generatedAt": "2026-07-25T11:52:06.890Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -458,6 +458,31 @@
       ],
       "selectionStatus": "rejected",
       "harvestedAt": "2026-07-25T07:34:49.105Z"
+    },
+    {
+      "id": "feed-4bde4ae2d04d",
+      "title": "Bentinck Apartment / agence ontwerp",
+      "sourceName": "ArchDaily",
+      "sourceUrl": "https://www.archdaily.com/1148756/bentinck-agence-ontwerp",
+      "contentType": "空间案例",
+      "publishedAt": "2026-07-25",
+      "summary": "The project marks the beginning of agence ontwerp's work on highlighting 196...",
+      "whyItMatters": "适合参考旧空间、地方记忆与新功能之间的转换方式。",
+      "useFor": [
+        "城市更新",
+        "展陈策划"
+      ],
+      "relevanceScore": 64,
+      "referenceValueScore": 76,
+      "sourceQualityScore": 88,
+      "freshnessScore": 95,
+      "score": 77.7,
+      "matches": [
+        "gallery",
+        "heritage"
+      ],
+      "selectionStatus": "rejected",
+      "harvestedAt": "2026-07-25T11:52:05.783Z"
     },
     {
       "id": "feed-4e8c05e16655",
