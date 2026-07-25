@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T15:18:33.218Z",
+  "generatedAt": "2026-07-25T07:34:49.813Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -434,6 +434,54 @@
       ],
       "selectionStatus": "rejected",
       "harvestedAt": "2026-07-24T15:18:32.343Z"
+    },
+    {
+      "id": "feed-7ea5ffe6e882",
+      "title": "València Design Fest",
+      "sourceName": "ArchDaily",
+      "sourceUrl": "https://www.archdaily.com/1181584/valencia-design-fest",
+      "contentType": "空间案例",
+      "publishedAt": "2026-07-24",
+      "summary": "During the months of September and October, Valencia celebrates this interna...",
+      "whyItMatters": "适合判断内容是否能转化为展陈策略、视觉参考或项目提案素材。",
+      "useFor": [
+        "展陈策划"
+      ],
+      "relevanceScore": 64,
+      "referenceValueScore": 76,
+      "sourceQualityScore": 88,
+      "freshnessScore": 95,
+      "score": 77.7,
+      "matches": [
+        "exhibition",
+        "cultural"
+      ],
+      "selectionStatus": "rejected",
+      "harvestedAt": "2026-07-25T07:34:49.105Z"
+    },
+    {
+      "id": "feed-4e8c05e16655",
+      "title": "Pan-African Biennale - Open Call: Short Film",
+      "sourceName": "ArchDaily",
+      "sourceUrl": "https://www.archdaily.com/1181605/pan-african-biennale-open-call-short-film",
+      "contentType": "空间案例",
+      "publishedAt": "2026-07-24",
+      "summary": "The Pan-African Biennale (PAB) is a continental platform dedicated to docume...",
+      "whyItMatters": "适合判断内容是否能转化为展陈策略、视觉参考或项目提案素材。",
+      "useFor": [
+        "展陈策划"
+      ],
+      "relevanceScore": 64,
+      "referenceValueScore": 58,
+      "sourceQualityScore": 88,
+      "freshnessScore": 95,
+      "score": 71.3,
+      "matches": [
+        "biennale",
+        "cultural"
+      ],
+      "selectionStatus": "rejected",
+      "harvestedAt": "2026-07-25T07:34:49.104Z"
     },
     {
       "id": "candidate-generic-ai-news",
