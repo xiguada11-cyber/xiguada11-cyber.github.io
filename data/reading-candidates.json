@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T10:04:35.588Z",
+  "generatedAt": "2026-07-28T17:12:57.156Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -241,6 +241,31 @@
       "harvestedAt": "2026-07-27T12:40:40.101Z"
     },
     {
+      "id": "feed-4471ea5e4f3d",
+      "title": "The ECC Awards Shortlist Explores Memory, Identity and Technology in Venice",
+      "sourceName": "ArchDaily",
+      "sourceUrl": "https://www.archdaily.com/1181697/the-ecc-awards-shortlist-explores-memory-identity-and-technology-in-venice",
+      "contentType": "空间案例",
+      "publishedAt": "2026-07-28",
+      "summary": "The European Cultural Centre Italy has announced the finalists of the ECC Aw...",
+      "whyItMatters": "适合判断内容是否能转化为展陈策略、视觉参考或项目提案素材。",
+      "useFor": [
+        "展陈策划"
+      ],
+      "relevanceScore": 73,
+      "referenceValueScore": 84,
+      "sourceQualityScore": 88,
+      "freshnessScore": 95,
+      "score": 83.2,
+      "matches": [
+        "exhibition",
+        "biennale",
+        "cultural"
+      ],
+      "selectionStatus": "watch",
+      "harvestedAt": "2026-07-28T17:12:56.181Z"
+    },
+    {
       "id": "feed-8bb02e738205",
       "title": "experiments in love and revolution occupy malta pavilion at venice art biennale 2026",
       "sourceName": "Designboom",
@@ -313,6 +338,30 @@
       ],
       "selectionStatus": "rejected",
       "harvestedAt": "2026-07-23T09:15:21.847Z"
+    },
+    {
+      "id": "feed-f38396786afd",
+      "title": "Sinuous form of Shenzhen Natural History Museum emulates \"a piece of landscape\"",
+      "sourceName": "Dezeen",
+      "sourceUrl": "https://www.dezeen.com/2026/07/28/shenzhen-natural-history-museum-3xn/",
+      "contentType": "行业文章",
+      "publishedAt": "2026-07-28",
+      "summary": "Granite cloaks the sweeping form of Shenzhen Natural History Museum, complet...",
+      "whyItMatters": "适合拆解展线、展品说明和空间节奏之间的关系。",
+      "useFor": [
+        "博物馆"
+      ],
+      "relevanceScore": 64,
+      "referenceValueScore": 76,
+      "sourceQualityScore": 90,
+      "freshnessScore": 95,
+      "score": 78,
+      "matches": [
+        "museum",
+        "cultural"
+      ],
+      "selectionStatus": "rejected",
+      "harvestedAt": "2026-07-28T17:12:56.047Z"
     },
     {
       "id": "feed-06a9d0e4b3e3",
