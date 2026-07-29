@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T10:14:27.632Z",
+  "generatedAt": "2026-07-29T16:52:58.425Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -264,6 +264,32 @@
       ],
       "selectionStatus": "watch",
       "harvestedAt": "2026-07-28T17:12:56.181Z"
+    },
+    {
+      "id": "feed-bbb90a906ae9",
+      "title": "Shenzhen Natural History Museum Designed by 3XN, B+H Architects, and Zhubo Opens in China",
+      "sourceName": "ArchDaily",
+      "sourceUrl": "https://www.archdaily.com/1181785/shenzhen-natural-history-museum-designed-by-3xn-b-plus-h-architects-and-zhubo-opens-in-china",
+      "contentType": "空间案例",
+      "publishedAt": "2026-07-29",
+      "summary": "Designed by the 3XN , B+H Architects , and Zhubo Design consortium, the Shen...",
+      "whyItMatters": "适合拆解展线、展品说明和空间节奏之间的关系。",
+      "useFor": [
+        "博物馆",
+        "展陈策划"
+      ],
+      "relevanceScore": 73,
+      "referenceValueScore": 84,
+      "sourceQualityScore": 88,
+      "freshnessScore": 95,
+      "score": 83.2,
+      "matches": [
+        "exhibition",
+        "museum",
+        "cultural"
+      ],
+      "selectionStatus": "watch",
+      "harvestedAt": "2026-07-29T16:52:57.511Z"
     },
     {
       "id": "feed-8bb02e738205",
@@ -630,6 +656,30 @@
       ],
       "selectionStatus": "rejected",
       "harvestedAt": "2026-07-27T12:40:40.101Z"
+    },
+    {
+      "id": "feed-cc96cc9b21e8",
+      "title": "From Aalto Works to Tashkent Modernism: Discover the 19 New Cultural Sites Added to the UNESCO World Heritage List in 2026",
+      "sourceName": "ArchDaily",
+      "sourceUrl": "https://www.archdaily.com/1181787/from-aalto-works-to-tashkent-modernism-discover-the-19-new-cultural-sites-added-to-the-unesco-world-heritage-list-in-2026",
+      "contentType": "空间案例",
+      "publishedAt": "2026-07-29",
+      "summary": "The UNESCO World Heritage Committee has announced 25 new inscriptions to the...",
+      "whyItMatters": "适合参考旧空间、地方记忆与新功能之间的转换方式。",
+      "useFor": [
+        "城市更新"
+      ],
+      "relevanceScore": 64,
+      "referenceValueScore": 58,
+      "sourceQualityScore": 88,
+      "freshnessScore": 95,
+      "score": 71.3,
+      "matches": [
+        "cultural",
+        "heritage"
+      ],
+      "selectionStatus": "rejected",
+      "harvestedAt": "2026-07-29T16:52:57.511Z"
     },
     {
       "id": "candidate-generic-ai-news",
