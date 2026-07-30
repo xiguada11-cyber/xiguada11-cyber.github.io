@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T09:37:25.098Z",
+  "generatedAt": "2026-07-30T16:06:41.051Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -290,6 +290,57 @@
       ],
       "selectionStatus": "watch",
       "harvestedAt": "2026-07-29T16:52:57.511Z"
+    },
+    {
+      "id": "feed-653fe344141f",
+      "title": "Australian Pavilion Explores Multi-Dwelling Housing Through \"Lived In\" at the 2027 Venice Architecture Biennale",
+      "sourceName": "ArchDaily",
+      "sourceUrl": "https://www.archdaily.com/1181857/australian-pavilion-explores-multi-dwelling-housing-through-lived-in-at-the-2027-venice-architecture-biennale",
+      "contentType": "空间案例",
+      "publishedAt": "2026-07-30",
+      "summary": "The Australian Institute of Architects has announced \"Lived In\" as Australia...",
+      "whyItMatters": "适合判断内容是否能转化为展陈策略、视觉参考或项目提案素材。",
+      "useFor": [
+        "展陈策划"
+      ],
+      "relevanceScore": 73,
+      "referenceValueScore": 84,
+      "sourceQualityScore": 88,
+      "freshnessScore": 95,
+      "score": 83.2,
+      "matches": [
+        "exhibition",
+        "pavilion",
+        "biennale"
+      ],
+      "selectionStatus": "watch",
+      "harvestedAt": "2026-07-30T16:06:40.408Z"
+    },
+    {
+      "id": "feed-61933973a34d",
+      "title": "19 New UNESCO World Heritage Sites and the Restoration of Hollywood's Cinerama Dome: This Week's Review",
+      "sourceName": "ArchDaily",
+      "sourceUrl": "https://www.archdaily.com/1181852/19-new-unesco-world-heritage-sites-and-the-restoration-of-hollywoods-cinerama-dome-this-weeks-review",
+      "contentType": "空间案例",
+      "publishedAt": "2026-07-30",
+      "summary": "This week was marked by recognition and major announcements for the cultural...",
+      "whyItMatters": "适合参考旧空间、地方记忆与新功能之间的转换方式。",
+      "useFor": [
+        "博物馆",
+        "城市更新"
+      ],
+      "relevanceScore": 73,
+      "referenceValueScore": 84,
+      "sourceQualityScore": 88,
+      "freshnessScore": 95,
+      "score": 83.2,
+      "matches": [
+        "museum",
+        "cultural",
+        "heritage"
+      ],
+      "selectionStatus": "watch",
+      "harvestedAt": "2026-07-30T16:06:40.408Z"
     },
     {
       "id": "feed-8bb02e738205",
@@ -633,6 +684,31 @@
       ],
       "selectionStatus": "rejected",
       "harvestedAt": "2026-07-27T12:40:40.101Z"
+    },
+    {
+      "id": "feed-26dfdc0c865b",
+      "title": "studio frank havermans frames 500-year-old dutch house with timber scaffolding structures",
+      "sourceName": "Designboom",
+      "sourceUrl": "https://www.designboom.com/art/studio-frank-havermans-500-year-old-dutch-house-timber-scaffolding-structures-besiendershuis-nijmegen/",
+      "contentType": "行业文章",
+      "publishedAt": "2026-07-30",
+      "summary": "a temporary architectural installation embraces the historic structure of a ...",
+      "whyItMatters": "适合观察互动、停留点和镜头化空间如何服务叙事。",
+      "useFor": [
+        "沉浸式体验",
+        "城市更新"
+      ],
+      "relevanceScore": 64,
+      "referenceValueScore": 76,
+      "sourceQualityScore": 86,
+      "freshnessScore": 95,
+      "score": 77.3,
+      "matches": [
+        "installation",
+        "heritage"
+      ],
+      "selectionStatus": "rejected",
+      "harvestedAt": "2026-07-30T16:06:40.895Z"
     },
     {
       "id": "feed-4e8c05e16655",
