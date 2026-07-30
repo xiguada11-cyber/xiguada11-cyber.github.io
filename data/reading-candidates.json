@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T16:52:58.425Z",
+  "generatedAt": "2026-07-30T09:37:25.098Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -388,6 +388,31 @@
       ],
       "selectionStatus": "rejected",
       "harvestedAt": "2026-07-28T17:12:56.047Z"
+    },
+    {
+      "id": "feed-f1405b5e951c",
+      "title": "Industrial-style technology museum set to be built in Bengaluru",
+      "sourceName": "Dezeen",
+      "sourceUrl": "https://www.dezeen.com/2026/07/30/bengaluru-museum-innovation-startup-technology/",
+      "contentType": "行业文章",
+      "publishedAt": "2026-07-30",
+      "summary": "Plans have been announced for a technology and innovation museum in Bengalur...",
+      "whyItMatters": "适合拆解展线、展品说明和空间节奏之间的关系。",
+      "useFor": [
+        "博物馆",
+        "展陈策划"
+      ],
+      "relevanceScore": 64,
+      "referenceValueScore": 76,
+      "sourceQualityScore": 90,
+      "freshnessScore": 95,
+      "score": 78,
+      "matches": [
+        "exhibition",
+        "museum"
+      ],
+      "selectionStatus": "rejected",
+      "harvestedAt": "2026-07-30T09:37:23.949Z"
     },
     {
       "id": "feed-06a9d0e4b3e3",
