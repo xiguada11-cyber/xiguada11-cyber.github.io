@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T17:12:11.475Z",
+  "generatedAt": "2026-08-01T07:53:50.750Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -735,6 +735,30 @@
       ],
       "selectionStatus": "rejected",
       "harvestedAt": "2026-07-31T17:12:10.311Z"
+    },
+    {
+      "id": "feed-98e388f10392",
+      "title": "Raconte-moi un secret Installation / coletivo 624",
+      "sourceName": "ArchDaily",
+      "sourceUrl": "https://www.archdaily.com/1182027/raconte-moi-un-secret-installation-coletivo-624",
+      "contentType": "空间案例",
+      "publishedAt": "2026-07-31",
+      "summary": "\"Raconte-moi un secret\" is an interactive sound installation that invites th...",
+      "whyItMatters": "适合观察互动、停留点和镜头化空间如何服务叙事。",
+      "useFor": [
+        "沉浸式体验"
+      ],
+      "relevanceScore": 64,
+      "referenceValueScore": 76,
+      "sourceQualityScore": 88,
+      "freshnessScore": 95,
+      "score": 77.7,
+      "matches": [
+        "installation",
+        "interactive"
+      ],
+      "selectionStatus": "rejected",
+      "harvestedAt": "2026-08-01T07:53:49.843Z"
     },
     {
       "id": "feed-26dfdc0c865b",
