@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T15:47:19.130Z",
+  "generatedAt": "2026-08-03T12:40:41.910Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -367,6 +367,33 @@
       ],
       "selectionStatus": "watch",
       "harvestedAt": "2026-07-31T17:12:10.311Z"
+    },
+    {
+      "id": "feed-5de454d69dea",
+      "title": "Museum of Art Pudong Presents \"Jean Nouvel: Without the Artist, Architecture Disappears\" in Shanghai",
+      "sourceName": "ArchDaily",
+      "sourceUrl": "https://www.archdaily.com/1182085/museum-of-art-pudong-presents-jean-nouvel-without-the-artist-architecture-disappears-in-shanghai",
+      "contentType": "空间案例",
+      "publishedAt": "2026-08-03",
+      "summary": "Museum of Art Pudong (MAP) in Shanghai is presenting \"Jean Nouvel: Without t...",
+      "whyItMatters": "适合观察互动、停留点和镜头化空间如何服务叙事。",
+      "useFor": [
+        "博物馆",
+        "沉浸式体验",
+        "展陈策划"
+      ],
+      "relevanceScore": 73,
+      "referenceValueScore": 84,
+      "sourceQualityScore": 88,
+      "freshnessScore": 95,
+      "score": 83.2,
+      "matches": [
+        "exhibition",
+        "museum",
+        "installation"
+      ],
+      "selectionStatus": "watch",
+      "harvestedAt": "2026-08-03T12:40:41.351Z"
     },
     {
       "id": "feed-8bb02e738205",
@@ -856,6 +883,54 @@
       ],
       "selectionStatus": "rejected",
       "harvestedAt": "2026-07-29T16:52:57.511Z"
+    },
+    {
+      "id": "feed-4994b85c7fd6",
+      "title": "Getty Foundation's Conserving Black Modernism Program Announces Five New Grantee Sites",
+      "sourceName": "ArchDaily",
+      "sourceUrl": "https://www.archdaily.com/1182057/getty-foundations-conserving-black-modernism-program-announces-five-new-grantee-sites",
+      "contentType": "空间案例",
+      "publishedAt": "2026-08-03",
+      "summary": "The Getty Foundation 's Conserving Black Modernism initiative is a program d...",
+      "whyItMatters": "适合参考旧空间、地方记忆与新功能之间的转换方式。",
+      "useFor": [
+        "城市更新"
+      ],
+      "relevanceScore": 64,
+      "referenceValueScore": 58,
+      "sourceQualityScore": 88,
+      "freshnessScore": 95,
+      "score": 71.3,
+      "matches": [
+        "cultural",
+        "heritage"
+      ],
+      "selectionStatus": "rejected",
+      "harvestedAt": "2026-08-03T12:40:41.351Z"
+    },
+    {
+      "id": "feed-925bd97041bc",
+      "title": "Soviet Modernism in Central Asia: The Dilemma of Recent Heritage",
+      "sourceName": "ArchDaily",
+      "sourceUrl": "https://www.archdaily.com/1148580/soviet-modernism-in-central-asia-the-dilemma-of-recent-heritage",
+      "contentType": "空间案例",
+      "publishedAt": "2026-08-03",
+      "summary": "Over the last decade, Uzbekistan has done what most post-Soviet countries st...",
+      "whyItMatters": "适合参考旧空间、地方记忆与新功能之间的转换方式。",
+      "useFor": [
+        "城市更新"
+      ],
+      "relevanceScore": 64,
+      "referenceValueScore": 58,
+      "sourceQualityScore": 88,
+      "freshnessScore": 95,
+      "score": 71.3,
+      "matches": [
+        "cultural",
+        "heritage"
+      ],
+      "selectionStatus": "rejected",
+      "harvestedAt": "2026-08-03T12:40:41.351Z"
     },
     {
       "id": "candidate-generic-ai-news",
