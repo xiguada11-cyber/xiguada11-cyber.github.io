@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T12:40:41.910Z",
+  "generatedAt": "2026-08-04T10:16:02.505Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -519,6 +519,30 @@
       "harvestedAt": "2026-07-30T09:37:23.949Z"
     },
     {
+      "id": "feed-a0b47029502d",
+      "title": "Glazed pavilion with \"distinctly modernist character\" added to Portland Art Museum",
+      "sourceName": "Dezeen",
+      "sourceUrl": "https://www.dezeen.com/2026/08/03/portland-art-museum-oregon-hennebery-eddy-architects-and-vinci-hamp-architects/",
+      "contentType": "行业文章",
+      "publishedAt": "2026-08-03",
+      "summary": "A glass-walled pavilion sandwiched between historic buildings is the leading...",
+      "whyItMatters": "适合拆解展线、展品说明和空间节奏之间的关系。",
+      "useFor": [
+        "博物馆"
+      ],
+      "relevanceScore": 64,
+      "referenceValueScore": 76,
+      "sourceQualityScore": 90,
+      "freshnessScore": 95,
+      "score": 78,
+      "matches": [
+        "museum",
+        "pavilion"
+      ],
+      "selectionStatus": "rejected",
+      "harvestedAt": "2026-08-04T10:15:58.780Z"
+    },
+    {
       "id": "feed-06a9d0e4b3e3",
       "title": "Selldorf Architects Unveils Design for Clark Art Institute Extension in Massachusetts",
       "sourceName": "ArchDaily",
@@ -949,25 +973,6 @@
       "sourceQualityScore": 50,
       "freshnessScore": 96,
       "score": 49.8,
-      "selectionStatus": "rejected"
-    },
-    {
-      "id": "candidate-opening-news-only",
-      "title": "某文化活动开幕新闻",
-      "sourceName": "新闻转载",
-      "sourceUrl": "https://example.com/",
-      "contentType": "泛文化新闻",
-      "publishedAt": "2026-07-18",
-      "summary": "只有开幕消息，没有空间、策划或设计信息。",
-      "whyItMatters": "缺少可拆解的项目方法，暂不进入精选。",
-      "useFor": [
-        "不展示"
-      ],
-      "relevanceScore": 40,
-      "referenceValueScore": 28,
-      "sourceQualityScore": 35,
-      "freshnessScore": 90,
-      "score": 42.8,
       "selectionStatus": "rejected"
     }
   ]
