@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T10:11:23.923Z",
+  "generatedAt": "2026-08-05T17:12:51.819Z",
   "sourcePolicy": "Use official pages, professional media, RSS/API feeds where available, and manually verified public sources. Do not publish raw harvested content before scoring.",
   "readingPolicy": {
     "positioning": "个人展陈项目助手 + 高价值行业内容精选",
@@ -14,13 +14,13 @@
   "channels": {
     "readingSelected": {
       "items": 8,
-      "lastVerifiedAt": "2026-08-05T10:11:23.921Z",
+      "lastVerifiedAt": "2026-08-05T17:12:51.817Z",
       "latestPublishedAt": "2026-07-20"
     },
     "readingCandidates": {
       "items": 40,
-      "lastVerifiedAt": "2026-08-05T10:11:23.921Z",
-      "latestPublishedAt": "2026-08-03"
+      "lastVerifiedAt": "2026-08-05T17:12:51.817Z",
+      "latestPublishedAt": "2026-08-05"
     },
     "bidding": {
       "items": 4,
@@ -50,8 +50,8 @@
   },
   "totals": {
     "items": 149,
-    "sources": 34,
-    "latestPublishedAt": "2026-08-03"
+    "sources": 33,
+    "latestPublishedAt": "2026-08-05"
   },
   "nextStep": "Add source-specific adapters for government procurement and sources without stable feeds; keep manual review for selected content."
 }

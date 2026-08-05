@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T10:11:23.921Z",
+  "generatedAt": "2026-08-05T17:12:51.817Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -394,6 +394,32 @@
       ],
       "selectionStatus": "watch",
       "harvestedAt": "2026-08-03T12:40:41.351Z"
+    },
+    {
+      "id": "feed-ebdb6c2f50f7",
+      "title": "MAD Completes Shenzhen Bay Culture Square, a Coastal Design Museum and Public Park in China",
+      "sourceName": "ArchDaily",
+      "sourceUrl": "https://www.archdaily.com/1182207/mad-completes-shenzhen-bay-culture-square-a-coastal-design-museum-and-public-park-in-china",
+      "contentType": "空间案例",
+      "publishedAt": "2026-08-05",
+      "summary": "MAD / Ma Yansong 's Shenzhen Bay Culture Square exhibition hall and park pro...",
+      "whyItMatters": "适合拆解展线、展品说明和空间节奏之间的关系。",
+      "useFor": [
+        "博物馆",
+        "展陈策划"
+      ],
+      "relevanceScore": 73,
+      "referenceValueScore": 84,
+      "sourceQualityScore": 88,
+      "freshnessScore": 95,
+      "score": 83.2,
+      "matches": [
+        "exhibition",
+        "museum",
+        "cultural"
+      ],
+      "selectionStatus": "watch",
+      "harvestedAt": "2026-08-05T17:12:51.159Z"
     },
     {
       "id": "feed-8bb02e738205",
@@ -955,25 +981,6 @@
       ],
       "selectionStatus": "rejected",
       "harvestedAt": "2026-08-03T12:40:41.351Z"
-    },
-    {
-      "id": "candidate-generic-ai-news",
-      "title": "通用 AI 大模型能力更新汇总",
-      "sourceName": "综合媒体",
-      "sourceUrl": "https://news.google.com/",
-      "contentType": "泛AI资讯",
-      "publishedAt": "2026-07-20",
-      "summary": "与展陈项目无直接关系的泛AI更新。",
-      "whyItMatters": "缺少具体创作或交付场景，暂不进入精选。",
-      "useFor": [
-        "观察"
-      ],
-      "relevanceScore": 42,
-      "referenceValueScore": 36,
-      "sourceQualityScore": 50,
-      "freshnessScore": 96,
-      "score": 49.8,
-      "selectionStatus": "rejected"
     }
   ]
 }
