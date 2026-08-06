@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T17:12:51.817Z",
+  "generatedAt": "2026-08-06T10:14:47.022Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -569,6 +569,30 @@
       "harvestedAt": "2026-08-04T10:15:58.780Z"
     },
     {
+      "id": "feed-5c83bb4d4552",
+      "title": "MVRDV designs colourful stacked volumes for Shenzhen cultural complex",
+      "sourceName": "Dezeen",
+      "sourceUrl": "https://www.dezeen.com/2026/08/06/mvrdv-bihailou-art-village-shenzhen/",
+      "contentType": "行业文章",
+      "publishedAt": "2026-08-06",
+      "summary": "Dutch studio MVRDV has revealed designs for the Bihailou Art Village, a cult...",
+      "whyItMatters": "适合拆解展线、展品说明和空间节奏之间的关系。",
+      "useFor": [
+        "博物馆"
+      ],
+      "relevanceScore": 64,
+      "referenceValueScore": 76,
+      "sourceQualityScore": 90,
+      "freshnessScore": 95,
+      "score": 78,
+      "matches": [
+        "museum",
+        "cultural"
+      ],
+      "selectionStatus": "rejected",
+      "harvestedAt": "2026-08-06T10:14:45.803Z"
+    },
+    {
       "id": "feed-06a9d0e4b3e3",
       "title": "Selldorf Architects Unveils Design for Clark Art Institute Extension in Massachusetts",
       "sourceName": "ArchDaily",
@@ -942,30 +966,6 @@
       "contentType": "空间案例",
       "publishedAt": "2026-08-03",
       "summary": "The Getty Foundation 's Conserving Black Modernism initiative is a program d...",
-      "whyItMatters": "适合参考旧空间、地方记忆与新功能之间的转换方式。",
-      "useFor": [
-        "城市更新"
-      ],
-      "relevanceScore": 64,
-      "referenceValueScore": 58,
-      "sourceQualityScore": 88,
-      "freshnessScore": 95,
-      "score": 71.3,
-      "matches": [
-        "cultural",
-        "heritage"
-      ],
-      "selectionStatus": "rejected",
-      "harvestedAt": "2026-08-03T12:40:41.351Z"
-    },
-    {
-      "id": "feed-925bd97041bc",
-      "title": "Soviet Modernism in Central Asia: The Dilemma of Recent Heritage",
-      "sourceName": "ArchDaily",
-      "sourceUrl": "https://www.archdaily.com/1148580/soviet-modernism-in-central-asia-the-dilemma-of-recent-heritage",
-      "contentType": "空间案例",
-      "publishedAt": "2026-08-03",
-      "summary": "Over the last decade, Uzbekistan has done what most post-Soviet countries st...",
       "whyItMatters": "适合参考旧空间、地方记忆与新功能之间的转换方式。",
       "useFor": [
         "城市更新"
