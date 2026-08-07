@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T10:14:47.022Z",
+  "generatedAt": "2026-08-07T05:53:29.333Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -862,6 +862,31 @@
       "harvestedAt": "2026-08-01T07:53:49.843Z"
     },
     {
+      "id": "feed-810a62ec64fe",
+      "title": "Coral Barn Alvorada House / Nildo José Arquitetos",
+      "sourceName": "ArchDaily",
+      "sourceUrl": "https://www.archdaily.com/1182346/coral-barn-alvorada-house-nildo-jose-arquitetos",
+      "contentType": "空间案例",
+      "publishedAt": "2026-08-06",
+      "summary": "Coral, the official paint and sponsor of CASACOR São Paulo, alongside Nildo ...",
+      "whyItMatters": "适合参考旧空间、地方记忆与新功能之间的转换方式。",
+      "useFor": [
+        "城市更新",
+        "展陈策划"
+      ],
+      "relevanceScore": 64,
+      "referenceValueScore": 76,
+      "sourceQualityScore": 88,
+      "freshnessScore": 95,
+      "score": 77.7,
+      "matches": [
+        "exhibition",
+        "heritage"
+      ],
+      "selectionStatus": "rejected",
+      "harvestedAt": "2026-08-07T05:53:28.612Z"
+    },
+    {
       "id": "feed-26dfdc0c865b",
       "title": "studio frank havermans frames 500-year-old dutch house with timber scaffolding structures",
       "sourceName": "Designboom",
@@ -957,30 +982,6 @@
       ],
       "selectionStatus": "rejected",
       "harvestedAt": "2026-07-29T16:52:57.511Z"
-    },
-    {
-      "id": "feed-4994b85c7fd6",
-      "title": "Getty Foundation's Conserving Black Modernism Program Announces Five New Grantee Sites",
-      "sourceName": "ArchDaily",
-      "sourceUrl": "https://www.archdaily.com/1182057/getty-foundations-conserving-black-modernism-program-announces-five-new-grantee-sites",
-      "contentType": "空间案例",
-      "publishedAt": "2026-08-03",
-      "summary": "The Getty Foundation 's Conserving Black Modernism initiative is a program d...",
-      "whyItMatters": "适合参考旧空间、地方记忆与新功能之间的转换方式。",
-      "useFor": [
-        "城市更新"
-      ],
-      "relevanceScore": 64,
-      "referenceValueScore": 58,
-      "sourceQualityScore": 88,
-      "freshnessScore": 95,
-      "score": 71.3,
-      "matches": [
-        "cultural",
-        "heritage"
-      ],
-      "selectionStatus": "rejected",
-      "harvestedAt": "2026-08-03T12:40:41.351Z"
     }
   ]
 }
