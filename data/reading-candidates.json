@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T10:38:32.266Z",
+  "generatedAt": "2026-08-07T15:12:02.799Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -887,6 +887,30 @@
       "harvestedAt": "2026-08-07T05:53:28.612Z"
     },
     {
+      "id": "feed-c3254258fe59",
+      "title": "Palimpsest of African Cities: Dig Where You Stand",
+      "sourceName": "ArchDaily",
+      "sourceUrl": "https://www.archdaily.com/1182401/palimpsest-of-african-cities-dig-where-you-stand",
+      "contentType": "空间案例",
+      "publishedAt": "2026-08-07",
+      "summary": "Presented as part of the OFF Programme of the 2026 Dakar Biennale and Partco...",
+      "whyItMatters": "适合判断内容是否能转化为展陈策略、视觉参考或项目提案素材。",
+      "useFor": [
+        "展陈策划"
+      ],
+      "relevanceScore": 64,
+      "referenceValueScore": 76,
+      "sourceQualityScore": 88,
+      "freshnessScore": 95,
+      "score": 77.7,
+      "matches": [
+        "exhibition",
+        "biennale"
+      ],
+      "selectionStatus": "rejected",
+      "harvestedAt": "2026-08-07T15:12:01.481Z"
+    },
+    {
       "id": "feed-26dfdc0c865b",
       "title": "studio frank havermans frames 500-year-old dutch house with timber scaffolding structures",
       "sourceName": "Designboom",
@@ -912,6 +936,31 @@
       "harvestedAt": "2026-07-30T16:06:40.895Z"
     },
     {
+      "id": "feed-8b1bec8c5dc8",
+      "title": "Cj hendry fills a new york gallery with beads and lets visitors invent the game",
+      "sourceName": "Designboom",
+      "sourceUrl": "https://www.designboom.com/art/cj-hendry-new-york-gallery-beads-pastel-installation/",
+      "contentType": "行业文章",
+      "publishedAt": "2026-08-07",
+      "summary": "a search-and-find installation invites visitors to build their own keepsakes...",
+      "whyItMatters": "适合观察互动、停留点和镜头化空间如何服务叙事。",
+      "useFor": [
+        "沉浸式体验",
+        "展陈策划"
+      ],
+      "relevanceScore": 64,
+      "referenceValueScore": 76,
+      "sourceQualityScore": 86,
+      "freshnessScore": 95,
+      "score": 77.3,
+      "matches": [
+        "gallery",
+        "installation"
+      ],
+      "selectionStatus": "rejected",
+      "harvestedAt": "2026-08-07T15:12:01.802Z"
+    },
+    {
       "id": "feed-4e8c05e16655",
       "title": "Pan-African Biennale - Open Call: Short Film",
       "sourceName": "ArchDaily",
@@ -934,54 +983,6 @@
       ],
       "selectionStatus": "rejected",
       "harvestedAt": "2026-07-25T07:34:49.104Z"
-    },
-    {
-      "id": "feed-796ed42afe35",
-      "title": "Mami Dan Temple of Toligbé Cultural Center / Maison Bignon Sossou",
-      "sourceName": "ArchDaily",
-      "sourceUrl": "https://www.archdaily.com/1181253/mami-dan-temple-of-toligbe-cultural-center-maison-bignon-sossou",
-      "contentType": "空间案例",
-      "publishedAt": "2026-07-26",
-      "summary": "Architecture as a Vessel for Living Heritage - The Mami Dan Temple of Toligb...",
-      "whyItMatters": "适合参考旧空间、地方记忆与新功能之间的转换方式。",
-      "useFor": [
-        "城市更新"
-      ],
-      "relevanceScore": 64,
-      "referenceValueScore": 58,
-      "sourceQualityScore": 88,
-      "freshnessScore": 95,
-      "score": 71.3,
-      "matches": [
-        "cultural",
-        "heritage"
-      ],
-      "selectionStatus": "rejected",
-      "harvestedAt": "2026-07-27T12:40:40.101Z"
-    },
-    {
-      "id": "feed-cc96cc9b21e8",
-      "title": "From Aalto Works to Tashkent Modernism: Discover the 19 New Cultural Sites Added to the UNESCO World Heritage List in 2026",
-      "sourceName": "ArchDaily",
-      "sourceUrl": "https://www.archdaily.com/1181787/from-aalto-works-to-tashkent-modernism-discover-the-19-new-cultural-sites-added-to-the-unesco-world-heritage-list-in-2026",
-      "contentType": "空间案例",
-      "publishedAt": "2026-07-29",
-      "summary": "The UNESCO World Heritage Committee has announced 25 new inscriptions to the...",
-      "whyItMatters": "适合参考旧空间、地方记忆与新功能之间的转换方式。",
-      "useFor": [
-        "城市更新"
-      ],
-      "relevanceScore": 64,
-      "referenceValueScore": 58,
-      "sourceQualityScore": 88,
-      "freshnessScore": 95,
-      "score": 71.3,
-      "matches": [
-        "cultural",
-        "heritage"
-      ],
-      "selectionStatus": "rejected",
-      "harvestedAt": "2026-07-29T16:52:57.511Z"
     }
   ]
 }
