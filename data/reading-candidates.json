@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T04:47:01.168Z",
+  "generatedAt": "2026-08-09T10:03:52.855Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -593,6 +593,31 @@
       "harvestedAt": "2026-08-06T10:14:45.803Z"
     },
     {
+      "id": "feed-907a12d52ecf",
+      "title": "Cyro Arquitetura designs \"white noise\" apartment in São Paulo",
+      "sourceName": "Dezeen",
+      "sourceUrl": "https://www.dezeen.com/2026/08/08/ruido-branco-studio-casacor-sao-paulo-cyro-arquitetura/",
+      "contentType": "行业文章",
+      "publishedAt": "2026-08-08",
+      "summary": "São Paulo studio Cyro Arquitetura has created a temporary studio apartment f...",
+      "whyItMatters": "适合观察互动、停留点和镜头化空间如何服务叙事。",
+      "useFor": [
+        "沉浸式体验",
+        "展陈策划"
+      ],
+      "relevanceScore": 64,
+      "referenceValueScore": 76,
+      "sourceQualityScore": 90,
+      "freshnessScore": 95,
+      "score": 78,
+      "matches": [
+        "exhibition",
+        "installation"
+      ],
+      "selectionStatus": "rejected",
+      "harvestedAt": "2026-08-09T10:03:51.469Z"
+    },
+    {
       "id": "feed-06a9d0e4b3e3",
       "title": "Selldorf Architects Unveils Design for Clark Art Institute Extension in Massachusetts",
       "sourceName": "ArchDaily",
@@ -959,30 +984,6 @@
       ],
       "selectionStatus": "rejected",
       "harvestedAt": "2026-08-07T15:12:01.802Z"
-    },
-    {
-      "id": "feed-4e8c05e16655",
-      "title": "Pan-African Biennale - Open Call: Short Film",
-      "sourceName": "ArchDaily",
-      "sourceUrl": "https://www.archdaily.com/1181605/pan-african-biennale-open-call-short-film",
-      "contentType": "空间案例",
-      "publishedAt": "2026-07-24",
-      "summary": "The Pan-African Biennale (PAB) is a continental platform dedicated to docume...",
-      "whyItMatters": "适合判断内容是否能转化为展陈策略、视觉参考或项目提案素材。",
-      "useFor": [
-        "展陈策划"
-      ],
-      "relevanceScore": 64,
-      "referenceValueScore": 58,
-      "sourceQualityScore": 88,
-      "freshnessScore": 95,
-      "score": 71.3,
-      "matches": [
-        "biennale",
-        "cultural"
-      ],
-      "selectionStatus": "rejected",
-      "harvestedAt": "2026-07-25T07:34:49.104Z"
     }
   ]
 }
