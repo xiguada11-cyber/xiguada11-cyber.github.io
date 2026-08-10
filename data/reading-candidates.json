@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T05:10:37.022Z",
+  "generatedAt": "2026-08-10T11:31:39.173Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -936,6 +936,30 @@
       "harvestedAt": "2026-08-07T15:12:01.481Z"
     },
     {
+      "id": "feed-8a08310b3254",
+      "title": "Community Architecture in Brazil: 4 Projects for Social Transformation",
+      "sourceName": "ArchDaily",
+      "sourceUrl": "https://www.archdaily.com/1182409/community-architecture-in-brazil-4-projects-for-social-transformation",
+      "contentType": "空间案例",
+      "publishedAt": "2026-08-10",
+      "summary": "In 2021, the IBGE (Brazilian Institute of Geography and Statistics) released...",
+      "whyItMatters": "适合拆解展线、展品说明和空间节奏之间的关系。",
+      "useFor": [
+        "博物馆"
+      ],
+      "relevanceScore": 64,
+      "referenceValueScore": 76,
+      "sourceQualityScore": 88,
+      "freshnessScore": 95,
+      "score": 77.7,
+      "matches": [
+        "museum",
+        "cultural"
+      ],
+      "selectionStatus": "rejected",
+      "harvestedAt": "2026-08-10T11:31:38.711Z"
+    },
+    {
       "id": "feed-26dfdc0c865b",
       "title": "studio frank havermans frames 500-year-old dutch house with timber scaffolding structures",
       "sourceName": "Designboom",
@@ -959,31 +983,6 @@
       ],
       "selectionStatus": "rejected",
       "harvestedAt": "2026-07-30T16:06:40.895Z"
-    },
-    {
-      "id": "feed-8b1bec8c5dc8",
-      "title": "Cj hendry fills a new york gallery with beads and lets visitors invent the game",
-      "sourceName": "Designboom",
-      "sourceUrl": "https://www.designboom.com/art/cj-hendry-new-york-gallery-beads-pastel-installation/",
-      "contentType": "行业文章",
-      "publishedAt": "2026-08-07",
-      "summary": "a search-and-find installation invites visitors to build their own keepsakes...",
-      "whyItMatters": "适合观察互动、停留点和镜头化空间如何服务叙事。",
-      "useFor": [
-        "沉浸式体验",
-        "展陈策划"
-      ],
-      "relevanceScore": 64,
-      "referenceValueScore": 76,
-      "sourceQualityScore": 86,
-      "freshnessScore": 95,
-      "score": 77.3,
-      "matches": [
-        "gallery",
-        "installation"
-      ],
-      "selectionStatus": "rejected",
-      "harvestedAt": "2026-08-07T15:12:01.802Z"
     }
   ]
 }
