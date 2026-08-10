@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T11:31:39.173Z",
+  "generatedAt": "2026-08-10T15:32:08.031Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -420,6 +420,31 @@
       ],
       "selectionStatus": "watch",
       "harvestedAt": "2026-08-05T17:12:51.159Z"
+    },
+    {
+      "id": "feed-c1f2674edefc",
+      "title": "The Türkiye Pavilion Examines Reuse and Memory Through \"Spolia Futures\" at the 2027 Venice Architecture Biennale",
+      "sourceName": "ArchDaily",
+      "sourceUrl": "https://www.archdaily.com/1182223/the-turkiye-pavilion-examines-reuse-and-memory-through-spolia-futures-at-the-2027-venice-architecture-biennale",
+      "contentType": "空间案例",
+      "publishedAt": "2026-08-10",
+      "summary": "The Türkiye Pavilion has announced \"Spolia Futures\" as its official exhibiti...",
+      "whyItMatters": "适合判断内容是否能转化为展陈策略、视觉参考或项目提案素材。",
+      "useFor": [
+        "展陈策划"
+      ],
+      "relevanceScore": 73,
+      "referenceValueScore": 84,
+      "sourceQualityScore": 88,
+      "freshnessScore": 95,
+      "score": 83.2,
+      "matches": [
+        "exhibition",
+        "pavilion",
+        "biennale"
+      ],
+      "selectionStatus": "watch",
+      "harvestedAt": "2026-08-10T15:32:07.327Z"
     },
     {
       "id": "feed-8bb02e738205",
@@ -958,31 +983,6 @@
       ],
       "selectionStatus": "rejected",
       "harvestedAt": "2026-08-10T11:31:38.711Z"
-    },
-    {
-      "id": "feed-26dfdc0c865b",
-      "title": "studio frank havermans frames 500-year-old dutch house with timber scaffolding structures",
-      "sourceName": "Designboom",
-      "sourceUrl": "https://www.designboom.com/art/studio-frank-havermans-500-year-old-dutch-house-timber-scaffolding-structures-besiendershuis-nijmegen/",
-      "contentType": "行业文章",
-      "publishedAt": "2026-07-30",
-      "summary": "a temporary architectural installation embraces the historic structure of a ...",
-      "whyItMatters": "适合观察互动、停留点和镜头化空间如何服务叙事。",
-      "useFor": [
-        "沉浸式体验",
-        "城市更新"
-      ],
-      "relevanceScore": 64,
-      "referenceValueScore": 76,
-      "sourceQualityScore": 86,
-      "freshnessScore": 95,
-      "score": 77.3,
-      "matches": [
-        "installation",
-        "heritage"
-      ],
-      "selectionStatus": "rejected",
-      "harvestedAt": "2026-07-30T16:06:40.895Z"
     }
   ]
 }
