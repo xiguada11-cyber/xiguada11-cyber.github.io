@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T05:46:19.955Z",
+  "generatedAt": "2026-08-12T11:12:04.369Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -667,6 +667,30 @@
       "harvestedAt": "2026-08-11T15:30:08.029Z"
     },
     {
+      "id": "feed-93979f7c0040",
+      "title": "Uppercut unveils summer exhibition in the stately rooms of Chateau de Spycker",
+      "sourceName": "Dezeen",
+      "sourceUrl": "https://www.dezeen.com/2026/08/12/uppercut-summer-exhibition-god-speed-chateau-de-spycker/",
+      "contentType": "行业文章",
+      "publishedAt": "2026-08-12",
+      "summary": "Antwerp-based gallery Uppercut is presenting the works of six contemporary d...",
+      "whyItMatters": "适合判断内容是否能转化为展陈策略、视觉参考或项目提案素材。",
+      "useFor": [
+        "展陈策划"
+      ],
+      "relevanceScore": 64,
+      "referenceValueScore": 76,
+      "sourceQualityScore": 90,
+      "freshnessScore": 95,
+      "score": 78,
+      "matches": [
+        "exhibition",
+        "gallery"
+      ],
+      "selectionStatus": "rejected",
+      "harvestedAt": "2026-08-12T11:12:03.509Z"
+    },
+    {
       "id": "feed-06a9d0e4b3e3",
       "title": "Selldorf Architects Unveils Design for Clark Art Institute Extension in Massachusetts",
       "sourceName": "ArchDaily",
@@ -959,30 +983,6 @@
       ],
       "selectionStatus": "rejected",
       "harvestedAt": "2026-08-07T05:53:28.612Z"
-    },
-    {
-      "id": "feed-c3254258fe59",
-      "title": "Palimpsest of African Cities: Dig Where You Stand",
-      "sourceName": "ArchDaily",
-      "sourceUrl": "https://www.archdaily.com/1182401/palimpsest-of-african-cities-dig-where-you-stand",
-      "contentType": "空间案例",
-      "publishedAt": "2026-08-07",
-      "summary": "Presented as part of the OFF Programme of the 2026 Dakar Biennale and Partco...",
-      "whyItMatters": "适合判断内容是否能转化为展陈策略、视觉参考或项目提案素材。",
-      "useFor": [
-        "展陈策划"
-      ],
-      "relevanceScore": 64,
-      "referenceValueScore": 76,
-      "sourceQualityScore": 88,
-      "freshnessScore": 95,
-      "score": 77.7,
-      "matches": [
-        "exhibition",
-        "biennale"
-      ],
-      "selectionStatus": "rejected",
-      "harvestedAt": "2026-08-07T15:12:01.481Z"
     }
   ]
 }
