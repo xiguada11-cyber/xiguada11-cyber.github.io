@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T11:12:04.369Z",
+  "generatedAt": "2026-08-12T15:30:17.918Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -691,6 +691,30 @@
       "harvestedAt": "2026-08-12T11:12:03.509Z"
     },
     {
+      "id": "feed-b858362ab7b5",
+      "title": "Museum for Lola Mora is César Pelli&#039;s final building",
+      "sourceName": "Dezeen",
+      "sourceUrl": "https://www.dezeen.com/2026/08/12/cesar-pelli-final-building-lola-mora-center-argentina/",
+      "contentType": "行业文章",
+      "publishedAt": "2026-08-12",
+      "summary": "US-based studio Pelli Clarke &#38; Partners has created a museum, with a fut...",
+      "whyItMatters": "适合拆解展线、展品说明和空间节奏之间的关系。",
+      "useFor": [
+        "博物馆"
+      ],
+      "relevanceScore": 64,
+      "referenceValueScore": 76,
+      "sourceQualityScore": 90,
+      "freshnessScore": 95,
+      "score": 78,
+      "matches": [
+        "museum",
+        "cultural"
+      ],
+      "selectionStatus": "rejected",
+      "harvestedAt": "2026-08-12T15:30:16.600Z"
+    },
+    {
       "id": "feed-06a9d0e4b3e3",
       "title": "Selldorf Architects Unveils Design for Clark Art Institute Extension in Massachusetts",
       "sourceName": "ArchDaily",
@@ -958,31 +982,6 @@
       ],
       "selectionStatus": "rejected",
       "harvestedAt": "2026-08-01T07:53:49.843Z"
-    },
-    {
-      "id": "feed-810a62ec64fe",
-      "title": "Coral Barn Alvorada House / Nildo José Arquitetos",
-      "sourceName": "ArchDaily",
-      "sourceUrl": "https://www.archdaily.com/1182346/coral-barn-alvorada-house-nildo-jose-arquitetos",
-      "contentType": "空间案例",
-      "publishedAt": "2026-08-06",
-      "summary": "Coral, the official paint and sponsor of CASACOR São Paulo, alongside Nildo ...",
-      "whyItMatters": "适合参考旧空间、地方记忆与新功能之间的转换方式。",
-      "useFor": [
-        "城市更新",
-        "展陈策划"
-      ],
-      "relevanceScore": 64,
-      "referenceValueScore": 76,
-      "sourceQualityScore": 88,
-      "freshnessScore": 95,
-      "score": 77.7,
-      "matches": [
-        "exhibition",
-        "heritage"
-      ],
-      "selectionStatus": "rejected",
-      "harvestedAt": "2026-08-07T05:53:28.612Z"
     }
   ]
 }
