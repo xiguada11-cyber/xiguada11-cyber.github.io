@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T08:40:05.264Z",
+  "generatedAt": "2026-08-19T10:31:04.898Z",
   "weekOf": "2026-08-19",
   "selectionPolicy": "Only content that can support exhibition projects, curatorial work, spatial design, digital experience, or high-match bidding enters this file.",
   "threshold": 82,
@@ -89,6 +89,33 @@
       "status": "selected"
     },
     {
+      "id": "feed-620d43dcf4af",
+      "title": "The Ukrainian Pavilion Examines Displacement and Shared Space Through \"Pool of Questions\" at the 2027 Venice Architecture Biennale",
+      "sourceName": "ArchDaily",
+      "sourceUrl": "https://www.archdaily.com/1183552/the-ukrainian-pavilion-examines-displacement-and-shared-space-through-pool-of-questions-at-the-2027-venice-architecture-biennale",
+      "contentType": "空间案例",
+      "publishedAt": "2026-08-19",
+      "summary": "The Ukrainian pavilion at the 20th International Architecture Exhibition – L...",
+      "whyItMatters": "适合观察互动、停留点和镜头化空间如何服务叙事。",
+      "useFor": [
+        "沉浸式体验",
+        "展陈策划"
+      ],
+      "relevanceScore": 82,
+      "referenceValueScore": 92,
+      "sourceQualityScore": 88,
+      "freshnessScore": 95,
+      "score": 88.7,
+      "matches": [
+        "exhibition",
+        "installation",
+        "pavilion",
+        "biennale"
+      ],
+      "harvestedAt": "2026-08-19T10:31:03.860Z",
+      "status": "selected"
+    },
+    {
       "id": "candidate-runway-gen45",
       "title": "Runway Gen-4.5 官方发布",
       "sourceName": "Runway",
@@ -149,27 +176,6 @@
       "sourceQualityScore": 90,
       "freshnessScore": 72,
       "score": 87.9,
-      "status": "selected"
-    },
-    {
-      "id": "candidate-gold-mantis-tianjin-machine-tool",
-      "title": "天津机床工业博物馆",
-      "sourceName": "金螳螂文化",
-      "sourceUrl": "https://www.jtlculture.com/case/3",
-      "contentType": "国内案例",
-      "publishedAt": "2026-07-14",
-      "summary": "工业遗产和制造主题展示线索。",
-      "whyItMatters": "适合研究大型实物、工业叙事和材料痕迹的空间组织。",
-      "useFor": [
-        "工业文化",
-        "博物馆",
-        "实物展品"
-      ],
-      "relevanceScore": 91,
-      "referenceValueScore": 88,
-      "sourceQualityScore": 82,
-      "freshnessScore": 70,
-      "score": 85.2,
       "status": "selected"
     }
   ]

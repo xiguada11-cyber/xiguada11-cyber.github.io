@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T08:40:05.264Z",
+  "generatedAt": "2026-08-19T10:31:04.898Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -109,6 +109,33 @@
       "freshnessScore": 82,
       "score": 90.3,
       "selectionStatus": "selected"
+    },
+    {
+      "id": "feed-620d43dcf4af",
+      "title": "The Ukrainian Pavilion Examines Displacement and Shared Space Through \"Pool of Questions\" at the 2027 Venice Architecture Biennale",
+      "sourceName": "ArchDaily",
+      "sourceUrl": "https://www.archdaily.com/1183552/the-ukrainian-pavilion-examines-displacement-and-shared-space-through-pool-of-questions-at-the-2027-venice-architecture-biennale",
+      "contentType": "空间案例",
+      "publishedAt": "2026-08-19",
+      "summary": "The Ukrainian pavilion at the 20th International Architecture Exhibition – L...",
+      "whyItMatters": "适合观察互动、停留点和镜头化空间如何服务叙事。",
+      "useFor": [
+        "沉浸式体验",
+        "展陈策划"
+      ],
+      "relevanceScore": 82,
+      "referenceValueScore": 92,
+      "sourceQualityScore": 88,
+      "freshnessScore": 95,
+      "score": 88.7,
+      "matches": [
+        "exhibition",
+        "installation",
+        "pavilion",
+        "biennale"
+      ],
+      "selectionStatus": "watch",
+      "harvestedAt": "2026-08-19T10:31:03.860Z"
     },
     {
       "id": "candidate-runway-gen45",
@@ -957,31 +984,6 @@
       ],
       "selectionStatus": "rejected",
       "harvestedAt": "2026-07-25T11:52:05.783Z"
-    },
-    {
-      "id": "feed-b8403dc9f1c9",
-      "title": "An Architectural Language of Artificial Cooling: Shade, Mist, and Autonomy",
-      "sourceName": "ArchDaily",
-      "sourceUrl": "https://www.archdaily.com/1181537/an-architectural-language-of-artificial-cooling-shade-mist-and-autonomy",
-      "contentType": "空间案例",
-      "publishedAt": "2026-07-27",
-      "summary": "Concéntrico returned to Logroño for its 12th edition in June and transformed...",
-      "whyItMatters": "适合观察互动、停留点和镜头化空间如何服务叙事。",
-      "useFor": [
-        "沉浸式体验",
-        "展陈策划"
-      ],
-      "relevanceScore": 64,
-      "referenceValueScore": 76,
-      "sourceQualityScore": 88,
-      "freshnessScore": 95,
-      "score": 77.7,
-      "matches": [
-        "exhibition",
-        "installation"
-      ],
-      "selectionStatus": "rejected",
-      "harvestedAt": "2026-07-27T12:40:40.101Z"
     }
   ]
 }
