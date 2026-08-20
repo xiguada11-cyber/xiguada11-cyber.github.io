@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T12:52:00.926Z",
+  "generatedAt": "2026-08-20T01:21:30.015Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -474,6 +474,32 @@
       "harvestedAt": "2026-08-10T15:32:07.327Z"
     },
     {
+      "id": "feed-f64403084b71",
+      "title": "Crossing Grounds: Art, Design, & Technology",
+      "sourceName": "ArchDaily",
+      "sourceUrl": "https://www.archdaily.com/1183594/crossing-grounds-art-design-and-technology",
+      "contentType": "空间案例",
+      "publishedAt": "2026-08-19",
+      "summary": "Crossing Grounds: Art, Design, and Technology brings together 16 research pr...",
+      "whyItMatters": "适合观察互动、停留点和镜头化空间如何服务叙事。",
+      "useFor": [
+        "沉浸式体验",
+        "展陈策划"
+      ],
+      "relevanceScore": 73,
+      "referenceValueScore": 84,
+      "sourceQualityScore": 88,
+      "freshnessScore": 95,
+      "score": 83.2,
+      "matches": [
+        "exhibition",
+        "gallery",
+        "interactive"
+      ],
+      "selectionStatus": "watch",
+      "harvestedAt": "2026-08-20T01:21:29.339Z"
+    },
+    {
       "id": "feed-8bb02e738205",
       "title": "experiments in love and revolution occupy malta pavilion at venice art biennale 2026",
       "sourceName": "Designboom",
@@ -791,6 +817,31 @@
       "harvestedAt": "2026-08-19T08:40:04.325Z"
     },
     {
+      "id": "feed-6f64abde74dd",
+      "title": "Schaum Architects to lead restoration of Donald Judd&#039;s Artillery Sheds in Texas",
+      "sourceName": "Dezeen",
+      "sourceUrl": "https://www.dezeen.com/2026/08/19/schaum-architects-restoration-donald-judd-artillery-sheds-texas/",
+      "contentType": "行业文章",
+      "publishedAt": "2026-08-19",
+      "summary": "Texas studio Schaum Architects has joined a team of restorers to work on the...",
+      "whyItMatters": "适合拆解展线、展品说明和空间节奏之间的关系。",
+      "useFor": [
+        "博物馆",
+        "展陈策划"
+      ],
+      "relevanceScore": 64,
+      "referenceValueScore": 76,
+      "sourceQualityScore": 90,
+      "freshnessScore": 95,
+      "score": 78,
+      "matches": [
+        "exhibition",
+        "museum"
+      ],
+      "selectionStatus": "rejected",
+      "harvestedAt": "2026-08-20T01:21:29.280Z"
+    },
+    {
       "id": "feed-06a9d0e4b3e3",
       "title": "Selldorf Architects Unveils Design for Clark Art Institute Extension in Massachusetts",
       "sourceName": "ArchDaily",
@@ -935,55 +986,6 @@
       ],
       "selectionStatus": "rejected",
       "harvestedAt": "2026-07-24T15:18:32.343Z"
-    },
-    {
-      "id": "feed-7ea5ffe6e882",
-      "title": "València Design Fest",
-      "sourceName": "ArchDaily",
-      "sourceUrl": "https://www.archdaily.com/1181584/valencia-design-fest",
-      "contentType": "空间案例",
-      "publishedAt": "2026-07-24",
-      "summary": "During the months of September and October, Valencia celebrates this interna...",
-      "whyItMatters": "适合判断内容是否能转化为展陈策略、视觉参考或项目提案素材。",
-      "useFor": [
-        "展陈策划"
-      ],
-      "relevanceScore": 64,
-      "referenceValueScore": 76,
-      "sourceQualityScore": 88,
-      "freshnessScore": 95,
-      "score": 77.7,
-      "matches": [
-        "exhibition",
-        "cultural"
-      ],
-      "selectionStatus": "rejected",
-      "harvestedAt": "2026-07-25T07:34:49.105Z"
-    },
-    {
-      "id": "feed-4bde4ae2d04d",
-      "title": "Bentinck Apartment / agence ontwerp",
-      "sourceName": "ArchDaily",
-      "sourceUrl": "https://www.archdaily.com/1148756/bentinck-agence-ontwerp",
-      "contentType": "空间案例",
-      "publishedAt": "2026-07-25",
-      "summary": "The project marks the beginning of agence ontwerp's work on highlighting 196...",
-      "whyItMatters": "适合参考旧空间、地方记忆与新功能之间的转换方式。",
-      "useFor": [
-        "城市更新",
-        "展陈策划"
-      ],
-      "relevanceScore": 64,
-      "referenceValueScore": 76,
-      "sourceQualityScore": 88,
-      "freshnessScore": 95,
-      "score": 77.7,
-      "matches": [
-        "gallery",
-        "heritage"
-      ],
-      "selectionStatus": "rejected",
-      "harvestedAt": "2026-07-25T11:52:05.783Z"
     }
   ]
 }
