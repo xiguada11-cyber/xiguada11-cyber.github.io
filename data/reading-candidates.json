@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T12:54:40.764Z",
+  "generatedAt": "2026-08-25T01:23:03.222Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -500,6 +500,31 @@
       "harvestedAt": "2026-08-20T01:21:29.339Z"
     },
     {
+      "id": "feed-ba3e0f83b912",
+      "title": "Call for Proposals: Bahrain Pavilion at the Venice Architecture Biennale 2027",
+      "sourceName": "ArchDaily",
+      "sourceUrl": "https://www.archdaily.com/1183869/call-for-proposals-bahrain-pavilion-at-the-venice-architecture-biennale-2027",
+      "contentType": "空间案例",
+      "publishedAt": "2026-08-24",
+      "summary": "The Bahrain Authority for Culture and Antiquities invites individuals and co...",
+      "whyItMatters": "适合判断内容是否能转化为展陈策略、视觉参考或项目提案素材。",
+      "useFor": [
+        "展陈策划"
+      ],
+      "relevanceScore": 73,
+      "referenceValueScore": 84,
+      "sourceQualityScore": 88,
+      "freshnessScore": 95,
+      "score": 83.2,
+      "matches": [
+        "exhibition",
+        "pavilion",
+        "biennale"
+      ],
+      "selectionStatus": "watch",
+      "harvestedAt": "2026-08-25T01:23:02.268Z"
+    },
+    {
       "id": "feed-8bb02e738205",
       "title": "experiments in love and revolution occupy malta pavilion at venice art biennale 2026",
       "sourceName": "Designboom",
@@ -958,30 +983,6 @@
       "matches": [
         "exhibition",
         "cultural"
-      ],
-      "selectionStatus": "rejected",
-      "harvestedAt": "2026-07-22T09:19:06.059Z"
-    },
-    {
-      "id": "feed-9d2942b59e9b",
-      "title": "Martha Beatriz House / Atempo Arquitectura",
-      "sourceName": "ArchDaily",
-      "sourceUrl": "https://www.archdaily.com/1181404/martha-beatriz-house-atempo-arquitectura",
-      "contentType": "空间案例",
-      "publishedAt": "2026-07-21",
-      "summary": "Martha Beatriz House is a renovation and expansion project of a residence lo...",
-      "whyItMatters": "适合参考旧空间、地方记忆与新功能之间的转换方式。",
-      "useFor": [
-        "城市更新"
-      ],
-      "relevanceScore": 64,
-      "referenceValueScore": 76,
-      "sourceQualityScore": 88,
-      "freshnessScore": 95,
-      "score": 77.7,
-      "matches": [
-        "heritage",
-        "renovation"
       ],
       "selectionStatus": "rejected",
       "harvestedAt": "2026-07-22T09:19:06.059Z"
