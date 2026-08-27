@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T08:13:44.422Z",
+  "generatedAt": "2026-08-27T20:12:05.433Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -241,6 +241,32 @@
       "freshnessScore": 70,
       "score": 84.9,
       "selectionStatus": "watch"
+    },
+    {
+      "id": "feed-8666626cbf68",
+      "title": "Dezeen Events Guide launches digital guide to London Design Festival 2026",
+      "sourceName": "Dezeen",
+      "sourceUrl": "https://www.dezeen.com/2026/08/27/dezeen-events-guide-london-design-week-2026/",
+      "contentType": "行业文章",
+      "publishedAt": "2026-08-27",
+      "summary": "Dezeen Events Guide has launched its digital guide and interactive map for t...",
+      "whyItMatters": "适合观察互动、停留点和镜头化空间如何服务叙事。",
+      "useFor": [
+        "沉浸式体验",
+        "展陈策划"
+      ],
+      "relevanceScore": 73,
+      "referenceValueScore": 84,
+      "sourceQualityScore": 90,
+      "freshnessScore": 95,
+      "score": 83.5,
+      "matches": [
+        "exhibition",
+        "installation",
+        "interactive"
+      ],
+      "selectionStatus": "watch",
+      "harvestedAt": "2026-08-27T20:12:04.576Z"
     },
     {
       "id": "feed-ed739e09de2d",
@@ -549,6 +575,32 @@
       ],
       "selectionStatus": "watch",
       "harvestedAt": "2026-08-25T12:51:45.317Z"
+    },
+    {
+      "id": "feed-1e8c73615cb2",
+      "title": "The Opening of Powerhouse Parramatta and a New Open-Source App for Geolocated Reports: This Week’s Review",
+      "sourceName": "ArchDaily",
+      "sourceUrl": "https://www.archdaily.com/1184043/the-opening-of-powerhouse-parramatta-and-an-new-open-source-app-for-geolocated-reports-this-weeks-review",
+      "contentType": "空间案例",
+      "publishedAt": "2026-08-27",
+      "summary": "This week's news focused on how architecture engages with what already exist...",
+      "whyItMatters": "适合拆解展线、展品说明和空间节奏之间的关系。",
+      "useFor": [
+        "博物馆",
+        "展陈策划"
+      ],
+      "relevanceScore": 73,
+      "referenceValueScore": 84,
+      "sourceQualityScore": 88,
+      "freshnessScore": 95,
+      "score": 83.2,
+      "matches": [
+        "exhibition",
+        "museum",
+        "cultural"
+      ],
+      "selectionStatus": "watch",
+      "harvestedAt": "2026-08-27T20:12:04.835Z"
     },
     {
       "id": "feed-8bb02e738205",
@@ -939,55 +991,6 @@
       ],
       "selectionStatus": "rejected",
       "harvestedAt": "2026-08-22T12:42:55.864Z"
-    },
-    {
-      "id": "feed-edd68484d203",
-      "title": "Five standout art installations from Houghton Festival 2026",
-      "sourceName": "Dezeen",
-      "sourceUrl": "https://www.dezeen.com/2026/08/25/houghton-festival-2026-art-installations/",
-      "contentType": "行业文章",
-      "publishedAt": "2026-08-25",
-      "summary": "The Dezeen team was on the ground at Houghton Festival. Here are five stando...",
-      "whyItMatters": "适合观察互动、停留点和镜头化空间如何服务叙事。",
-      "useFor": [
-        "沉浸式体验"
-      ],
-      "relevanceScore": 64,
-      "referenceValueScore": 76,
-      "sourceQualityScore": 90,
-      "freshnessScore": 95,
-      "score": 78,
-      "matches": [
-        "installation",
-        "pavilion"
-      ],
-      "selectionStatus": "rejected",
-      "harvestedAt": "2026-08-25T08:45:27.675Z"
-    },
-    {
-      "id": "feed-06a9d0e4b3e3",
-      "title": "Selldorf Architects Unveils Design for Clark Art Institute Extension in Massachusetts",
-      "sourceName": "ArchDaily",
-      "sourceUrl": "https://www.archdaily.com/1148941/selldorf-architects-unveils-design-for-clark-art-institute-extension-in-massachusetts",
-      "contentType": "空间案例",
-      "publishedAt": "2026-07-20",
-      "summary": "The Clark Art Institute, a prominent art institution located in the Berkshir...",
-      "whyItMatters": "适合拆解展线、展品说明和空间节奏之间的关系。",
-      "useFor": [
-        "博物馆",
-        "展陈策划"
-      ],
-      "relevanceScore": 64,
-      "referenceValueScore": 76,
-      "sourceQualityScore": 88,
-      "freshnessScore": 95,
-      "score": 77.7,
-      "matches": [
-        "museum",
-        "gallery"
-      ],
-      "selectionStatus": "rejected",
-      "harvestedAt": "2026-07-20T10:34:33.998Z"
     }
   ]
 }
