@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T04:29:34.479Z",
+  "generatedAt": "2026-08-31T15:57:33.647Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -603,6 +603,32 @@
       "harvestedAt": "2026-08-27T20:12:04.835Z"
     },
     {
+      "id": "feed-929e29b73acd",
+      "title": "M+ Hong Kong Exhibition Traces Herzog & de Meuron's Design Process Across China",
+      "sourceName": "ArchDaily",
+      "sourceUrl": "https://www.archdaily.com/1184216/m-plus-hong-kong-exhibition-traces-herzog-and-de-meurons-design-process-across-china",
+      "contentType": "空间案例",
+      "publishedAt": "2026-08-31",
+      "summary": "An exhibition tracing the vision behind Herzog & de Meuron 's ten selected p...",
+      "whyItMatters": "适合拆解展线、展品说明和空间节奏之间的关系。",
+      "useFor": [
+        "博物馆",
+        "展陈策划"
+      ],
+      "relevanceScore": 73,
+      "referenceValueScore": 84,
+      "sourceQualityScore": 88,
+      "freshnessScore": 95,
+      "score": 83.2,
+      "matches": [
+        "exhibition",
+        "museum",
+        "cultural"
+      ],
+      "selectionStatus": "watch",
+      "harvestedAt": "2026-08-31T15:57:32.841Z"
+    },
+    {
       "id": "feed-8bb02e738205",
       "title": "experiments in love and revolution occupy malta pavilion at venice art biennale 2026",
       "sourceName": "Designboom",
@@ -967,30 +993,6 @@
       ],
       "selectionStatus": "rejected",
       "harvestedAt": "2026-08-21T08:42:41.831Z"
-    },
-    {
-      "id": "feed-a4ca0304931c",
-      "title": "\"Light and sea breeze shape the viewing\" of exhibits at open-air art gallery in Mexico",
-      "sourceName": "Dezeen",
-      "sourceUrl": "https://www.dezeen.com/2026/08/22/arte-abierto-baja-sordo-madaleno-arquitectos/",
-      "contentType": "行业文章",
-      "publishedAt": "2026-08-22",
-      "summary": "Local studio Sordo Madaleno Arquitectos has completed the Arte Abierto Baja ...",
-      "whyItMatters": "适合判断内容是否能转化为展陈策略、视觉参考或项目提案素材。",
-      "useFor": [
-        "展陈策划"
-      ],
-      "relevanceScore": 64,
-      "referenceValueScore": 76,
-      "sourceQualityScore": 90,
-      "freshnessScore": 95,
-      "score": 78,
-      "matches": [
-        "exhibition",
-        "gallery"
-      ],
-      "selectionStatus": "rejected",
-      "harvestedAt": "2026-08-22T12:42:55.864Z"
     }
   ]
 }
