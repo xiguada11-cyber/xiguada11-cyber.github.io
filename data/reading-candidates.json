@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T13:14:36.751Z",
+  "generatedAt": "2026-09-02T03:35:00.990Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -629,6 +629,31 @@
       "harvestedAt": "2026-08-31T15:57:32.841Z"
     },
     {
+      "id": "feed-605bbddb3307",
+      "title": "Skin the Architect",
+      "sourceName": "ArchDaily",
+      "sourceUrl": "https://www.archdaily.com/1184322/skin-the-architect",
+      "contentType": "空间案例",
+      "publishedAt": "2026-09-01",
+      "summary": "SKIN THE ARCHITECT is an interactive installation by LAIDA - the Latvian Arc...",
+      "whyItMatters": "适合观察互动、停留点和镜头化空间如何服务叙事。",
+      "useFor": [
+        "沉浸式体验"
+      ],
+      "relevanceScore": 73,
+      "referenceValueScore": 84,
+      "sourceQualityScore": 88,
+      "freshnessScore": 95,
+      "score": 83.2,
+      "matches": [
+        "installation",
+        "biennale",
+        "interactive"
+      ],
+      "selectionStatus": "watch",
+      "harvestedAt": "2026-09-02T03:35:00.185Z"
+    },
+    {
       "id": "feed-8bb02e738205",
       "title": "experiments in love and revolution occupy malta pavilion at venice art biennale 2026",
       "sourceName": "Designboom",
@@ -969,30 +994,6 @@
       ],
       "selectionStatus": "rejected",
       "harvestedAt": "2026-08-20T01:21:29.280Z"
-    },
-    {
-      "id": "feed-caea5cdb911f",
-      "title": "ZHA proposes interconnected forest neighbourhoods for Baku Expo City masterplan",
-      "sourceName": "Dezeen",
-      "sourceUrl": "https://www.dezeen.com/2026/08/21/zha-baku-expo-city-masterplan/",
-      "contentType": "行业文章",
-      "publishedAt": "2026-08-21",
-      "summary": "Architecture studio ZHA has unveiled its masterplan for Baku Expo City in Az...",
-      "whyItMatters": "适合判断内容是否能转化为展陈策略、视觉参考或项目提案素材。",
-      "useFor": [
-        "展陈策划"
-      ],
-      "relevanceScore": 64,
-      "referenceValueScore": 76,
-      "sourceQualityScore": 90,
-      "freshnessScore": 95,
-      "score": 78,
-      "matches": [
-        "exhibition",
-        "cultural"
-      ],
-      "selectionStatus": "rejected",
-      "harvestedAt": "2026-08-21T08:42:41.831Z"
     }
   ]
 }
