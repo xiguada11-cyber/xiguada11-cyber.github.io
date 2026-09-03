@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T08:42:07.944Z",
+  "generatedAt": "2026-09-03T14:14:00.146Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -654,6 +654,59 @@
       "harvestedAt": "2026-09-02T03:35:00.185Z"
     },
     {
+      "id": "feed-2b0de69d6c98",
+      "title": "What Does a Museum Need? Inside the Exhibition Architecture of the Natural History Museum Oslo",
+      "sourceName": "ArchDaily",
+      "sourceUrl": "https://www.archdaily.com/1182454/what-does-a-museum-need-inside-the-exhibition-architecture-of-the-natural-history-museum-oslo",
+      "contentType": "空间案例",
+      "publishedAt": "2026-09-03",
+      "summary": "Designing a museum interior means negotiating between the needs of the colle...",
+      "whyItMatters": "适合参考旧空间、地方记忆与新功能之间的转换方式。",
+      "useFor": [
+        "博物馆",
+        "城市更新",
+        "展陈策划"
+      ],
+      "relevanceScore": 73,
+      "referenceValueScore": 84,
+      "sourceQualityScore": 88,
+      "freshnessScore": 95,
+      "score": 83.2,
+      "matches": [
+        "exhibition",
+        "museum",
+        "renovation"
+      ],
+      "selectionStatus": "watch",
+      "harvestedAt": "2026-09-03T14:13:59.399Z"
+    },
+    {
+      "id": "feed-6c8d32bdda85",
+      "title": "Suzhou Museum of Contemporary Art Opens as BIG's First Completed Art Museum",
+      "sourceName": "ArchDaily",
+      "sourceUrl": "https://www.archdaily.com/1184463/suzhou-museum-of-contemporary-art-opens-as-bigs-first-completed-art-museum",
+      "contentType": "空间案例",
+      "publishedAt": "2026-09-03",
+      "summary": "The Suzhou Museum of Contemporary Art is now officially open to the public o...",
+      "whyItMatters": "适合拆解展线、展品说明和空间节奏之间的关系。",
+      "useFor": [
+        "博物馆",
+        "展陈策划"
+      ],
+      "relevanceScore": 73,
+      "referenceValueScore": 84,
+      "sourceQualityScore": 88,
+      "freshnessScore": 95,
+      "score": 83.2,
+      "matches": [
+        "exhibition",
+        "museum",
+        "pavilion"
+      ],
+      "selectionStatus": "watch",
+      "harvestedAt": "2026-09-03T14:13:59.399Z"
+    },
+    {
       "id": "feed-8bb02e738205",
       "title": "experiments in love and revolution occupy malta pavilion at venice art biennale 2026",
       "sourceName": "Designboom",
@@ -945,55 +998,6 @@
       ],
       "selectionStatus": "rejected",
       "harvestedAt": "2026-08-17T08:46:18.145Z"
-    },
-    {
-      "id": "feed-1b8822cc4557",
-      "title": "SESC Pompéia indoor pond replicated for Lina Bo Bardi exhibition in Shanghai",
-      "sourceName": "Dezeen",
-      "sourceUrl": "https://www.dezeen.com/2026/08/19/lina-bo-bardi-exhibition-open-architecture-shanghai/",
-      "contentType": "行业文章",
-      "publishedAt": "2026-08-19",
-      "summary": "International studio Open Architecture drew on Lina Bo Bardi's own designs w...",
-      "whyItMatters": "适合判断内容是否能转化为展陈策略、视觉参考或项目提案素材。",
-      "useFor": [
-        "展陈策划"
-      ],
-      "relevanceScore": 64,
-      "referenceValueScore": 76,
-      "sourceQualityScore": 90,
-      "freshnessScore": 95,
-      "score": 78,
-      "matches": [
-        "exhibition",
-        "gallery"
-      ],
-      "selectionStatus": "rejected",
-      "harvestedAt": "2026-08-19T08:40:04.325Z"
-    },
-    {
-      "id": "feed-6f64abde74dd",
-      "title": "Schaum Architects to lead restoration of Donald Judd&#039;s Artillery Sheds in Texas",
-      "sourceName": "Dezeen",
-      "sourceUrl": "https://www.dezeen.com/2026/08/19/schaum-architects-restoration-donald-judd-artillery-sheds-texas/",
-      "contentType": "行业文章",
-      "publishedAt": "2026-08-19",
-      "summary": "Texas studio Schaum Architects has joined a team of restorers to work on the...",
-      "whyItMatters": "适合拆解展线、展品说明和空间节奏之间的关系。",
-      "useFor": [
-        "博物馆",
-        "展陈策划"
-      ],
-      "relevanceScore": 64,
-      "referenceValueScore": 76,
-      "sourceQualityScore": 90,
-      "freshnessScore": 95,
-      "score": 78,
-      "matches": [
-        "exhibition",
-        "museum"
-      ],
-      "selectionStatus": "rejected",
-      "harvestedAt": "2026-08-20T01:21:29.280Z"
     }
   ]
 }
