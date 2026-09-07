@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T09:05:13.665Z",
+  "generatedAt": "2026-09-07T15:35:56.736Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -707,6 +707,31 @@
       "harvestedAt": "2026-09-03T14:13:59.399Z"
     },
     {
+      "id": "feed-c051c8b2b13e",
+      "title": "The German Pavilion Examines Coexistence and Democracy Through \"CONVIVERE\" at the 2027 Venice Architecture Biennale",
+      "sourceName": "ArchDaily",
+      "sourceUrl": "https://www.archdaily.com/1184577/the-german-pavilion-examines-coexistence-and-democracy-through-convivere-at-the-2027-venice-architecture-biennale",
+      "contentType": "空间案例",
+      "publishedAt": "2026-09-07",
+      "summary": "The German Federal Ministry for Housing, Urban Development and Building has ...",
+      "whyItMatters": "适合判断内容是否能转化为展陈策略、视觉参考或项目提案素材。",
+      "useFor": [
+        "展陈策划"
+      ],
+      "relevanceScore": 73,
+      "referenceValueScore": 84,
+      "sourceQualityScore": 88,
+      "freshnessScore": 95,
+      "score": 83.2,
+      "matches": [
+        "exhibition",
+        "pavilion",
+        "biennale"
+      ],
+      "selectionStatus": "watch",
+      "harvestedAt": "2026-09-07T15:35:56.074Z"
+    },
+    {
       "id": "feed-8bb02e738205",
       "title": "experiments in love and revolution occupy malta pavilion at venice art biennale 2026",
       "sourceName": "Designboom",
@@ -973,31 +998,6 @@
       ],
       "selectionStatus": "rejected",
       "harvestedAt": "2026-08-12T15:30:16.600Z"
-    },
-    {
-      "id": "feed-344f66eaeca0",
-      "title": "Last chance to feature in Dezeen&#039;s digital guide to London Design Festival 2026",
-      "sourceName": "Dezeen",
-      "sourceUrl": "https://www.dezeen.com/2026/08/17/last-chance-feature-dezeens-digital-guide-london-design-festival-2026/",
-      "contentType": "行业文章",
-      "publishedAt": "2026-08-17",
-      "summary": "You can still feature in Dezeen Events Guide's digital guide to the 24th edi...",
-      "whyItMatters": "适合观察互动、停留点和镜头化空间如何服务叙事。",
-      "useFor": [
-        "沉浸式体验",
-        "展陈策划"
-      ],
-      "relevanceScore": 64,
-      "referenceValueScore": 76,
-      "sourceQualityScore": 90,
-      "freshnessScore": 95,
-      "score": 78,
-      "matches": [
-        "exhibition",
-        "installation"
-      ],
-      "selectionStatus": "rejected",
-      "harvestedAt": "2026-08-17T08:46:18.145Z"
     }
   ]
 }
