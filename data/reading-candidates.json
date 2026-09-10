@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T03:44:23.990Z",
+  "generatedAt": "2026-09-10T08:46:01.105Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -732,6 +732,32 @@
       "harvestedAt": "2026-09-07T15:35:56.074Z"
     },
     {
+      "id": "feed-850f0e575594",
+      "title": "Huizhou Vernacular Historic Bridges Micro-Museum / LUO studio",
+      "sourceName": "ArchDaily",
+      "sourceUrl": "https://www.archdaily.com/1184712/huizhou-vernacular-historic-bridges-micro-museum-luo-studio",
+      "contentType": "空间案例",
+      "publishedAt": "2026-09-10",
+      "summary": "Following the Sandstone Wood Pavilion designed for the \"HU SHI GUANG · Art E...",
+      "whyItMatters": "适合观察互动、停留点和镜头化空间如何服务叙事。",
+      "useFor": [
+        "博物馆",
+        "沉浸式体验"
+      ],
+      "relevanceScore": 73,
+      "referenceValueScore": 84,
+      "sourceQualityScore": 88,
+      "freshnessScore": 95,
+      "score": 83.2,
+      "matches": [
+        "museum",
+        "installation",
+        "pavilion"
+      ],
+      "selectionStatus": "watch",
+      "harvestedAt": "2026-09-10T08:46:00.326Z"
+    },
+    {
       "id": "feed-8bb02e738205",
       "title": "experiments in love and revolution occupy malta pavilion at venice art biennale 2026",
       "sourceName": "Designboom",
@@ -974,30 +1000,6 @@
       ],
       "selectionStatus": "rejected",
       "harvestedAt": "2026-08-12T11:12:03.509Z"
-    },
-    {
-      "id": "feed-b858362ab7b5",
-      "title": "Museum for Lola Mora is César Pelli&#039;s final building",
-      "sourceName": "Dezeen",
-      "sourceUrl": "https://www.dezeen.com/2026/08/12/cesar-pelli-final-building-lola-mora-center-argentina/",
-      "contentType": "行业文章",
-      "publishedAt": "2026-08-12",
-      "summary": "US-based studio Pelli Clarke &#38; Partners has created a museum, with a fut...",
-      "whyItMatters": "适合拆解展线、展品说明和空间节奏之间的关系。",
-      "useFor": [
-        "博物馆"
-      ],
-      "relevanceScore": 64,
-      "referenceValueScore": 76,
-      "sourceQualityScore": 90,
-      "freshnessScore": 95,
-      "score": 78,
-      "matches": [
-        "museum",
-        "cultural"
-      ],
-      "selectionStatus": "rejected",
-      "harvestedAt": "2026-08-12T15:30:16.600Z"
     }
   ]
 }
