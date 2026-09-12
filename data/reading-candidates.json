@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T14:07:24.345Z",
+  "generatedAt": "2026-09-12T03:45:39.044Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -783,6 +783,32 @@
       "harvestedAt": "2026-07-21T15:57:23.831Z"
     },
     {
+      "id": "feed-e58fe9b9382e",
+      "title": "dubai gallery pairs open white exhibition halls with a concealed, brick-toned museum room",
+      "sourceName": "Designboom",
+      "sourceUrl": "https://www.designboom.com/art/dubai-gallery-open-white-exhibition-halls-concealed-brick-toned-museum-room-gary-tatintsian-mast/",
+      "contentType": "行业文章",
+      "publishedAt": "2026-09-11",
+      "summary": "walls held back from the glazed facade frame glimpses of the art while prese...",
+      "whyItMatters": "适合拆解展线、展品说明和空间节奏之间的关系。",
+      "useFor": [
+        "博物馆",
+        "展陈策划"
+      ],
+      "relevanceScore": 73,
+      "referenceValueScore": 84,
+      "sourceQualityScore": 86,
+      "freshnessScore": 95,
+      "score": 82.8,
+      "matches": [
+        "exhibition",
+        "museum",
+        "gallery"
+      ],
+      "selectionStatus": "watch",
+      "harvestedAt": "2026-09-12T03:45:38.669Z"
+    },
+    {
       "id": "feed-1a677d9775f2",
       "title": "Museum celebrating work of RNLI among projects from Lancaster University",
       "sourceName": "Dezeen",
@@ -976,30 +1002,6 @@
       ],
       "selectionStatus": "rejected",
       "harvestedAt": "2026-08-11T15:30:08.029Z"
-    },
-    {
-      "id": "feed-93979f7c0040",
-      "title": "Uppercut unveils summer exhibition in the stately rooms of Chateau de Spycker",
-      "sourceName": "Dezeen",
-      "sourceUrl": "https://www.dezeen.com/2026/08/12/uppercut-summer-exhibition-god-speed-chateau-de-spycker/",
-      "contentType": "行业文章",
-      "publishedAt": "2026-08-12",
-      "summary": "Antwerp-based gallery Uppercut is presenting the works of six contemporary d...",
-      "whyItMatters": "适合判断内容是否能转化为展陈策略、视觉参考或项目提案素材。",
-      "useFor": [
-        "展陈策划"
-      ],
-      "relevanceScore": 64,
-      "referenceValueScore": 76,
-      "sourceQualityScore": 90,
-      "freshnessScore": 95,
-      "score": 78,
-      "matches": [
-        "exhibition",
-        "gallery"
-      ],
-      "selectionStatus": "rejected",
-      "harvestedAt": "2026-08-12T11:12:03.509Z"
     }
   ]
 }
