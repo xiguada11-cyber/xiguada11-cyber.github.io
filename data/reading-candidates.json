@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T03:48:11.099Z",
+  "generatedAt": "2026-09-24T09:06:36.157Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -758,6 +758,33 @@
       "harvestedAt": "2026-09-10T08:46:00.326Z"
     },
     {
+      "id": "feed-5b5d9193089e",
+      "title": "Tianlai Art Museum / Mao, Shen-Chiang Architecture Studio",
+      "sourceName": "ArchDaily",
+      "sourceUrl": "https://www.archdaily.com/1185463/tianlai-art-museum-mao-shen-chiang-architecture-studio",
+      "contentType": "空间案例",
+      "publishedAt": "2026-09-24",
+      "summary": "Commissioned by the chairman to commemorate his parents and ancestral home, ...",
+      "whyItMatters": "适合参考旧空间、地方记忆与新功能之间的转换方式。",
+      "useFor": [
+        "博物馆",
+        "城市更新",
+        "展陈策划"
+      ],
+      "relevanceScore": 73,
+      "referenceValueScore": 84,
+      "sourceQualityScore": 88,
+      "freshnessScore": 95,
+      "score": 83.2,
+      "matches": [
+        "exhibition",
+        "museum",
+        "renovation"
+      ],
+      "selectionStatus": "watch",
+      "harvestedAt": "2026-09-24T09:06:34.786Z"
+    },
+    {
       "id": "feed-8bb02e738205",
       "title": "experiments in love and revolution occupy malta pavilion at venice art biennale 2026",
       "sourceName": "Designboom",
@@ -978,30 +1005,6 @@
       ],
       "selectionStatus": "rejected",
       "harvestedAt": "2026-08-09T10:03:51.469Z"
-    },
-    {
-      "id": "feed-b8413643e1d9",
-      "title": "Studio Maks tops science pavilion in Austria with undulating mirrored roof",
-      "sourceName": "Dezeen",
-      "sourceUrl": "https://www.dezeen.com/2026/08/11/studio-maks-vista-science-experience-centre/",
-      "contentType": "行业文章",
-      "publishedAt": "2026-08-11",
-      "summary": "Thousands of mirrors line the gently undulating ceilings of the VISTA Scienc...",
-      "whyItMatters": "适合判断内容是否能转化为展陈策略、视觉参考或项目提案素材。",
-      "useFor": [
-        "展陈策划"
-      ],
-      "relevanceScore": 64,
-      "referenceValueScore": 76,
-      "sourceQualityScore": 90,
-      "freshnessScore": 95,
-      "score": 78,
-      "matches": [
-        "exhibition",
-        "pavilion"
-      ],
-      "selectionStatus": "rejected",
-      "harvestedAt": "2026-08-11T15:30:08.029Z"
     }
   ]
 }
