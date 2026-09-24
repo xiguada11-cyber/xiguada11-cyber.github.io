@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T09:06:36.157Z",
+  "generatedAt": "2026-09-24T14:42:04.033Z",
   "weekOf": "2026-09-24",
   "selectionPolicy": "Only content that can support exhibition projects, curatorial work, spatial design, digital experience, or high-match bidding enters this file.",
   "threshold": 82,
@@ -116,6 +116,33 @@
       "status": "selected"
     },
     {
+      "id": "feed-be033f71b37c",
+      "title": "Fondation Beyeler Expands with Three New Buildings by Peter Zumthor",
+      "sourceName": "ArchDaily",
+      "sourceUrl": "https://www.archdaily.com/1185683/fondation-beyeler-expands-with-three-new-buildings-by-peter-zumthor",
+      "contentType": "空间案例",
+      "publishedAt": "2026-09-24",
+      "summary": "The Fondation Beyeler in Riehen , Switzerland , is expanding its museum ense...",
+      "whyItMatters": "适合拆解展线、展品说明和空间节奏之间的关系。",
+      "useFor": [
+        "博物馆",
+        "展陈策划"
+      ],
+      "relevanceScore": 82,
+      "referenceValueScore": 92,
+      "sourceQualityScore": 88,
+      "freshnessScore": 95,
+      "score": 88.7,
+      "matches": [
+        "exhibition",
+        "museum",
+        "pavilion",
+        "cultural"
+      ],
+      "harvestedAt": "2026-09-24T14:42:02.698Z",
+      "status": "selected"
+    },
+    {
       "id": "candidate-runway-gen45",
       "title": "Runway Gen-4.5 官方发布",
       "sourceName": "Runway",
@@ -155,27 +182,6 @@
       "sourceQualityScore": 88,
       "freshnessScore": 72,
       "score": 88.4,
-      "status": "selected"
-    },
-    {
-      "id": "candidate-silkroad-digital-twin",
-      "title": "丝路视觉数字孪生业务入口",
-      "sourceName": "丝路视觉",
-      "sourceUrl": "https://www.silkroadcg.com/twin_cn.html",
-      "contentType": "数字展陈案例",
-      "publishedAt": "2026-07-14",
-      "summary": "官方数字孪生业务入口，覆盖城市和园区展示。",
-      "whyItMatters": "适合判断数字孪生在规划馆中如何连接数据、任务和展示。",
-      "useFor": [
-        "规划馆",
-        "数字孪生",
-        "城市展示"
-      ],
-      "relevanceScore": 92,
-      "referenceValueScore": 90,
-      "sourceQualityScore": 90,
-      "freshnessScore": 72,
-      "score": 87.9,
       "status": "selected"
     }
   ]

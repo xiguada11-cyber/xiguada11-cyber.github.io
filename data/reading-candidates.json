@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T09:06:36.157Z",
+  "generatedAt": "2026-09-24T14:42:04.033Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -136,6 +136,33 @@
       ],
       "selectionStatus": "watch",
       "harvestedAt": "2026-08-19T10:31:03.860Z"
+    },
+    {
+      "id": "feed-be033f71b37c",
+      "title": "Fondation Beyeler Expands with Three New Buildings by Peter Zumthor",
+      "sourceName": "ArchDaily",
+      "sourceUrl": "https://www.archdaily.com/1185683/fondation-beyeler-expands-with-three-new-buildings-by-peter-zumthor",
+      "contentType": "空间案例",
+      "publishedAt": "2026-09-24",
+      "summary": "The Fondation Beyeler in Riehen , Switzerland , is expanding its museum ense...",
+      "whyItMatters": "适合拆解展线、展品说明和空间节奏之间的关系。",
+      "useFor": [
+        "博物馆",
+        "展陈策划"
+      ],
+      "relevanceScore": 82,
+      "referenceValueScore": 92,
+      "sourceQualityScore": 88,
+      "freshnessScore": 95,
+      "score": 88.7,
+      "matches": [
+        "exhibition",
+        "museum",
+        "pavilion",
+        "cultural"
+      ],
+      "selectionStatus": "watch",
+      "harvestedAt": "2026-09-24T14:42:02.698Z"
     },
     {
       "id": "candidate-runway-gen45",
@@ -980,31 +1007,6 @@
       ],
       "selectionStatus": "rejected",
       "harvestedAt": "2026-08-06T10:14:45.803Z"
-    },
-    {
-      "id": "feed-907a12d52ecf",
-      "title": "Cyro Arquitetura designs \"white noise\" apartment in São Paulo",
-      "sourceName": "Dezeen",
-      "sourceUrl": "https://www.dezeen.com/2026/08/08/ruido-branco-studio-casacor-sao-paulo-cyro-arquitetura/",
-      "contentType": "行业文章",
-      "publishedAt": "2026-08-08",
-      "summary": "São Paulo studio Cyro Arquitetura has created a temporary studio apartment f...",
-      "whyItMatters": "适合观察互动、停留点和镜头化空间如何服务叙事。",
-      "useFor": [
-        "沉浸式体验",
-        "展陈策划"
-      ],
-      "relevanceScore": 64,
-      "referenceValueScore": 76,
-      "sourceQualityScore": 90,
-      "freshnessScore": 95,
-      "score": 78,
-      "matches": [
-        "exhibition",
-        "installation"
-      ],
-      "selectionStatus": "rejected",
-      "harvestedAt": "2026-08-09T10:03:51.469Z"
     }
   ]
 }
