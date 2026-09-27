@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T04:22:57.734Z",
+  "generatedAt": "2026-09-27T13:38:41.610Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -812,6 +812,32 @@
       "harvestedAt": "2026-09-24T09:06:34.786Z"
     },
     {
+      "id": "feed-10f39de0ec78",
+      "title": "Osmanthus Moon / HCCH Studio",
+      "sourceName": "ArchDaily",
+      "sourceUrl": "https://www.archdaily.com/1035956/osmanthus-moon-hcch-studio",
+      "contentType": "空间案例",
+      "publishedAt": "2026-09-27",
+      "summary": "Osmanthus Moon is a short-term public art installation created to celebrate ...",
+      "whyItMatters": "适合观察互动、停留点和镜头化空间如何服务叙事。",
+      "useFor": [
+        "沉浸式体验",
+        "城市更新"
+      ],
+      "relevanceScore": 73,
+      "referenceValueScore": 84,
+      "sourceQualityScore": 88,
+      "freshnessScore": 95,
+      "score": 83.2,
+      "matches": [
+        "installation",
+        "cultural",
+        "heritage"
+      ],
+      "selectionStatus": "watch",
+      "harvestedAt": "2026-09-27T13:38:40.826Z"
+    },
+    {
       "id": "feed-8bb02e738205",
       "title": "experiments in love and revolution occupy malta pavilion at venice art biennale 2026",
       "sourceName": "Designboom",
@@ -983,30 +1009,6 @@
       ],
       "selectionStatus": "rejected",
       "harvestedAt": "2026-08-04T10:15:58.780Z"
-    },
-    {
-      "id": "feed-5c83bb4d4552",
-      "title": "MVRDV designs colourful stacked volumes for Shenzhen cultural complex",
-      "sourceName": "Dezeen",
-      "sourceUrl": "https://www.dezeen.com/2026/08/06/mvrdv-bihailou-art-village-shenzhen/",
-      "contentType": "行业文章",
-      "publishedAt": "2026-08-06",
-      "summary": "Dutch studio MVRDV has revealed designs for the Bihailou Art Village, a cult...",
-      "whyItMatters": "适合拆解展线、展品说明和空间节奏之间的关系。",
-      "useFor": [
-        "博物馆"
-      ],
-      "relevanceScore": 64,
-      "referenceValueScore": 76,
-      "sourceQualityScore": 90,
-      "freshnessScore": 95,
-      "score": 78,
-      "matches": [
-        "museum",
-        "cultural"
-      ],
-      "selectionStatus": "rejected",
-      "harvestedAt": "2026-08-06T10:14:45.803Z"
     }
   ]
 }
