@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T13:38:41.612Z",
+  "generatedAt": "2026-09-28T04:24:09.400Z",
   "sourcePolicy": "Use official pages, professional media, RSS/API feeds where available, and manually verified public sources. Do not publish raw harvested content before scoring.",
   "readingPolicy": {
     "positioning": "个人展陈项目助手 + 高价值行业内容精选",
@@ -14,12 +14,12 @@
   "channels": {
     "readingSelected": {
       "items": 8,
-      "lastVerifiedAt": "2026-09-27T13:38:41.610Z",
+      "lastVerifiedAt": "2026-09-28T04:24:09.398Z",
       "latestPublishedAt": "2026-09-24"
     },
     "readingCandidates": {
       "items": 40,
-      "lastVerifiedAt": "2026-09-27T13:38:41.610Z",
+      "lastVerifiedAt": "2026-09-28T04:24:09.398Z",
       "latestPublishedAt": "2026-09-27"
     },
     "bidding": {
