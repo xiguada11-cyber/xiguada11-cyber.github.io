@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T04:40:40.747Z",
+  "generatedAt": "2026-09-30T14:43:48.175Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -838,6 +838,31 @@
       "harvestedAt": "2026-09-27T13:38:40.826Z"
     },
     {
+      "id": "feed-395d0a79fbbf",
+      "title": "The Luxembourg Pavilion Examines Overconsumption of Living Space Through \"Excess!\" at the 2027 Venice Architecture Biennale",
+      "sourceName": "ArchDaily",
+      "sourceUrl": "https://www.archdaily.com/1186027/the-luxembourg-pavilion-examines-overconsumption-of-living-space-through-excess-at-the-2027-venice-architecture-biennale",
+      "contentType": "空间案例",
+      "publishedAt": "2026-09-30",
+      "summary": "A jury of arts and architecture professionals recently announced the selecte...",
+      "whyItMatters": "适合判断内容是否能转化为展陈策略、视觉参考或项目提案素材。",
+      "useFor": [
+        "展陈策划"
+      ],
+      "relevanceScore": 73,
+      "referenceValueScore": 84,
+      "sourceQualityScore": 88,
+      "freshnessScore": 95,
+      "score": 83.2,
+      "matches": [
+        "exhibition",
+        "pavilion",
+        "biennale"
+      ],
+      "selectionStatus": "watch",
+      "harvestedAt": "2026-09-30T14:43:46.724Z"
+    },
+    {
       "id": "feed-8bb02e738205",
       "title": "experiments in love and revolution occupy malta pavilion at venice art biennale 2026",
       "sourceName": "Designboom",
@@ -987,31 +1012,6 @@
       ],
       "selectionStatus": "rejected",
       "harvestedAt": "2026-07-28T17:12:56.047Z"
-    },
-    {
-      "id": "feed-f1405b5e951c",
-      "title": "Industrial-style technology museum set to be built in Bengaluru",
-      "sourceName": "Dezeen",
-      "sourceUrl": "https://www.dezeen.com/2026/07/30/bengaluru-museum-innovation-startup-technology/",
-      "contentType": "行业文章",
-      "publishedAt": "2026-07-30",
-      "summary": "Plans have been announced for a technology and innovation museum in Bengalur...",
-      "whyItMatters": "适合拆解展线、展品说明和空间节奏之间的关系。",
-      "useFor": [
-        "博物馆",
-        "展陈策划"
-      ],
-      "relevanceScore": 64,
-      "referenceValueScore": 76,
-      "sourceQualityScore": 90,
-      "freshnessScore": 95,
-      "score": 78,
-      "matches": [
-        "exhibition",
-        "museum"
-      ],
-      "selectionStatus": "rejected",
-      "harvestedAt": "2026-07-30T09:37:23.949Z"
     }
   ]
 }
