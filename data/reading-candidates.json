@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T14:42:09.182Z",
+  "generatedAt": "2026-09-30T04:40:40.747Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -889,6 +889,33 @@
       "harvestedAt": "2026-09-12T03:45:38.669Z"
     },
     {
+      "id": "feed-3b09522caf1f",
+      "title": "how LAS art foundation transforms quantum computing and clubs into art",
+      "sourceName": "Designboom",
+      "sourceUrl": "https://www.designboom.com/art/how-las-art-foundation-transforms-quantum-computing-and-clubs-into-art/",
+      "contentType": "行业文章",
+      "publishedAt": "2026-09-29",
+      "summary": "from berghain to venice, the organization takes immersive exhibitions beyond...",
+      "whyItMatters": "适合观察互动、停留点和镜头化空间如何服务叙事。",
+      "useFor": [
+        "博物馆",
+        "沉浸式体验",
+        "展陈策划"
+      ],
+      "relevanceScore": 73,
+      "referenceValueScore": 84,
+      "sourceQualityScore": 86,
+      "freshnessScore": 95,
+      "score": 82.8,
+      "matches": [
+        "exhibition",
+        "museum",
+        "immersive"
+      ],
+      "selectionStatus": "watch",
+      "harvestedAt": "2026-09-30T04:40:40.014Z"
+    },
+    {
       "id": "feed-1a677d9775f2",
       "title": "Museum celebrating work of RNLI among projects from Lancaster University",
       "sourceName": "Dezeen",
@@ -985,30 +1012,6 @@
       ],
       "selectionStatus": "rejected",
       "harvestedAt": "2026-07-30T09:37:23.949Z"
-    },
-    {
-      "id": "feed-a0b47029502d",
-      "title": "Glazed pavilion with \"distinctly modernist character\" added to Portland Art Museum",
-      "sourceName": "Dezeen",
-      "sourceUrl": "https://www.dezeen.com/2026/08/03/portland-art-museum-oregon-hennebery-eddy-architects-and-vinci-hamp-architects/",
-      "contentType": "行业文章",
-      "publishedAt": "2026-08-03",
-      "summary": "A glass-walled pavilion sandwiched between historic buildings is the leading...",
-      "whyItMatters": "适合拆解展线、展品说明和空间节奏之间的关系。",
-      "useFor": [
-        "博物馆"
-      ],
-      "relevanceScore": 64,
-      "referenceValueScore": 76,
-      "sourceQualityScore": 90,
-      "freshnessScore": 95,
-      "score": 78,
-      "matches": [
-        "museum",
-        "pavilion"
-      ],
-      "selectionStatus": "rejected",
-      "harvestedAt": "2026-08-04T10:15:58.780Z"
     }
   ]
 }
