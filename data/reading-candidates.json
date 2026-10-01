@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T14:43:48.175Z",
+  "generatedAt": "2026-10-01T04:52:40.983Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -294,6 +294,32 @@
       ],
       "selectionStatus": "watch",
       "harvestedAt": "2026-08-27T20:12:04.576Z"
+    },
+    {
+      "id": "feed-e3ddf17a37b0",
+      "title": "Synthetic memories feature in MoMA information design exhibition",
+      "sourceName": "Dezeen",
+      "sourceUrl": "https://www.dezeen.com/2026/09/30/moma-information-design-exhibition-full-disclosure/",
+      "contentType": "行业文章",
+      "publishedAt": "2026-09-30",
+      "summary": "New York's Museum of Modern Art has exhibited Full Disclosure: The Edge of I...",
+      "whyItMatters": "适合拆解展线、展品说明和空间节奏之间的关系。",
+      "useFor": [
+        "博物馆",
+        "展陈策划"
+      ],
+      "relevanceScore": 73,
+      "referenceValueScore": 84,
+      "sourceQualityScore": 90,
+      "freshnessScore": 95,
+      "score": 83.5,
+      "matches": [
+        "exhibition",
+        "museum",
+        "gallery"
+      ],
+      "selectionStatus": "watch",
+      "harvestedAt": "2026-10-01T04:52:39.924Z"
     },
     {
       "id": "feed-ed739e09de2d",
@@ -988,30 +1014,6 @@
       ],
       "selectionStatus": "rejected",
       "harvestedAt": "2026-07-23T09:15:21.847Z"
-    },
-    {
-      "id": "feed-f38396786afd",
-      "title": "Sinuous form of Shenzhen Natural History Museum emulates \"a piece of landscape\"",
-      "sourceName": "Dezeen",
-      "sourceUrl": "https://www.dezeen.com/2026/07/28/shenzhen-natural-history-museum-3xn/",
-      "contentType": "行业文章",
-      "publishedAt": "2026-07-28",
-      "summary": "Granite cloaks the sweeping form of Shenzhen Natural History Museum, complet...",
-      "whyItMatters": "适合拆解展线、展品说明和空间节奏之间的关系。",
-      "useFor": [
-        "博物馆"
-      ],
-      "relevanceScore": 64,
-      "referenceValueScore": 76,
-      "sourceQualityScore": 90,
-      "freshnessScore": 95,
-      "score": 78,
-      "matches": [
-        "museum",
-        "cultural"
-      ],
-      "selectionStatus": "rejected",
-      "harvestedAt": "2026-07-28T17:12:56.047Z"
     }
   ]
 }
