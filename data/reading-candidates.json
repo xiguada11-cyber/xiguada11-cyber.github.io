@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T14:33:22.708Z",
+  "generatedAt": "2026-10-03T04:25:30.174Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -320,6 +320,32 @@
       ],
       "selectionStatus": "watch",
       "harvestedAt": "2026-10-01T04:52:39.924Z"
+    },
+    {
+      "id": "feed-87e5bf86a729",
+      "title": "Rafael Prieto creates furniture from fragments of New York buildings",
+      "sourceName": "Dezeen",
+      "sourceUrl": "https://www.dezeen.com/2026/10/02/rafael-prieto-the-future-of-the-past-emma-scully-gallery/",
+      "contentType": "行业文章",
+      "publishedAt": "2026-10-02",
+      "summary": "Local designer Rafael Prieto has created a collection of furniture using cas...",
+      "whyItMatters": "适合参考旧空间、地方记忆与新功能之间的转换方式。",
+      "useFor": [
+        "城市更新",
+        "展陈策划"
+      ],
+      "relevanceScore": 73,
+      "referenceValueScore": 84,
+      "sourceQualityScore": 90,
+      "freshnessScore": 95,
+      "score": 83.5,
+      "matches": [
+        "exhibition",
+        "gallery",
+        "renovation"
+      ],
+      "selectionStatus": "watch",
+      "harvestedAt": "2026-10-03T04:25:28.255Z"
     },
     {
       "id": "feed-ed739e09de2d",
@@ -990,30 +1016,6 @@
       ],
       "selectionStatus": "rejected",
       "harvestedAt": "2026-07-21T15:57:23.249Z"
-    },
-    {
-      "id": "feed-eaae1da56e22",
-      "title": "\"New York&#039;s largest kaleidoscope\" among immersive artworks at Edge NYC viewpoint",
-      "sourceName": "Dezeen",
-      "sourceUrl": "https://www.dezeen.com/2026/07/23/edge-nyc-viewpoint-new-york-kaleidoscope-attraction/",
-      "contentType": "行业文章",
-      "publishedAt": "2026-07-23",
-      "summary": "Design studios Softlab and Moment Factory have created seven immersive insta...",
-      "whyItMatters": "适合观察互动、停留点和镜头化空间如何服务叙事。",
-      "useFor": [
-        "沉浸式体验"
-      ],
-      "relevanceScore": 64,
-      "referenceValueScore": 76,
-      "sourceQualityScore": 90,
-      "freshnessScore": 95,
-      "score": 78,
-      "matches": [
-        "installation",
-        "immersive"
-      ],
-      "selectionStatus": "rejected",
-      "harvestedAt": "2026-07-23T09:15:21.847Z"
     }
   ]
 }
