@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T04:43:57.488Z",
+  "generatedAt": "2026-10-05T16:55:20.044Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -915,6 +915,32 @@
       "harvestedAt": "2026-09-30T14:43:46.724Z"
     },
     {
+      "id": "feed-74d4cd650fec",
+      "title": "TAELON7’s Limbo Engawa Installation Moves From Accra to Art Omi in New York",
+      "sourceName": "ArchDaily",
+      "sourceUrl": "https://www.archdaily.com/1186286/taelon7-s-limbo-engawa-installation-moves-from-accra-to-art-omi-in-new-york",
+      "contentType": "空间案例",
+      "publishedAt": "2026-10-05",
+      "summary": "Art Omi and Limbo Museum have presented Limbo Engawa , a two-part site-speci...",
+      "whyItMatters": "适合观察互动、停留点和镜头化空间如何服务叙事。",
+      "useFor": [
+        "博物馆",
+        "沉浸式体验"
+      ],
+      "relevanceScore": 73,
+      "referenceValueScore": 84,
+      "sourceQualityScore": 88,
+      "freshnessScore": 95,
+      "score": 83.2,
+      "matches": [
+        "museum",
+        "installation",
+        "cultural"
+      ],
+      "selectionStatus": "watch",
+      "harvestedAt": "2026-10-05T16:55:18.432Z"
+    },
+    {
       "id": "feed-8bb02e738205",
       "title": "experiments in love and revolution occupy malta pavilion at venice art biennale 2026",
       "sourceName": "Designboom",
@@ -991,31 +1017,6 @@
       ],
       "selectionStatus": "watch",
       "harvestedAt": "2026-09-30T04:40:40.014Z"
-    },
-    {
-      "id": "feed-1a677d9775f2",
-      "title": "Museum celebrating work of RNLI among projects from Lancaster University",
-      "sourceName": "Dezeen",
-      "sourceUrl": "https://www.dezeen.com/2026/07/21/museum-celebrating-work-of-rnli-lancaster-university-schoolshows/",
-      "contentType": "行业文章",
-      "publishedAt": "2026-07-21",
-      "summary": "Dezeen School Shows: a museum dedicated to celebrating the history of Folkes...",
-      "whyItMatters": "适合拆解展线、展品说明和空间节奏之间的关系。",
-      "useFor": [
-        "博物馆",
-        "展陈策划"
-      ],
-      "relevanceScore": 64,
-      "referenceValueScore": 76,
-      "sourceQualityScore": 90,
-      "freshnessScore": 95,
-      "score": 78,
-      "matches": [
-        "exhibition",
-        "museum"
-      ],
-      "selectionStatus": "rejected",
-      "harvestedAt": "2026-07-21T15:57:23.249Z"
     }
   ]
 }
