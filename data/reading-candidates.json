@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T05:30:24.794Z",
+  "generatedAt": "2026-10-06T14:52:03.566Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -163,6 +163,34 @@
       ],
       "selectionStatus": "watch",
       "harvestedAt": "2026-09-24T14:42:02.698Z"
+    },
+    {
+      "id": "feed-1f40efebbd16",
+      "title": "Design Museum Gent Reopens with New Wing by Carmody Groarke and ATAMA",
+      "sourceName": "ArchDaily",
+      "sourceUrl": "https://www.archdaily.com/1186376/design-museum-gent-reopens-with-new-wing-by-carmody-groarke-and-atama",
+      "contentType": "空间案例",
+      "publishedAt": "2026-10-06",
+      "summary": "In November 2019, London-based Carmody Groarke and Ghent firm TRANS architec...",
+      "whyItMatters": "适合参考旧空间、地方记忆与新功能之间的转换方式。",
+      "useFor": [
+        "博物馆",
+        "城市更新",
+        "展陈策划"
+      ],
+      "relevanceScore": 82,
+      "referenceValueScore": 92,
+      "sourceQualityScore": 88,
+      "freshnessScore": 95,
+      "score": 88.7,
+      "matches": [
+        "exhibition",
+        "museum",
+        "heritage",
+        "renovation"
+      ],
+      "selectionStatus": "watch",
+      "harvestedAt": "2026-10-06T14:52:01.982Z"
     },
     {
       "id": "candidate-runway-gen45",
@@ -990,33 +1018,6 @@
       ],
       "selectionStatus": "watch",
       "harvestedAt": "2026-09-12T03:45:38.669Z"
-    },
-    {
-      "id": "feed-3b09522caf1f",
-      "title": "how LAS art foundation transforms quantum computing and clubs into art",
-      "sourceName": "Designboom",
-      "sourceUrl": "https://www.designboom.com/art/how-las-art-foundation-transforms-quantum-computing-and-clubs-into-art/",
-      "contentType": "行业文章",
-      "publishedAt": "2026-09-29",
-      "summary": "from berghain to venice, the organization takes immersive exhibitions beyond...",
-      "whyItMatters": "适合观察互动、停留点和镜头化空间如何服务叙事。",
-      "useFor": [
-        "博物馆",
-        "沉浸式体验",
-        "展陈策划"
-      ],
-      "relevanceScore": 73,
-      "referenceValueScore": 84,
-      "sourceQualityScore": 86,
-      "freshnessScore": 95,
-      "score": 82.8,
-      "matches": [
-        "exhibition",
-        "museum",
-        "immersive"
-      ],
-      "selectionStatus": "watch",
-      "harvestedAt": "2026-09-30T04:40:40.014Z"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T05:30:24.794Z",
+  "generatedAt": "2026-10-06T14:52:03.566Z",
   "weekOf": "2026-10-06",
   "selectionPolicy": "Only content that can support exhibition projects, curatorial work, spatial design, digital experience, or high-match bidding enters this file.",
   "threshold": 82,
@@ -143,6 +143,34 @@
       "status": "selected"
     },
     {
+      "id": "feed-1f40efebbd16",
+      "title": "Design Museum Gent Reopens with New Wing by Carmody Groarke and ATAMA",
+      "sourceName": "ArchDaily",
+      "sourceUrl": "https://www.archdaily.com/1186376/design-museum-gent-reopens-with-new-wing-by-carmody-groarke-and-atama",
+      "contentType": "空间案例",
+      "publishedAt": "2026-10-06",
+      "summary": "In November 2019, London-based Carmody Groarke and Ghent firm TRANS architec...",
+      "whyItMatters": "适合参考旧空间、地方记忆与新功能之间的转换方式。",
+      "useFor": [
+        "博物馆",
+        "城市更新",
+        "展陈策划"
+      ],
+      "relevanceScore": 82,
+      "referenceValueScore": 92,
+      "sourceQualityScore": 88,
+      "freshnessScore": 95,
+      "score": 88.7,
+      "matches": [
+        "exhibition",
+        "museum",
+        "heritage",
+        "renovation"
+      ],
+      "harvestedAt": "2026-10-06T14:52:01.982Z",
+      "status": "selected"
+    },
+    {
       "id": "candidate-runway-gen45",
       "title": "Runway Gen-4.5 官方发布",
       "sourceName": "Runway",
@@ -161,27 +189,6 @@
       "sourceQualityScore": 95,
       "freshnessScore": 78,
       "score": 88.6,
-      "status": "selected"
-    },
-    {
-      "id": "candidate-fengxian-museum",
-      "title": "奉贤城市博物馆",
-      "sourceName": "风语筑",
-      "sourceUrl": "https://www.fengyuzhu.com/?space",
-      "contentType": "国内案例",
-      "publishedAt": "2026-07-14",
-      "summary": "城市文化与地方叙事类展陈案例。",
-      "whyItMatters": "适合参考地方时间线、空间线和人物线如何组织。",
-      "useFor": [
-        "城市馆",
-        "地方叙事",
-        "数字主题空间"
-      ],
-      "relevanceScore": 93,
-      "referenceValueScore": 91,
-      "sourceQualityScore": 88,
-      "freshnessScore": 72,
-      "score": 88.4,
       "status": "selected"
     }
   ]
