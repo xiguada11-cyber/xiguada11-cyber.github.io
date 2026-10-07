@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T04:59:58.670Z",
+  "generatedAt": "2026-10-07T15:17:53.024Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -969,6 +969,31 @@
       "harvestedAt": "2026-10-05T16:55:18.432Z"
     },
     {
+      "id": "feed-0dde525a26cb",
+      "title": "Marlon Blackwell Architects’ U.S. Pavilion for the 2025 Venice Architecture Biennale to Be Reconstructed at Crystal Bridges, Arkansas",
+      "sourceName": "ArchDaily",
+      "sourceUrl": "https://www.archdaily.com/1186399/marlon-blackwell-architects-us-pavilion-for-the-2025-venice-architecture-biennale-to-be-reconstructed-at-crystal-bridges-arkansas",
+      "contentType": "空间案例",
+      "publishedAt": "2026-10-07",
+      "summary": "The timber-framed structure designed by Marlon Blackwell Architects for the ...",
+      "whyItMatters": "适合拆解展线、展品说明和空间节奏之间的关系。",
+      "useFor": [
+        "博物馆"
+      ],
+      "relevanceScore": 73,
+      "referenceValueScore": 84,
+      "sourceQualityScore": 88,
+      "freshnessScore": 95,
+      "score": 83.2,
+      "matches": [
+        "museum",
+        "pavilion",
+        "biennale"
+      ],
+      "selectionStatus": "watch",
+      "harvestedAt": "2026-10-07T15:17:51.345Z"
+    },
+    {
       "id": "feed-8bb02e738205",
       "title": "experiments in love and revolution occupy malta pavilion at venice art biennale 2026",
       "sourceName": "Designboom",
@@ -992,32 +1017,6 @@
       ],
       "selectionStatus": "watch",
       "harvestedAt": "2026-07-21T15:57:23.831Z"
-    },
-    {
-      "id": "feed-e58fe9b9382e",
-      "title": "dubai gallery pairs open white exhibition halls with a concealed, brick-toned museum room",
-      "sourceName": "Designboom",
-      "sourceUrl": "https://www.designboom.com/art/dubai-gallery-open-white-exhibition-halls-concealed-brick-toned-museum-room-gary-tatintsian-mast/",
-      "contentType": "行业文章",
-      "publishedAt": "2026-09-11",
-      "summary": "walls held back from the glazed facade frame glimpses of the art while prese...",
-      "whyItMatters": "适合拆解展线、展品说明和空间节奏之间的关系。",
-      "useFor": [
-        "博物馆",
-        "展陈策划"
-      ],
-      "relevanceScore": 73,
-      "referenceValueScore": 84,
-      "sourceQualityScore": 86,
-      "freshnessScore": 95,
-      "score": 82.8,
-      "matches": [
-        "exhibition",
-        "museum",
-        "gallery"
-      ],
-      "selectionStatus": "watch",
-      "harvestedAt": "2026-09-12T03:45:38.669Z"
     }
   ]
 }
