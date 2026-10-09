@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T05:13:36.316Z",
+  "generatedAt": "2026-10-09T15:04:17.658Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -191,6 +191,33 @@
       ],
       "selectionStatus": "watch",
       "harvestedAt": "2026-10-06T14:52:01.982Z"
+    },
+    {
+      "id": "feed-4def20549746",
+      "title": "Jingzhou City Wall Archaeological Site Exhibition Pavilion / Qing Studio",
+      "sourceName": "ArchDaily",
+      "sourceUrl": "https://www.archdaily.com/1038713/jingzhou-city-wall-archaeological-site-exhibition-pavilion-qing-studio",
+      "contentType": "空间案例",
+      "publishedAt": "2026-10-09",
+      "summary": "A Millennium Cross-Section on a Living Street — This project originates from...",
+      "whyItMatters": "适合参考旧空间、地方记忆与新功能之间的转换方式。",
+      "useFor": [
+        "城市更新",
+        "展陈策划"
+      ],
+      "relevanceScore": 82,
+      "referenceValueScore": 92,
+      "sourceQualityScore": 88,
+      "freshnessScore": 95,
+      "score": 88.7,
+      "matches": [
+        "exhibition",
+        "pavilion",
+        "cultural",
+        "heritage"
+      ],
+      "selectionStatus": "watch",
+      "harvestedAt": "2026-10-09T15:04:16.917Z"
     },
     {
       "id": "candidate-runway-gen45",
@@ -992,31 +1019,6 @@
       ],
       "selectionStatus": "watch",
       "harvestedAt": "2026-10-07T15:17:51.345Z"
-    },
-    {
-      "id": "feed-8bb02e738205",
-      "title": "experiments in love and revolution occupy malta pavilion at venice art biennale 2026",
-      "sourceName": "Designboom",
-      "sourceUrl": "https://www.designboom.com/art/malta-pavilion-at-venice-art-biennale-2026/",
-      "contentType": "行业文章",
-      "publishedAt": "2026-07-21",
-      "summary": "the exhibition ‘no need to sparkle; experiments in love and revolution’ expl...",
-      "whyItMatters": "适合判断内容是否能转化为展陈策略、视觉参考或项目提案素材。",
-      "useFor": [
-        "展陈策划"
-      ],
-      "relevanceScore": 73,
-      "referenceValueScore": 84,
-      "sourceQualityScore": 86,
-      "freshnessScore": 95,
-      "score": 82.8,
-      "matches": [
-        "exhibition",
-        "pavilion",
-        "biennale"
-      ],
-      "selectionStatus": "watch",
-      "harvestedAt": "2026-07-21T15:57:23.831Z"
     }
   ]
 }

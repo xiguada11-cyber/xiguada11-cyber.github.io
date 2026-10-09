@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T05:13:36.316Z",
+  "generatedAt": "2026-10-09T15:04:17.658Z",
   "weekOf": "2026-10-09",
   "selectionPolicy": "Only content that can support exhibition projects, curatorial work, spatial design, digital experience, or high-match bidding enters this file.",
   "threshold": 82,
@@ -171,24 +171,30 @@
       "status": "selected"
     },
     {
-      "id": "candidate-runway-gen45",
-      "title": "Runway Gen-4.5 官方发布",
-      "sourceName": "Runway",
-      "sourceUrl": "https://runwayml.com/research/introducing-runway-gen-4.5",
-      "contentType": "AI工具更新",
-      "publishedAt": "2025-12-01",
-      "summary": "新模型强调运动质量、提示词遵循和视觉保真。",
-      "whyItMatters": "适合判断图生视频是否能进入展陈汇报短片流程。",
+      "id": "feed-4def20549746",
+      "title": "Jingzhou City Wall Archaeological Site Exhibition Pavilion / Qing Studio",
+      "sourceName": "ArchDaily",
+      "sourceUrl": "https://www.archdaily.com/1038713/jingzhou-city-wall-archaeological-site-exhibition-pavilion-qing-studio",
+      "contentType": "空间案例",
+      "publishedAt": "2026-10-09",
+      "summary": "A Millennium Cross-Section on a Living Street — This project originates from...",
+      "whyItMatters": "适合参考旧空间、地方记忆与新功能之间的转换方式。",
       "useFor": [
-        "AI视频",
-        "方案演示",
-        "效果图转视频"
+        "城市更新",
+        "展陈策划"
       ],
-      "relevanceScore": 88,
-      "referenceValueScore": 90,
-      "sourceQualityScore": 95,
-      "freshnessScore": 78,
-      "score": 88.6,
+      "relevanceScore": 82,
+      "referenceValueScore": 92,
+      "sourceQualityScore": 88,
+      "freshnessScore": 95,
+      "score": 88.7,
+      "matches": [
+        "exhibition",
+        "pavilion",
+        "cultural",
+        "heritage"
+      ],
+      "harvestedAt": "2026-10-09T15:04:16.917Z",
       "status": "selected"
     }
   ]
