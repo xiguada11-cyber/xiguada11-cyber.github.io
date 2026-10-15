@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T08:58:59.609Z",
+  "generatedAt": "2026-10-15T14:44:26.165Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -401,6 +401,31 @@
       ],
       "selectionStatus": "watch",
       "harvestedAt": "2026-10-03T04:25:28.255Z"
+    },
+    {
+      "id": "feed-c07b1d51d28a",
+      "title": "\"Radically simple\" Resonance pavilion takes centre stage at Tallinn Architecture Biennale",
+      "sourceName": "Dezeen",
+      "sourceUrl": "https://www.dezeen.com/2026/10/15/resonance-pavilion-tallinn-architecture-biennale/",
+      "contentType": "行业文章",
+      "publishedAt": "2026-10-15",
+      "summary": "Limestone and plywood make up the temporary pavilion at the heart of this ye...",
+      "whyItMatters": "适合拆解展线、展品说明和空间节奏之间的关系。",
+      "useFor": [
+        "博物馆"
+      ],
+      "relevanceScore": 73,
+      "referenceValueScore": 84,
+      "sourceQualityScore": 90,
+      "freshnessScore": 95,
+      "score": 83.5,
+      "matches": [
+        "museum",
+        "pavilion",
+        "biennale"
+      ],
+      "selectionStatus": "watch",
+      "harvestedAt": "2026-10-15T14:44:24.771Z"
     },
     {
       "id": "feed-ed739e09de2d",
@@ -994,31 +1019,6 @@
       ],
       "selectionStatus": "watch",
       "harvestedAt": "2026-10-05T16:55:18.432Z"
-    },
-    {
-      "id": "feed-0dde525a26cb",
-      "title": "Marlon Blackwell Architects’ U.S. Pavilion for the 2025 Venice Architecture Biennale to Be Reconstructed at Crystal Bridges, Arkansas",
-      "sourceName": "ArchDaily",
-      "sourceUrl": "https://www.archdaily.com/1186399/marlon-blackwell-architects-us-pavilion-for-the-2025-venice-architecture-biennale-to-be-reconstructed-at-crystal-bridges-arkansas",
-      "contentType": "空间案例",
-      "publishedAt": "2026-10-07",
-      "summary": "The timber-framed structure designed by Marlon Blackwell Architects for the ...",
-      "whyItMatters": "适合拆解展线、展品说明和空间节奏之间的关系。",
-      "useFor": [
-        "博物馆"
-      ],
-      "relevanceScore": 73,
-      "referenceValueScore": 84,
-      "sourceQualityScore": 88,
-      "freshnessScore": 95,
-      "score": 83.2,
-      "matches": [
-        "museum",
-        "pavilion",
-        "biennale"
-      ],
-      "selectionStatus": "watch",
-      "harvestedAt": "2026-10-07T15:17:51.345Z"
     }
   ]
 }
