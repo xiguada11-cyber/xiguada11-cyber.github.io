@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T04:01:17.942Z",
+  "generatedAt": "2026-10-20T13:24:32.299Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -426,6 +426,32 @@
       ],
       "selectionStatus": "watch",
       "harvestedAt": "2026-10-15T14:44:24.771Z"
+    },
+    {
+      "id": "feed-81ff8f4b78b3",
+      "title": "David Chipperfield Architects builds concrete gallery around singular artwork in Germany",
+      "sourceName": "Dezeen",
+      "sourceUrl": "https://www.dezeen.com/2026/10/20/anselm-kiefer-pavilion-david-chipperfield-architects-germany/",
+      "contentType": "行业文章",
+      "publishedAt": "2026-10-20",
+      "summary": "The Berlin office of David Chipperfield Architects has added a monolithic co...",
+      "whyItMatters": "适合拆解展线、展品说明和空间节奏之间的关系。",
+      "useFor": [
+        "博物馆",
+        "展陈策划"
+      ],
+      "relevanceScore": 73,
+      "referenceValueScore": 84,
+      "sourceQualityScore": 90,
+      "freshnessScore": 95,
+      "score": 83.5,
+      "matches": [
+        "museum",
+        "gallery",
+        "pavilion"
+      ],
+      "selectionStatus": "watch",
+      "harvestedAt": "2026-10-20T13:24:30.619Z"
     },
     {
       "id": "feed-ed739e09de2d",
@@ -993,32 +1019,6 @@
       ],
       "selectionStatus": "watch",
       "harvestedAt": "2026-09-30T14:43:46.724Z"
-    },
-    {
-      "id": "feed-74d4cd650fec",
-      "title": "TAELON7’s Limbo Engawa Installation Moves From Accra to Art Omi in New York",
-      "sourceName": "ArchDaily",
-      "sourceUrl": "https://www.archdaily.com/1186286/taelon7-s-limbo-engawa-installation-moves-from-accra-to-art-omi-in-new-york",
-      "contentType": "空间案例",
-      "publishedAt": "2026-10-05",
-      "summary": "Art Omi and Limbo Museum have presented Limbo Engawa , a two-part site-speci...",
-      "whyItMatters": "适合观察互动、停留点和镜头化空间如何服务叙事。",
-      "useFor": [
-        "博物馆",
-        "沉浸式体验"
-      ],
-      "relevanceScore": 73,
-      "referenceValueScore": 84,
-      "sourceQualityScore": 88,
-      "freshnessScore": 95,
-      "score": 83.2,
-      "matches": [
-        "museum",
-        "installation",
-        "cultural"
-      ],
-      "selectionStatus": "watch",
-      "harvestedAt": "2026-10-05T16:55:18.432Z"
     }
   ]
 }
