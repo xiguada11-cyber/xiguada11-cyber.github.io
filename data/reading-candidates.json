@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T09:14:42.698Z",
+  "generatedAt": "2026-10-22T14:55:08.680Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -218,6 +218,33 @@
       ],
       "selectionStatus": "watch",
       "harvestedAt": "2026-10-09T15:04:16.917Z"
+    },
+    {
+      "id": "feed-d6a8a1355bd8",
+      "title": "Snøhetta’s Shanghai Grand Opera House Opens and Chicago’s 1901 Project Advances: This Week’s Review",
+      "sourceName": "ArchDaily",
+      "sourceUrl": "https://www.archdaily.com/1187318/snohettas-shanghai-grand-opera-house-opens-and-chicagos-1901-project-advances-this-weeks-review",
+      "contentType": "空间案例",
+      "publishedAt": "2026-10-22",
+      "summary": "An international cultural venue was inaugurated this week after a decade-lon...",
+      "whyItMatters": "适合参考旧空间、地方记忆与新功能之间的转换方式。",
+      "useFor": [
+        "城市更新",
+        "展陈策划"
+      ],
+      "relevanceScore": 82,
+      "referenceValueScore": 92,
+      "sourceQualityScore": 88,
+      "freshnessScore": 95,
+      "score": 88.7,
+      "matches": [
+        "exhibition",
+        "pavilion",
+        "cultural",
+        "heritage"
+      ],
+      "selectionStatus": "watch",
+      "harvestedAt": "2026-10-22T14:55:07.108Z"
     },
     {
       "id": "candidate-runway-gen45",
@@ -994,31 +1021,6 @@
       ],
       "selectionStatus": "watch",
       "harvestedAt": "2026-09-27T13:38:40.826Z"
-    },
-    {
-      "id": "feed-395d0a79fbbf",
-      "title": "The Luxembourg Pavilion Examines Overconsumption of Living Space Through \"Excess!\" at the 2027 Venice Architecture Biennale",
-      "sourceName": "ArchDaily",
-      "sourceUrl": "https://www.archdaily.com/1186027/the-luxembourg-pavilion-examines-overconsumption-of-living-space-through-excess-at-the-2027-venice-architecture-biennale",
-      "contentType": "空间案例",
-      "publishedAt": "2026-09-30",
-      "summary": "A jury of arts and architecture professionals recently announced the selecte...",
-      "whyItMatters": "适合判断内容是否能转化为展陈策略、视觉参考或项目提案素材。",
-      "useFor": [
-        "展陈策划"
-      ],
-      "relevanceScore": 73,
-      "referenceValueScore": 84,
-      "sourceQualityScore": 88,
-      "freshnessScore": 95,
-      "score": 83.2,
-      "matches": [
-        "exhibition",
-        "pavilion",
-        "biennale"
-      ],
-      "selectionStatus": "watch",
-      "harvestedAt": "2026-09-30T14:43:46.724Z"
     }
   ]
 }
