@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T05:01:52.746Z",
+  "generatedAt": "2026-11-02T17:58:31.490Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -245,6 +245,34 @@
       ],
       "selectionStatus": "watch",
       "harvestedAt": "2026-10-22T14:55:07.108Z"
+    },
+    {
+      "id": "feed-241d06f7dd0f",
+      "title": "Herzog & de Meuron and EHDD to Transform a Mid-Century Warehouse into the Eames Institute of Infinite Curiosity",
+      "sourceName": "ArchDaily",
+      "sourceUrl": "https://www.archdaily.com/1187925/herzog-and-de-meuron-and-ehdd-to-transform-a-mid-century-warehouse-into-the-eames-institutes-museum-archives",
+      "contentType": "空间案例",
+      "publishedAt": "2026-11-02",
+      "summary": "The Eames Institute of Infinite Curiosity has unveiled the masterplan for it...",
+      "whyItMatters": "适合观察互动、停留点和镜头化空间如何服务叙事。",
+      "useFor": [
+        "博物馆",
+        "沉浸式体验",
+        "展陈策划"
+      ],
+      "relevanceScore": 82,
+      "referenceValueScore": 92,
+      "sourceQualityScore": 88,
+      "freshnessScore": 95,
+      "score": 88.7,
+      "matches": [
+        "exhibition",
+        "museum",
+        "installation",
+        "cultural"
+      ],
+      "selectionStatus": "watch",
+      "harvestedAt": "2026-11-02T17:58:30.064Z"
     },
     {
       "id": "candidate-runway-gen45",
@@ -995,32 +1023,6 @@
       ],
       "selectionStatus": "watch",
       "harvestedAt": "2026-09-24T09:06:34.786Z"
-    },
-    {
-      "id": "feed-10f39de0ec78",
-      "title": "Osmanthus Moon / HCCH Studio",
-      "sourceName": "ArchDaily",
-      "sourceUrl": "https://www.archdaily.com/1035956/osmanthus-moon-hcch-studio",
-      "contentType": "空间案例",
-      "publishedAt": "2026-09-27",
-      "summary": "Osmanthus Moon is a short-term public art installation created to celebrate ...",
-      "whyItMatters": "适合观察互动、停留点和镜头化空间如何服务叙事。",
-      "useFor": [
-        "沉浸式体验",
-        "城市更新"
-      ],
-      "relevanceScore": 73,
-      "referenceValueScore": 84,
-      "sourceQualityScore": 88,
-      "freshnessScore": 95,
-      "score": 83.2,
-      "matches": [
-        "installation",
-        "cultural",
-        "heritage"
-      ],
-      "selectionStatus": "watch",
-      "harvestedAt": "2026-09-27T13:38:40.826Z"
     }
   ]
 }
