@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T16:39:09.801Z",
+  "generatedAt": "2026-11-13T05:42:16.488Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -509,6 +509,32 @@
       "harvestedAt": "2026-10-20T13:24:30.619Z"
     },
     {
+      "id": "feed-364ed6d0c38a",
+      "title": "Finnegan Shannon installs conveyor belt for displaying art accessibly in Brooklyn",
+      "sourceName": "Dezeen",
+      "sourceUrl": "https://www.dezeen.com/2026/11/12/finnegan-shannon-conveyor-accessibility-pioneer-works-brooklyn/",
+      "contentType": "行业文章",
+      "publishedAt": "2026-11-12",
+      "summary": "New York City-based artist Finnegan Shannon has installed a conveyor belt to...",
+      "whyItMatters": "适合观察互动、停留点和镜头化空间如何服务叙事。",
+      "useFor": [
+        "沉浸式体验",
+        "展陈策划"
+      ],
+      "relevanceScore": 73,
+      "referenceValueScore": 84,
+      "sourceQualityScore": 90,
+      "freshnessScore": 95,
+      "score": 83.5,
+      "matches": [
+        "exhibition",
+        "installation",
+        "cultural"
+      ],
+      "selectionStatus": "watch",
+      "harvestedAt": "2026-11-13T05:42:16.080Z"
+    },
+    {
       "id": "feed-ed739e09de2d",
       "title": "Gabonsa Pavilion / Hochschule Kaiserslautern University of Applied Sciences",
       "sourceName": "ArchDaily",
@@ -996,33 +1022,6 @@
       ],
       "selectionStatus": "watch",
       "harvestedAt": "2026-09-10T08:46:00.326Z"
-    },
-    {
-      "id": "feed-5b5d9193089e",
-      "title": "Tianlai Art Museum / Mao, Shen-Chiang Architecture Studio",
-      "sourceName": "ArchDaily",
-      "sourceUrl": "https://www.archdaily.com/1185463/tianlai-art-museum-mao-shen-chiang-architecture-studio",
-      "contentType": "空间案例",
-      "publishedAt": "2026-09-24",
-      "summary": "Commissioned by the chairman to commemorate his parents and ancestral home, ...",
-      "whyItMatters": "适合参考旧空间、地方记忆与新功能之间的转换方式。",
-      "useFor": [
-        "博物馆",
-        "城市更新",
-        "展陈策划"
-      ],
-      "relevanceScore": 73,
-      "referenceValueScore": 84,
-      "sourceQualityScore": 88,
-      "freshnessScore": 95,
-      "score": 83.2,
-      "matches": [
-        "exhibition",
-        "museum",
-        "renovation"
-      ],
-      "selectionStatus": "watch",
-      "harvestedAt": "2026-09-24T09:06:34.786Z"
     }
   ]
 }
