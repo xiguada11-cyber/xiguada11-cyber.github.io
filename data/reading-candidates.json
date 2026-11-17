@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T07:07:05.150Z",
+  "generatedAt": "2026-11-17T17:27:43.681Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -273,6 +273,33 @@
       ],
       "selectionStatus": "watch",
       "harvestedAt": "2026-11-02T17:58:30.064Z"
+    },
+    {
+      "id": "feed-287994ce681f",
+      "title": "The Nordic Pavilion Explores Traditional Craft Through \"Painted Matter\" at the 2027 Venice Architecture Biennale",
+      "sourceName": "ArchDaily",
+      "sourceUrl": "https://www.archdaily.com/1188736/the-nordic-pavilion-explores-traditional-craft-through-painted-matter-at-the-2027-venice-architecture-biennale",
+      "contentType": "空间案例",
+      "publishedAt": "2026-11-17",
+      "summary": "The National Museum of Norway has announced Painted Matter as the title of N...",
+      "whyItMatters": "适合拆解展线、展品说明和空间节奏之间的关系。",
+      "useFor": [
+        "博物馆",
+        "展陈策划"
+      ],
+      "relevanceScore": 82,
+      "referenceValueScore": 92,
+      "sourceQualityScore": 88,
+      "freshnessScore": 95,
+      "score": 88.7,
+      "matches": [
+        "exhibition",
+        "museum",
+        "pavilion",
+        "biennale"
+      ],
+      "selectionStatus": "watch",
+      "harvestedAt": "2026-11-17T17:27:42.428Z"
     },
     {
       "id": "candidate-runway-gen45",
@@ -996,32 +1023,6 @@
       ],
       "selectionStatus": "watch",
       "harvestedAt": "2026-09-07T15:35:56.074Z"
-    },
-    {
-      "id": "feed-850f0e575594",
-      "title": "Huizhou Vernacular Historic Bridges Micro-Museum / LUO studio",
-      "sourceName": "ArchDaily",
-      "sourceUrl": "https://www.archdaily.com/1184712/huizhou-vernacular-historic-bridges-micro-museum-luo-studio",
-      "contentType": "空间案例",
-      "publishedAt": "2026-09-10",
-      "summary": "Following the Sandstone Wood Pavilion designed for the \"HU SHI GUANG · Art E...",
-      "whyItMatters": "适合观察互动、停留点和镜头化空间如何服务叙事。",
-      "useFor": [
-        "博物馆",
-        "沉浸式体验"
-      ],
-      "relevanceScore": 73,
-      "referenceValueScore": 84,
-      "sourceQualityScore": 88,
-      "freshnessScore": 95,
-      "score": 83.2,
-      "matches": [
-        "museum",
-        "installation",
-        "pavilion"
-      ],
-      "selectionStatus": "watch",
-      "harvestedAt": "2026-09-10T08:46:00.326Z"
     }
   ]
 }
