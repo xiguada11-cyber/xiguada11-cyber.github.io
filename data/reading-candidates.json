@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T20:31:30.928Z",
+  "generatedAt": "2026-11-25T07:37:38.010Z",
   "selectionThreshold": 82,
   "scoreWeights": {
     "referenceValueScore": 0.35,
@@ -562,6 +562,31 @@
       "harvestedAt": "2026-11-13T05:42:16.080Z"
     },
     {
+      "id": "feed-40d72b2ee099",
+      "title": "Assemble covers miniature agricultural buildings in intense blue pigment for Building Blue exhibition in Tokyo",
+      "sourceName": "Dezeen",
+      "sourceUrl": "https://www.dezeen.com/2026/11/25/assemble-building-blue-skac/",
+      "contentType": "行业文章",
+      "publishedAt": "2026-11-25",
+      "summary": "Architecture collective Assemble has created small, climbable cedar building...",
+      "whyItMatters": "适合判断内容是否能转化为展陈策略、视觉参考或项目提案素材。",
+      "useFor": [
+        "展陈策划"
+      ],
+      "relevanceScore": 73,
+      "referenceValueScore": 84,
+      "sourceQualityScore": 90,
+      "freshnessScore": 95,
+      "score": 83.5,
+      "matches": [
+        "exhibition",
+        "gallery",
+        "cultural"
+      ],
+      "selectionStatus": "watch",
+      "harvestedAt": "2026-11-25T07:37:36.579Z"
+    },
+    {
       "id": "feed-ed739e09de2d",
       "title": "Gabonsa Pavilion / Hochschule Kaiserslautern University of Applied Sciences",
       "sourceName": "ArchDaily",
@@ -998,31 +1023,6 @@
       ],
       "selectionStatus": "watch",
       "harvestedAt": "2026-09-03T14:13:59.399Z"
-    },
-    {
-      "id": "feed-c051c8b2b13e",
-      "title": "The German Pavilion Examines Coexistence and Democracy Through \"CONVIVERE\" at the 2027 Venice Architecture Biennale",
-      "sourceName": "ArchDaily",
-      "sourceUrl": "https://www.archdaily.com/1184577/the-german-pavilion-examines-coexistence-and-democracy-through-convivere-at-the-2027-venice-architecture-biennale",
-      "contentType": "空间案例",
-      "publishedAt": "2026-09-07",
-      "summary": "The German Federal Ministry for Housing, Urban Development and Building has ...",
-      "whyItMatters": "适合判断内容是否能转化为展陈策略、视觉参考或项目提案素材。",
-      "useFor": [
-        "展陈策划"
-      ],
-      "relevanceScore": 73,
-      "referenceValueScore": 84,
-      "sourceQualityScore": 88,
-      "freshnessScore": 95,
-      "score": 83.2,
-      "matches": [
-        "exhibition",
-        "pavilion",
-        "biennale"
-      ],
-      "selectionStatus": "watch",
-      "harvestedAt": "2026-09-07T15:35:56.074Z"
     }
   ]
 }
